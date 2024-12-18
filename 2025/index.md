@@ -36,7 +36,7 @@ If you are responsible for, or involved with:
 
 We also host sponsors to promote the latest advances in security technology relevant to application security and developers.   
 
-**Attendance is free, but registration will be required (details TBA)!**
+**Tickets and registration will be announced soon!**
 
 
 Don't forget to use the [#AppSecIL hashtag](https://twitter.com/hashtag/AppSecIL) on social media!     
