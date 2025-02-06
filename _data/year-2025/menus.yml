@@ -1,7 +1,9 @@
 - title: Home
   url  : .
-#- title: CFP
-#  url  : CFP
+- title: About
+  url  : About
+- title: CFP
+  url  : CFP
 #- title: CFW
 #  url  : CFW
 - title: Sponsor AppSecIL!

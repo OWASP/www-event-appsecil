@@ -5,38 +5,20 @@
 
 ---
 
+## {{ site.data.year-2025.config.title }} is coming soon 
 
-## {{ site.data.year-2025.config.title }} is coming soon - {{site.data.year-2025.config.dates}}
+### 📅  {{ site.data.year-2025.config.dates }} | 📍 Tel Aviv Expo, Pavilion 10  
 
-### Stay Tuned for more details on our upcoming conference!
+#### Israel’s premier application security event is back!  
+Join **1,000+ developers, DevOps engineers, architects, security specialists, and product leaders** for a day of expert talks, hands-on sessions, and networking.  
+
+### 📢 Call for Papers is Open!—[**submit your talk**](/CFP)  
+ Stay tuned for agenda & registration updates  
+
+
 **Sign up to our [mailing list for updates](https://groups.google.com/u/1/a/owasp.org/g/israel-chapter).** 
 
 ---
-
-The annual OWASP AppSec Israel Conference is the largest conference in Israel and the region for application security, and regularly draws hundreds of participants. [Over 700 people attended the previous conference](/2023/)! 
-
-But AppSecIL is not just for security experts!
-
-Close to 1000 developers, testers, architects, product designers, and managers will attend this year.  
-Everyone involved with the software lifecycle is welcome, regardless of type of software, website, mobile app, or any other type of application.
-
-If you are responsible for, or involved with:
-  - web security
-  - devops security
-  - cloud security
-  - mobile security
-  - application security
-  - software development
-  - quality assurance
-  - software maintenance or operations  
-
-  ... you should join us at AppSecIL!
-
-{{ site.data.year-2025.config.title }} will have a lecture track from an amazing group of speakers, "unconference" style discussion sessions, and additional activities such as a Capture the Flag competition.   
-
-We also host sponsors to promote the latest advances in security technology relevant to application security and developers.   
-
-**Tickets and registration will be announced soon!**
 
 
 Don't forget to use the [#AppSecIL hashtag](https://twitter.com/hashtag/AppSecIL) on social media!     
