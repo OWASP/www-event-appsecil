@@ -51,7 +51,7 @@ Note: The auditorium and other classrooms are wheelchair accessible. Please noti
 ### Hosted by:  
 
 <a href="https://owasp.org">
-  <img src="/assets/img/owasp_logo.jpg" style="width:20em; margin-left:-0.75em;">
+  <img src="/assets/img/owasp_logo_white.png" style="width:20em; margin-left:-0.75em;">
 </a>   
 
 The Open Worldwide Application Security Project (OWASP) is an open-source, not-for-profit application security organization made up of corporations, educational organizations, and individuals from around the world. 
