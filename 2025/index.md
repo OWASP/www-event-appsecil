@@ -12,7 +12,7 @@
 #### Israel’s premier application security event is back!  
 Join **1,000+ developers, DevOps engineers, architects, security specialists, and product leaders** for a day of expert talks, hands-on sessions, and networking.  
 
-### 📢 Call for Papers is Open!—[**submit your talk**](/CFP)  
+ 📢 Call for Papers is Open!—[**submit your talk**](/CFP)  
  Stay tuned for agenda & registration updates  
 
 
