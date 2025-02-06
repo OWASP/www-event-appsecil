@@ -22,8 +22,6 @@ Expect a mix of **technical deep dives, best practices, and real-world case stud
 - Web, mobile, and API security  
 - Threat modeling and risk management
 
-### Want to be part of the lineup?  Submit your talk through our [Call for Papers](/CFP)!
-
   
 ---
 
