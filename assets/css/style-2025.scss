@@ -1,11 +1,12 @@
 ---
 ---
 
-@import "reset.css";
+@import "./reset.css";
 
 $light: #2bb4d3;
 $medium: #055078;
 $dark: #152f30;
+$text-main: #3c3c3c;
 
 body {
   font-family: 'Exo 2', sans-serif;
@@ -119,45 +120,57 @@ button {
   }
 }
 
-header {
-  position: relative;
-  .top {
-    height: 10em;
-    .logo {
-      position: absolute;
-      top: 0;
-      left: 1em;
-      width: 20em;
-      height: 10em;
-      background: 120% 45% no-repeat;
-      background-size: auto 63%;
-    }
-  }
-  nav {
-    background: rgba(4, 11, 13, 0.5);
-    display: block;
-    height: 2.5em;
-    margin-bottom: -2.5em;
-    position: relative;
-    z-index: 5;
-    font-size: 87.5%;
+/***
+  Header
+*/
 
-    ul {
-      float: right;
-    }
+.header {
+  padding: 28px 30px;
+  background-color: #E3EAF6;
+  border: 1px solid #D7DAE2;
+}
+
+.header__inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  flex: 0 0 auto;
+}
+
+.header__menu {
+  margin-left: auto;
+}
+
+/***
+  Logo
+*/
+.logo {
+  display: block;
+  width: 309px;
+  height: 99px;
+  background: center / center no-repeat;
+  background-size: contain;
+}
+
+/***
+  Mainmenu
+*/
+
+.mainmenu {
+  ul {
+    display: flex;
+    gap: 40px;
     a {
-      color: #fff;
-      text-transform: uppercase;
-      padding: 0em 1em;
-      border-radius: 0.8em;
-      height: 2.5em;
+      color: $text-main;
+      transition: 0.3s;
+      text-decoration: none;
       &:hover {
-        background: #fff;
-        color: $medium;
-      }
-      &:active {
-        background: $light;
-
+        opacity: 0.7;
+        text-decoration: none;
       }
     }
   }
