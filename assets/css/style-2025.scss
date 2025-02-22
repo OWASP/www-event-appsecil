@@ -7,10 +7,12 @@ $light: #2bb4d3;
 $medium: #055078;
 $dark: #152f30;
 $text-main: #3c3c3c;
+$text-inverse: #fff;
+$color-bg: #fff;
+$color-bg-inverse: #4572c6;
 
 body {
-  font-family: 'Exo 2', sans-serif;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 * {
@@ -176,87 +178,181 @@ button {
   }
 }
 
-.main {
-  min-height: 20em;
-  line-height: 1.25em;
+/***
+  Page-section
+*/
 
-  section {
-    padding: 2em 4em;
+.page-section__inner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
-    div {
-      background: #fff;
-      margin-bottom: 10px;
-      
-      hr {
-        border-width: 2px;
-        border-color:#000;
-      }
+.page-section_name_promo {
+  position: relative;
+  background: url(../img/2025/promo-bg.png) center / cover no-repeat;
 
-    }
-
-    &.inverse {
-      background-color: $medium;
-      color: #fff;
-
-      button.dark {
-        background: #fff;
-        color: $medium;
-      }
-    }
-
-    &:first-of-type {
-      border-top: 2.5em solid $medium;
-    }
-
-    &.img {
-      color: #fff;
-      border-top: none;
-      background-size: cover;
-      background-position: top left;
-
-      padding: 4.5em 4em;
-      width: 100%;
-      height: 100%;
-      //background: rgba(0,92,100,0.5);
-      background-position: bottom right, bottom right, top left;
-      background-repeat: no-repeat, repeat-y, no-repeat;
-      background-size: 33% auto, cover, cover;
-      background-blend-mode: normal, multiply, normal;
-    }
+  &::before {
+    content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #000;
+        opacity: .53; 
+        z-index: 1;
   }
 
-  ul {
-    list-style: disc;
-    margin: 0.5em 1.5em;
-  }
-
-  ul.team-list {
+  .page-section__inner {
+    position: relative;
+    min-height: 800px;
     display: flex;
-    flex-wrap: wrap;
-    list-style: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+  }
+
+  h1 {
     margin: 0;
-    padding: 1em 0em;
-    justify-content: flex-start;
+    max-width: 800px;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 1;
+    text-transform: uppercase;
+    text-align: center;
+    color: $text-inverse;
+  }
 
-    > li {
-      max-width: 50%;
-      width: 200px;
-      text-align: center;
-      padding-bottom: 1em;
+  h3 {
+    margin: 40px 0 0;
+    max-width: 800px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1;
+    text-transform: uppercase;
+    text-align: center;
+    color: $text-inverse;
+  }
 
-      img {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-      }
-
-      span {
-        display: block;
-      }
-    }
+  a {
+    margin-top: 40px;
   }
 
 }
+
+/***
+  Button
+*/
+
+.button {
+  display: block;
+  width: fit-content;
+  padding: 14px 22px;
+  text-decoration: none;
+  border-radius: 12px;
+  font-size: 24px;
+  font-weight: 600;
+  transition: 0.3s;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.button_type_main {
+  background-color: $color-bg-inverse;
+  color: $text-inverse;
+  border: 2px solid $color-bg-inverse;
+  
+  &:hover {
+    background-color: $color-bg;
+    color: $color-bg-inverse;
+  }
+}
+
+
+// .main {
+//   min-height: 20em;
+//   line-height: 1.25em;
+
+//   section {
+//     padding: 2em 4em;
+
+//     div {
+//       background: #fff;
+//       margin-bottom: 10px;
+      
+//       hr {
+//         border-width: 2px;
+//         border-color:#000;
+//       }
+
+//     }
+
+//     &.inverse {
+//       background-color: $medium;
+//       color: #fff;
+
+//       button.dark {
+//         background: #fff;
+//         color: $medium;
+//       }
+//     }
+
+//     &:first-of-type {
+//       border-top: 2.5em solid $medium;
+//     }
+
+//     &.img {
+//       color: #fff;
+//       border-top: none;
+//       background-size: cover;
+//       background-position: top left;
+
+//       padding: 4.5em 4em;
+//       width: 100%;
+//       height: 100%;
+//       //background: rgba(0,92,100,0.5);
+//       background-position: bottom right, bottom right, top left;
+//       background-repeat: no-repeat, repeat-y, no-repeat;
+//       background-size: 33% auto, cover, cover;
+//       background-blend-mode: normal, multiply, normal;
+//     }
+//   }
+
+//   ul {
+//     list-style: disc;
+//     margin: 0.5em 1.5em;
+//   }
+
+//   ul.team-list {
+//     display: flex;
+//     flex-wrap: wrap;
+//     list-style: none;
+//     margin: 0;
+//     padding: 1em 0em;
+//     justify-content: flex-start;
+
+//     > li {
+//       max-width: 50%;
+//       width: 200px;
+//       text-align: center;
+//       padding-bottom: 1em;
+
+//       img {
+//         width: 150px;
+//         height: 150px;
+//         border-radius: 50%;
+//       }
+
+//       span {
+//         display: block;
+//       }
+//     }
+//   }
+
+// }
 
 footer {
 
