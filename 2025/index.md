@@ -6,7 +6,7 @@ layout: mainpage
 <section class="page-section page-section_name_promo">
   <div class="page-section__inner" markdown="1">
 
-# Welcome to {{ site.data.year-2025.config.title }}!
+# Welcome to OWASP's {{ site.data.year-2025.config.title }}!
 
 ### June 5, 2025 | Tel Aviv Expo, Pavilion 10
 
