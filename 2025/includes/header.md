@@ -6,7 +6,7 @@
             <ul>
                 {% for menu in site.data.year-2025.menus %}
                 <li>
-                    <a href="/{{ menu.url }}">{{menu.title}}</a>
+                    <a href="{{ menu.url }}">{{menu.title}}</a>
                 </li>
                 {% endfor %}
             </ul>

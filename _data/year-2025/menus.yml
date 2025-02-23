@@ -1,13 +1,13 @@
 - title: Home
-  url  : .
+  url  : ./
 - title: About
-  url  : About
+  url  : ./About
 - title: CFP
-  url  : CFP
+  url  : ./CFP
 #- title: CFW
 #  url  : CFW
 - title: Sponsor AppSecIL!
-  url  : 2025/AppSecIL2025Sponsorships.pdf
+  url  : ./2025/AppSecIL2025Sponsorships.pdf
 #- title: Sponsors
 #  url  : Sponsors
 # - title: Register
