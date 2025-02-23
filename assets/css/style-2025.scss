@@ -3,16 +3,15 @@
 
 @import "./reset.css";
 
-$light: #2bb4d3;
-$medium: #055078;
-$dark: #152f30;
-$text-main: #3c3c3c;
-$text-inverse: #fff;
-$color-bg: #fff;
-$color-bg-inverse: #4572c6;
+$dark: #555A65;
+$darker: #3c3c3c;
+$white: #fff;
+$highlight: #4572c6;
 
 body {
   font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  color: $dark;
 }
 
 * {
@@ -21,36 +20,26 @@ body {
 
 a {
   text-decoration: none;
-  color: $light;
+  // color: $light;
 }
 
 a:hover {
   text-decoration: underline;
-  color: $dark;
+  color: $darker;
 }
 
-h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  margin: 0.25em 0em 0.75em 0em;
-  font-weight: 200;
-  line-height: 1em;
-
-  sub {
-    text-transform: none;
-    font-size: 75%;
-  }
+h1,h2,h3,h4 {
+  color: $darker;
 }
 
 h1 {
-  font-size: 337.5%;
-  em {
-    text-transform: none;
-  }
+  font-size: 265%;
+  font-weight: 800;
 }
 
 h2 {
-  font-size: 275%;
+  font-size: 265%;
+  font-weight: 600;
 }
 
 h3 {
@@ -63,6 +52,10 @@ h4 {
 
 p {
   margin-bottom: 1em;
+
+  strong {
+    color: $highlight
+  }
 }
 
 button {
@@ -72,13 +65,13 @@ button {
   padding: 0em 1em;
   text-transform: uppercase;
   font-family: 'Montserrat';
-  background: $light;
+  // background: $light;
   color: #fff;
   font-weight: 400;
   font-size: 87.5%;
 
   &.dark {
-    background: $medium;
+    // background: $medium;
   }
 }
 
@@ -89,7 +82,7 @@ button {
   font-family: Montserrat;
   div {
     border-radius: 50%;
-    background-color: $light;
+    // background-color: $light;
     width: 4em;
     height: 4em;
     text-align: center;
@@ -115,10 +108,10 @@ button {
     left: 50%;
     margin-left: -50%;
     width: 100%;
-    color: $medium;
+    // color: $medium;
   }
   div:nth-child(1) {
-    background-color: $medium;
+    // background-color: $medium;
   }
 }
 
@@ -167,7 +160,7 @@ button {
     display: flex;
     gap: 40px;
     a {
-      color: $text-main;
+      color: $dark;
       transition: 0.3s;
       text-decoration: none;
       &:hover {
@@ -185,6 +178,8 @@ button {
 .page-section__inner {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 100px 30px;
+  box-sizing: border-box;
 }
 
 .page-section_name_promo {
@@ -221,7 +216,7 @@ button {
     line-height: 1;
     text-transform: uppercase;
     text-align: center;
-    color: $text-inverse;
+    color: $white;
   }
 
   h3 {
@@ -232,7 +227,7 @@ button {
     line-height: 1;
     text-transform: uppercase;
     text-align: center;
-    color: $text-inverse;
+    color: $white;
   }
 
   a {
@@ -258,19 +253,94 @@ button {
   &:hover {
     text-decoration: none;
   }
-}
 
-.button_type_main {
-  background-color: $color-bg-inverse;
-  color: $text-inverse;
-  border: 2px solid $color-bg-inverse;
-  
-  &:hover {
-    background-color: $color-bg;
-    color: $color-bg-inverse;
+  &.button_with-arrow {
+    padding-right: 54px;
   }
 }
 
+.button_type_main {
+  background-color: $highlight;
+  color: $white;
+  border: 2px solid $highlight;
+  
+  &:hover {
+    background-color: $white;
+    color: $highlight;
+  }
+
+  &.button_with-arrow {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none'%3E%3Cpath stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 12h14M12 5l7 7-7 7'/%3E%3C/svg%3E");;
+
+    &:hover {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none'%3E%3Cpath stroke='%232055E5' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 12h14M12 5l7 7-7 7'/%3E%3C/svg%3E");
+    }
+  }
+}
+
+.button_type_inverse {
+  background-color: $white;
+  color: $highlight;
+  border: 2px solid $highlight;
+
+  &:hover {
+    background-color: $highlight;
+    color: $white;
+  }
+
+  &.button_with-arrow {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none'%3E%3Cpath stroke='%232055E5' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 12h14M12 5l7 7-7 7'/%3E%3C/svg%3E");
+
+    &:hover {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none'%3E%3Cpath stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 12h14M12 5l7 7-7 7'/%3E%3C/svg%3E");
+    }
+  }
+
+  
+}
+
+.button_with-arrow {
+  position: relative;
+  background-position: center right 22px;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none'%3E%3Cpath stroke='%232055E5' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 12h14M12 5l7 7-7 7'/%3E%3C/svg%3E");
+
+  &:hover {
+    background-position: center right 16px;
+  }
+}
+
+
+/***
+  Text
+*/
+
+.text_type_narrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1,h2,h3,h4 {
+    margin: 40px 0;
+    max-width: 800px;
+    text-align: center;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  p {
+    margin: 0 0 20px;
+    max-width: 540px;
+    text-align: center;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
 
 // .main {
 //   min-height: 20em;
@@ -356,7 +426,7 @@ button {
 
 footer {
 
-  background: $medium;
+  // background: $medium;
   color: #fff;
   text-align: center;
   padding: 1em;
@@ -391,7 +461,7 @@ footer {
 }
 
 .sponsor-tier {
-    background-color: $medium !important;
+    // background-color: $medium !important;
     text-align: center;
     padding-bottom: 40px;
 }
