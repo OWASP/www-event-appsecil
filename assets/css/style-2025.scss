@@ -8,6 +8,10 @@ $darker: #3c3c3c;
 $white: #fff;
 $highlight: #4572c6;
 
+$screen-lg: 991px;
+$screen-md: 767px;
+$screen-sm: 575px;
+
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
@@ -117,6 +121,12 @@ button {
   }
 }
 
+@media screen and (max-width: $screen-md) {
+  body {
+    font-size: 18px;
+  }
+}
+
 /***
   Header
 */
@@ -131,6 +141,7 @@ button {
   max-width: 1440px;
   margin: 0 auto;
   display: flex;
+  gap: 10px;
   align-items: center;
 }
 
@@ -142,14 +153,38 @@ button {
   margin-left: auto;
 }
 
+@media screen and (max-width: $screen-lg) {
+  .header {
+    padding: 28px 30px 10px;
+  }
+
+  .header__inner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header__menu {
+    margin: 0;
+    margin: 18px 0 0;
+    align-self: flex-start;
+  }
+}
+
+@media screen and (max-width: $screen-md) {
+  .header {
+    padding: 20px 16px 10px;
+  }
+}
+
 /***
   Logo
 */
 .logo {
   display: block;
   width: 309px;
+  max-width: 100%;
   height: 99px;
-  background: center / center no-repeat;
+  background: center center no-repeat;
   background-size: contain;
 }
 
@@ -160,7 +195,10 @@ button {
 .mainmenu {
   ul {
     display: flex;
-    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px 40px;
+
     a {
       color: $dark;
       font-size: 14px;
@@ -216,7 +254,7 @@ button {
     margin: 0;
     max-width: 800px;
     font-weight: 800;
-    font-size: 64px;
+    font-size: 265%;
     line-height: 1;
     text-transform: uppercase;
     text-align: center;
@@ -227,7 +265,7 @@ button {
     margin: 40px 0 0;
     max-width: 800px;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 100%;
     line-height: 1;
     text-transform: uppercase;
     text-align: center;
@@ -240,6 +278,12 @@ button {
 
 }
 
+@media screen and (max-width: $screen-md) {
+  .page-section__inner {
+    padding: 60px 16px;
+  }
+}
+
 /***
   Button
 */
@@ -250,7 +294,7 @@ button {
   padding: 14px 22px;
   text-decoration: none;
   border-radius: 12px;
-  font-size: 24px;
+  font-size: 100%;
   font-weight: 600;
   transition: 0.3s;
 
@@ -360,6 +404,10 @@ button {
     color: $white;
   }
 
+  img {
+    max-width: 100%;
+  }
+
   h3 {
     margin-bottom: 20px;
     color: $white;
@@ -378,5 +426,11 @@ button {
 
   .footer__tmargin {
     margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: $screen-md) {
+  .footer {
+    padding: 60px 16px;
   }
 }
