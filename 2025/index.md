@@ -61,3 +61,16 @@ OWASP AppSec Israel is the largest AppSec conference in Israel, bringing togethe
 
   </div>
 </section>
+
+<section class="page-section">
+<div class="page-section__inner">
+<div class="text text_type_narrow" markdown="1">
+
+## Keynote speakers
+
+</div>
+
+{% include_relative includes/keynotes.md %}
+
+</div>
+</section>

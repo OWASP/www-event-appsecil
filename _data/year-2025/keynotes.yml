@@ -1,7 +1,18 @@
-# - name    : 
-#   bio     : 
-#   company : 
-#   image   : 
-#   title   : 
-#   abstract: 
-#   url     : 
+- name: Person's Name
+  image: ./assets/img/2025/placeholder.png
+  description: Position or small description
+- name: Person's Name
+  image: ./assets/img/2025/placeholder.png
+  description: Position or small description
+- name: Person's Name
+  image: ./assets/img/2025/placeholder.png
+  description: Position or small description
+- name: Person's Name
+  image: ./assets/img/2025/placeholder.png
+  description: Position or small description
+- name: Person's Name
+  image: ./assets/img/2025/placeholder.png
+  description: Position or small description
+- name: Person's Name
+  image: ./assets/img/2025/placeholder.png
+  description: Position or small description
