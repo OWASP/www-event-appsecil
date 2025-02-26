@@ -217,6 +217,25 @@ button {
   Page-section
 */
 
+.page-section {
+  background-color: $white;
+  color: $dark
+}
+
+.page-section_inverse {
+  background-color: $highlight;
+  color: $white;
+
+  h1, h2, h3, h4 {
+    color: $white;
+  }
+
+  a {
+    color: $white;
+    text-decoration: underline;
+  }
+}
+
 .page-section__inner {
   max-width: 1440px;
   margin: 0 auto;
@@ -276,6 +295,12 @@ button {
     margin-top: 40px;
   }
 
+}
+
+.page-section_name_about {
+  .about {
+    margin-top: 60px;
+  }
 }
 
 @media screen and (max-width: $screen-md) {
@@ -432,5 +457,63 @@ button {
 @media screen and (max-width: $screen-md) {
   .footer {
     padding: 60px 16px;
+  }
+}
+
+/***
+  About
+*/
+
+.about {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  .about__item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .about__item:nth-child(odd) {
+    .about__info {
+      order: 2;
+    }
+  }
+
+  .about__cover {
+    flex: 0 0 calc(50% - 15px);
+
+    .about__image {
+      width: 100%;
+    }
+  }
+
+  .about__info {
+    text-align: left;
+
+    .about__title {
+      font-size: 125%;
+      font-weight: 700;
+      line-height: 1.27;
+      margin-bottom: 28px;
+    }
+  }
+}
+
+@media screen and (max-width: $screen-sm) {
+  .about {
+    .about__item {
+      flex-direction: column;
+    }
+    
+    .about__item:nth-child(odd) {
+      .about__info {
+        order: -1;
+      }
+    }
   }
 }

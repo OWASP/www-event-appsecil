@@ -44,3 +44,20 @@ Note: The auditorium and other classrooms are wheelchair accessible. Please noti
   </div>
   </div>
 </section>
+
+<section class="page-section page-section_inverse page-section_name_about">
+  <div class="page-section__inner">
+  <div class="text text_type_narrow" markdown="1">
+
+## About OWASP APPSEC Israel
+
+OWASP AppSec Israel is the largest AppSec conference in Israel, bringing together professionals from across the software industry.
+
+[Over 700 people attended the previous conference](https://appsecil.org/2023/)
+
+  </div>
+
+{% include_relative includes/about-items.md %}
+
+  </div>
+</section>
