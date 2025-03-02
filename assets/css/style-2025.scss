@@ -6,6 +6,7 @@
 $dark: #555A65;
 $darker: #3c3c3c;
 $white: #fff;
+$pale: #E3EAF6;
 $highlight: #4572c6;
 
 $screen-lg: 991px;
@@ -230,7 +231,7 @@ button {
     color: $white;
   }
 
-  a {
+  a:not(.button) {
     color: $white;
     text-decoration: underline;
   }
@@ -338,7 +339,7 @@ button {
   border: 2px solid $highlight;
   
   &:hover {
-    background-color: $white;
+    background-color: transparent;
     color: $highlight;
   }
 
@@ -352,7 +353,7 @@ button {
 }
 
 .button_type_inverse {
-  background-color: $white;
+  background-color: transparent;
   color: $highlight;
   border: 2px solid $highlight;
 
@@ -568,5 +569,88 @@ button {
     .grid__item {
         flex: 0 0 100%;
     }
+  }
+}
+
+/***
+  Join-us
+*/
+
+.join-us {
+  position: relative;
+  background-color: $pale;
+  padding: 60px;
+  color: $darker;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  border-radius: 24px;
+  margin: 100px 0 0;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 171px;
+    height: 171px;
+    position: absolute;
+    left: 340px;
+    top: -78px;
+    background: url(../img/2025/owasp-il-icon.png) center / contain no-repeat;
+  }
+
+  h3 {
+    font-weight: 800;
+    color: $highlight;
+    font-size: 265%;
+    line-height: 1;
+    margin: 0;
+  }
+
+  strong {
+    color: inherit;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+}
+
+.join-us__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 28px;
+}
+
+.join-us__left-col {
+  flex-grow: 1;
+  min-width: 420px;
+  max-width: 520px;
+}
+
+@media screen and (max-width: $screen-lg) {
+  .join-us {
+    flex-direction: column;
+
+    &::before {
+      left: auto;
+      right: 20px;
+      top: -60px;
+      width: 120px;
+      height: 120px;
+    }
+  }
+
+  .join-us__left-col {
+    max-width: 100%;
+    min-width: 0;
+  }
+}
+
+@media screen and (max-width: $screen-sm) {
+  .join-us {
+    padding: 60px 20px 20px;   
+  }
+
+  .join-us__buttons a {
+    width: 100%;
+    text-align: center;
   }
 }
