@@ -1,41 +1,18 @@
-# diamond:
-# - name : 
-#   url  : 
-#   image: 
-
-# platinum: 
-# - name : 
-#   url  : 
-#   image: 
-  
-# gold:
-# - name : 
-#   url  : 
-#   image: 
-
-# silver:
-# - name : 
-#   url  : 
-#   image: 
-
-# bronze: 
-# - name : 
-#   url  : 
-#   image: 
-
-# community
-# - name : 
-#   url  : 
-#   image: 
-
-# alacarte:
-# - name : 
-#   url  : 
-#   image: 
-#   type : 
-
-# ctfBuilders:
-#- name : 
-# url  : 
-# image: 
-# type : 
+- name: Person's Name
+  image: ./assets/img/2025/placeholder.png
+  description: Position or small description
+- name: Person's Name
+  image: ./assets/img/2025/placeholder.png
+  description: Position or small description
+- name: Person's Name
+  image: ./assets/img/2025/placeholder.png
+  description: Position or small description
+- name: Person's Name
+  image: ./assets/img/2025/placeholder.png
+  description: Position or small description
+- name: Person's Name
+  image: ./assets/img/2025/placeholder.png
+  description: Position or small description
+- name: Person's Name
+  image: ./assets/img/2025/placeholder.png
+  description: Position or small description

@@ -66,6 +66,10 @@ p {
   }
 }
 
+hr {
+  border-color: transparent;
+}
+
 @media screen and (max-width: $screen-md) {
   html {
     font-size: 18px;
@@ -671,4 +675,23 @@ p {
     width: 100%;
     text-align: center;
   }
+}
+
+/***
+  Title-box
+*/
+
+.title-box {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+
+  h1 {
+    flex: 0 0 480px;
+  }
+}
+
+.title-box__content {
+  font-size: 16px;
+  line-height: 1.5;
 }
