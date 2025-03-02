@@ -68,6 +68,22 @@ OWASP AppSec Israel is the largest AppSec conference in Israel, bringing togethe
 <div class="page-section__inner">
 <div class="text text_type_narrow" markdown="1">
 
+## Location and time
+
+The annual OWASP AppSec Israel 2025 conference will be held this year in Pavilion 10 of the The <a href="https://expotelaviv.co.il/en/" target="_blank">Tel Aviv Expo</a>, in central Tel Aviv, Israel. We are excited to have a bigger and better location to improve the experience for all participants!
+
+There are parking lots in the complex, and it is also very easily reachable by car or public transportation.
+
+<a href="https://expotelaviv.co.il/en/visitors/#instructions__tabs" class="button button_type_inverse" target="_blank">See here for more details</a>
+
+</div>
+</div>
+</section>
+
+<section class="page-section">
+<div class="page-section__inner">
+<div class="text text_type_narrow" markdown="1">
+
 ## Keynote speakers
 
 </div>
