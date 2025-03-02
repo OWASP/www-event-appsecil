@@ -1,7 +1,6 @@
 ---
-layout: mainpage
+layout: custom-2025
 ---
-
 
 <section class="page-section page-section_name_promo">
   <div class="page-section__inner" markdown="1">
@@ -45,7 +44,7 @@ Note: The auditorium and other classrooms are wheelchair accessible. Please noti
   </div>
 </section>
 
-<section class="page-section page-section_inverse page-section_name_about">
+<section class="page-section page-section_inverse page-section_name_about" id="about">
   <div class="page-section__inner">
   <div class="text text_type_narrow" markdown="1">
 
@@ -100,7 +99,7 @@ The Open Web Application Security Project (OWASP) is an open-source, not-for-pro
 </div>
 </section>
 
-<section class="page-section">
+<section class="page-section" id="team">
 <div class="page-section__inner">
 <div class="text text_type_narrow" markdown="1">
 
