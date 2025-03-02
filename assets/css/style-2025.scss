@@ -195,6 +195,30 @@ p {
   }
 }
 
+.page-section_pale {
+  background-color: $pale;
+  color: $highlight;
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }  
+
+  h1, h2, h3, h4 {
+    color: $highlight;
+  }
+
+  a:not(.button) {
+    color: inherit;
+    text-decoration: underline;
+    
+    &:hover {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+}
+
 .page-section__inner {
   max-width: 1440px;
   margin: 0 auto;

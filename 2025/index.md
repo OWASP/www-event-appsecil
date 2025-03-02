@@ -80,6 +80,26 @@ There are parking lots in the complex, and it is also very easily reachable by c
 </div>
 </section>
 
+<section class="page-section page-section_pale">
+<div class="page-section__inner">
+<div class="text text_type_narrow" markdown="1">
+
+## Membership
+
+Please consider joining OWASP as an individual member. As a not-for-profit organization, OWASP has no direct income other than sponsorships and membership fees.
+
+For only 50 USD, you can get a discounted ticket for this conference, support this organization, help ensure we can continue to deliver great content, and you also get various other member benefits (including a discount for Global Conferences).
+
+Don’t forget to specify the Israel chapter when you join! This will allocate a small portion of your membership fee to the running of the Israel chapter, and mark your account as associated with the Israel chapter. And you’ll get a small gift at the conference, a token of our appreciation!
+
+The Open Web Application Security Project (OWASP) is an open-source, not-for-profit application security organization made up of corporations, educational organizations, and individuals from around the world. Providing free, vendor-neutral, practical, cost-effective application security guidance, the OWASP Foundation is the de-facto standards body for web application security used by developers and organizations globally.
+
+<a href="https://owasp.glueup.com" class="button button_type_inverse" target="_blank">Learn more</a>
+
+</div>
+</div>
+</section>
+
 <section class="page-section">
 <div class="page-section__inner">
 <div class="text text_type_narrow" markdown="1">
