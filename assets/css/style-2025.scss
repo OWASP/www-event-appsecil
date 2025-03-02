@@ -287,9 +287,29 @@ p {
   }
 }
 
+.page-section_name_cfp {
+  .page-section__inner {
+    background: url(../img/2025/wasp-bg.svg) center / contain no-repeat;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .page-section_name_cfp {
+    .page-section__inner {
+      background-size: calc(100% - 60px) auto;
+    }
+  }
+}
+
 @media screen and (max-width: $screen-md) {
   .page-section__inner {
     padding: 60px 16px;
+  }
+
+  .page-section_name_cfp {
+    .page-section__inner {
+      background-size: calc(100% - 32px) auto;
+    }
   }
 }
 
@@ -399,12 +419,16 @@ p {
     }
   }
 
+  em {
+    font-style: italic;
+  }
+
   ul {
     max-width: 540px;
-    list-style: disc;
+    text-align: center;
 
     li {
-      margin-bottom: 10px;
+      margin-bottom: 16px;
     }
   }
 }
