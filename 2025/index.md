@@ -104,11 +104,27 @@ The Open Web Application Security Project (OWASP) is an open-source, not-for-pro
 <div class="page-section__inner">
 <div class="text text_type_narrow" markdown="1">
 
-## Keynote speakers
+## The people behind the conference
+
+OWASP’s AppSec Israel 2023 is made by the people who contribute their time, brains, energy, and patience to its success.
+
+The following people are working to ensure that OWASP AppSec Israel is such a fantastic conference!
+
+---
 
 </div>
 
-{% include_relative includes/keynotes.md %}
+{% include_relative includes/team.md %}
+
+<div class="text text_type_narrow" markdown="1">
+
+---
+
+## Volunteers
+
+Wonderful people of the AppSec & DevSec Community
+
+</div>
 
 </div>
 </section>

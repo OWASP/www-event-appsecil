@@ -1,21 +1,18 @@
-# board: 
-# - name: Avi D
-#   title: Bounce Security
-#   role: Sponsor Relations
-#   image: 
-
-# content:
-# - name: Shira Shamban - Content Chair
-#   title: Solvo
-
-# training:
-# - name: Josh Grossman
-#   title: Bounce Security
-
-# volunteers:
-# - name: Tomer Zait
-#   title: F5 Networks
-#   role: Website 
-# - name: Shira Shamban 
-#   title: Dome9, SheCodes
-#   role: WIA organizer and moderator
+- name: Person's Name
+  image: ./assets/img/2025/placeholder.png
+  description: Position or small description
+- name: Person's Name
+  image: ./assets/img/2025/placeholder.png
+  description: Position or small description
+- name: Person's Name
+  image: ./assets/img/2025/placeholder.png
+  description: Position or small description
+- name: Person's Name
+  image: ./assets/img/2025/placeholder.png
+  description: Position or small description
+- name: Person's Name
+  image: ./assets/img/2025/placeholder.png
+  description: Position or small description
+- name: Person's Name
+  image: ./assets/img/2025/placeholder.png
+  description: Position or small description
