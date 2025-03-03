@@ -24,7 +24,7 @@ Join 1,000+ developers, DevOps engineers, architects, security specialists, and
 
 Call for Papers is Open! Stay tuned for agenda & registration updates.
 
-<a href="/" class="button button_type_main">Submit your talk</a>
+<a href="./CFP" class="button button_type_main">Submit your talk</a>
 
 ---
 
