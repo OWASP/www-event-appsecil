@@ -9,7 +9,7 @@ layout: custom-2025
 
 ### June 5, 2025 | Tel Aviv Expo, Pavilion 10
 
-<a href="/" class="button button_type_main">Come meet us</a>
+<a href="https://appsecil2025.forms-wizard.biz/" class="button button_type_main">Register now!</a>
 
   </div>
 </section>
@@ -28,11 +28,7 @@ Call for Papers is Open! Stay tuned for agenda & registration updates.
 
 ---
 
-Please note that AppSecIL is family friendly! If you need to bring your baby with you in order to attend, please do so! We only request that you be sensitive to others close to you, if your child needs to make noise. 
-
-Unfortunately we were not able to offer on-site childcare this year.
-
-Note: The auditorium and other classrooms are wheelchair accessible. Please notify a staff member if there are any problems.
+Please note that AppSecIL is family friendly and wheelchair accessible. Please notify a volunteer if there are any problems.
 
 ---
 
@@ -48,7 +44,7 @@ Note: The auditorium and other classrooms are wheelchair accessible. Please noti
   <div class="page-section__inner">
   <div class="text text_type_narrow" markdown="1">
 
-## About OWASP APPSEC Israel
+## About OWASP AppSec Israel
 
 OWASP AppSec Israel is the largest AppSec conference in Israel, bringing together professionals from across the software industry.
 
@@ -69,7 +65,7 @@ OWASP AppSec Israel is the largest AppSec conference in Israel, bringing togethe
 
 ## Location and time
 
-The annual OWASP AppSec Israel 2025 conference will be held this year in Pavilion 10 of the The <a href="https://expotelaviv.co.il/en/" target="_blank">Tel Aviv Expo</a>, in central Tel Aviv, Israel. We are excited to have a bigger and better location to improve the experience for all participants!
+The annual OWASP AppSec Israel 2025 conference will be held this year in Pavilion 10 of the The <a href="https://expotelaviv.co.il/en/" target="_blank">Tel Aviv Expo</a>, in central Tel Aviv, Israel.
 
 There are parking lots in the complex, and it is also very easily reachable by car or public transportation.
 
@@ -89,11 +85,7 @@ Please consider joining OWASP as an individual member. As a not-for-profit orga
 
 For only 50 USD, you can get a discounted ticket for this conference, support this organization, help ensure we can continue to deliver great content, and you also get various other member benefits (including a discount for Global Conferences).
 
-Don’t forget to specify the Israel chapter when you join! This will allocate a small portion of your membership fee to the running of the Israel chapter, and mark your account as associated with the Israel chapter. And you’ll get a small gift at the conference, a token of our appreciation!
-
-The Open Web Application Security Project (OWASP) is an open-source, not-for-profit application security organization made up of corporations, educational organizations, and individuals from around the world. Providing free, vendor-neutral, practical, cost-effective application security guidance, the OWASP Foundation is the de-facto standards body for web application security used by developers and organizations globally.
-
-<a href="https://owasp.glueup.com" class="button button_type_inverse" target="_blank">Learn more</a>
+<a href="https://owasp.org/join" class="button button_type_inverse" target="_blank">Learn more</a>
 
 </div>
 </div>
