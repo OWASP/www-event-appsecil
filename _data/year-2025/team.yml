@@ -1,18 +1,15 @@
-- name: Person's Name
-  image: ./assets/img/2025/placeholder.png
-  description: Position or small description
-- name: Person's Name
-  image: ./assets/img/2025/placeholder.png
-  description: Position or small description
-- name: Person's Name
-  image: ./assets/img/2025/placeholder.png
-  description: Position or small description
-- name: Person's Name
-  image: ./assets/img/2025/placeholder.png
-  description: Position or small description
-- name: Person's Name
-  image: ./assets/img/2025/placeholder.png
-  description: Position or small description
-- name: Person's Name
-  image: ./assets/img/2025/placeholder.png
-  description: Position or small description
+- name: Ori Troyna
+  image: ./assets/img/2025/team/ori-troyna.jpg
+  description: Principle security architect @Microsoft
+- name: Josh Grossman
+  image: ./assets/img/2025/team/josh-grossman.jpg
+  description: CTO and AppSec Specialist, Bounce Security
+- name: Shanni Gelfand
+  image: ./assets/img/2025/team/shanni-gelfand.jpg
+  description: Business Development and Networking Manager
+- name: Avi Douglen
+  image: ./assets/img/2025/team/avi-douglen.jpg
+  description: Founder and CEO, Bounce Security<br>OWASP Global Board of Directors
+- name: Shira Shamban
+  image: ./assets/img/2025/team/shira-shamban.jpg
+  description: VP Cloud, CYE
