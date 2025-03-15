@@ -1,13 +1,23 @@
 {% if site.data.year-2025.sponsors %} 
 
-<ul class="grid">
-{% for sponsor in site.data.year-2025.sponsors %}
-  <li class="grid__item">
-    <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" class="grid__cover">
-    <h3 class="grid__title">{{ sponsor.name }}</h3>
-    <p class="grid__description">{{ sponsor.description }}</p>
-  </li>
+{% for tier in site.data.year-2025.sponsors %}
+  {% if tier.sponsors %}
+
+  <h2 class="tier-title">{{ tier.tier }}</h2>
+  <ul class="sponsor-list">
+    {% for sponsor in tier.sponsors %}
+      <li class="sponsor-list__item">
+        {% if sponsor.url %}
+        <a href="{{ sponsor.url }}" target="_blank">
+        {% endif %}      
+        <img src="{{ sponsor.image }}" alt="{{sponsor.name}}" class="sponsor-list__img sponsor-list__img_tier_{{ tier.tier }}">
+        {% if sponsor.url %}
+        </a>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
 {% endfor %} 
-</ul>
 
 {% endif %}

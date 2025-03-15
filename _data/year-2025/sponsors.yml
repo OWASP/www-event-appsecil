@@ -1,18 +1,24 @@
-- name: Person's Name
-  image: ./assets/img/2025/placeholder.png
-  description: Position or small description
-- name: Person's Name
-  image: ./assets/img/2025/placeholder.png
-  description: Position or small description
-- name: Person's Name
-  image: ./assets/img/2025/placeholder.png
-  description: Position or small description
-- name: Person's Name
-  image: ./assets/img/2025/placeholder.png
-  description: Position or small description
-- name: Person's Name
-  image: ./assets/img/2025/placeholder.png
-  description: Position or small description
-- name: Person's Name
-  image: ./assets/img/2025/placeholder.png
-  description: Position or small description
+- tier: gold
+  sponsors:
+  - name : Jit
+    url  : https://www.jit.io/
+    image: ./assets/img/2025/sponsors/jit.png
+  - name : Zenity
+    url  : https://www.zenity.io/
+    image: ./assets/img/2025/sponsors/zenity.png
+  - name : Backlash
+    url  : https://www.backslash.security/
+    image: ./assets/img/2025/sponsors/backslash.png
+- tier: silver
+  sponsors:
+  - name : Checkmarx
+    url  : https://checkmarx.com/
+    image: ./assets/img/2025/sponsors/checkmarx.png
+  - name : Palantir Security
+    url  : https://www.palantirsecurity.com/
+    image: ./assets/img/2025/sponsors/palantir_security.png
+- tier: Badges
+  sponsors:
+  - name : Akamai
+    url  : https://www.akamai.com/
+    image: ./assets/img/2025/sponsors/akamai.png

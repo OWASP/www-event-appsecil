@@ -425,6 +425,11 @@ hr {
   }
 }
 
+.button_centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 /***
   Text
@@ -765,4 +770,56 @@ hr {
       flex: 1 1 auto;
     }
   }
+}
+
+/***
+  sponsor-list
+*/
+
+.sponsor-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 40px;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  .sponsor-list__item {
+    flex: 0 1 auto;
+  }
+
+  .sponsor-list__img {
+    max-height: 120px;
+    max-width: 100%;
+  }
+
+  .sponsor-list__img_tier_gold {
+    max-height: 198px;
+  }
+}
+
+@media screen and (max-width: $screen-md) {
+  .sponsor-list {
+    .sponsor-list__img {
+      max-height: 100px;
+      max-width: 100%;
+    }
+  
+    .sponsor-list__img_tier_gold {
+      max-height: 120px;
+    }
+  }
+}
+
+/*** 
+  tier-title
+*/
+
+.tier-title {
+  margin: 80px 0 40px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
 }
