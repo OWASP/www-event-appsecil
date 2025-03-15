@@ -13,7 +13,7 @@
                     <ul class="mainmenu__submenu">
                         {% for event in site.data.prevyears %}
                         <li>
-                            <a href="{{ event.url }}">{{event.year}}</a>
+                            <a href="{{ event.url }}" target="_blank">{{event.year}}</a>
                         </li>
                         {% endfor %}
                     </ul>
