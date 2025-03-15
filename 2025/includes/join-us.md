@@ -6,7 +6,7 @@
 </div>
 <div class="join-us__right-col" markdown="1">
 
-**{{ site.data.year-2025.config.dates }}**
+**{{ site.data.year-2025.config.dates.conference }}**
 
 **{{ site.data.year-2025.config.address }}**
 

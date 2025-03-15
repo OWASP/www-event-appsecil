@@ -7,7 +7,7 @@ layout: custom-2025
 
 # Welcome to OWASP's {{ site.data.year-2025.config.title }}!
 
-### June 5, 2025 | Tel Aviv Expo, Pavilion 10
+### {{ site.data.year-2025.config.dates.conference }} | {{ site.data.year-2025.config.address }}
 
 <a href="https://appsecil2025.forms-wizard.biz/" class="button button_type_main">Register now!</a>
 

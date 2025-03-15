@@ -43,9 +43,9 @@ While all submissions must have an applicative focus, we welcome diverse perspec
 
 ## Timeline
 
-* CFP closes: March 15, 2025
-* Notification: April 6, 2025
-* Conference: June 05, 2025
+* CFP closes: {{ site.data.year-2025.config.dates.cfpCloses }}
+* Notification: {{ site.data.year-2025.config.dates.notification }}
+* Conference: {{ site.data.year-2025.config.dates.conference }}
 
 ---
 
