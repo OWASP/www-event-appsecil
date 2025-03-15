@@ -364,7 +364,7 @@ hr {
   font-weight: 600;
   transition: 0.3s;
 
-  &:hover {
+  &:hover, &:focus {
     text-decoration: none;
   }
 

@@ -17,9 +17,11 @@ We are now offering several tiers of premium sponsorship, and various a la carte
 There is also a cost-effective “Community Supporter” option for non-profits, government offices, small startups, and anyone else that wishes to support the community (Community Supporter level does not get a booth at the conference).
 
 </div>
-
-<a href="./assets/docs/AppSecIL2025Sponsorships.pdf" class="button button_type_inverse">Become a sponsor</a>
 </div>
+
+---
+
+<a href="./assets/docs/AppSecIL2025Sponsorships.pdf" class="button button_type_inverse button_centered" target="_blank">Become a sponsor</a>
 
 ---
 
