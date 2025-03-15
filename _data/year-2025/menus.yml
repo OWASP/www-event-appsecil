@@ -1,9 +1,9 @@
 - title: About
-  url  : ./index.html#about
+  url  : ./#about
 - title: Registration
   url  : https://appsecil2025.forms-wizard.biz/
 - title: Team
-  url  : ./index.html#team
+  url  : ./#team
 - title: CFP
   url  : ./CFP
 - title: Sponsors
