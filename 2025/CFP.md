@@ -34,7 +34,7 @@ Whether you’re a first-time speaker or a seasoned pro, this is your chance to 
 
 ### Timeline
 
-* CFP closes: March 15, 2025
+* CFP closes: March 29, 2025
 * Notification: April 6, 2025
 * Conference: June 05, 2025
 
