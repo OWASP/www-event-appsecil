@@ -97,7 +97,7 @@ For only 50 USD, you can get a discounted ticket for this conference, support 
 
 ## The people behind the conference
 
-OWASP’s AppSec Israel 2023 is made by the people who contribute their time, brains, energy, and patience to its success.
+OWASP’s AppSec Israel 2025 is made by the people who contribute their time, brains, energy, and patience to its success.
 
 The following people are working to ensure that OWASP AppSec Israel is such a fantastic conference!
 
