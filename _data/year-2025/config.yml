@@ -3,10 +3,14 @@ description: OWASP AppSec Israel annual conference - 2025 edition!
 
 year: 2025
 
+address: Tel Aviv Expo, Pavilion 10
 # Conference dates
-dates:  June 5, 2025
+dates:
+  conference: June 5, 2025
+  cfpCloses: March 29, 2025
+  notification: April 6, 2025
 #trainingday: Tuesday, October 27th
 #confday: Wednesday, October 28th
 
-logoUrl: /2025/AppSecIL_logo.png
+logoUrl: ./assets/img/2025/AppSecIL_logo.png
 # sched: owaspappsecil2023.sched.com
