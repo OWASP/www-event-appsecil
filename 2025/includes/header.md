@@ -1,4 +1,6 @@
 <header class="header">
+    
+    <div class="header__menu-wrapper">
     <div class="header__inner">
             <a href="{{ './' | relative_url }}" class="logo header__logo" style="background-image: url({{ site.data.year-2025.config.logoUrl }})"></a>
 
@@ -20,5 +22,6 @@
                 </li>
             </ul>
         </nav>
+    </div>
     </div>
 </header>
