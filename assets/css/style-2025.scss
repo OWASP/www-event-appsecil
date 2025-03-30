@@ -153,6 +153,7 @@ hr {
   transform: translateX(-100%);
   opacity: 0;
   transition: 0.5s;
+  transition-property: transform, opacity;
 
   &_active {
     transform: translateX(0);

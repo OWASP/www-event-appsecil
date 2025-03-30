@@ -33,14 +33,6 @@ function scrollHandler() {
     updateMobileMenuPosition();
 }
 
-function resizeHandler() {
-    console.log('resize');
-    if (headerHeight === headerMenuWrapper.clientHeight) return;
-    console.log(headerHeight);
-    updateHeaderHeight();
-    console.log(headerHeight);
-}
-
 function openMobileMenu() {
     burgerBtn.classList.add('burger-btn_active');
     mobileMenu.classList.add('mobile-menu_active');
@@ -61,12 +53,17 @@ function burgerBtnClickHandler() {
         : openMobileMenu();
 }
 
+function headerTransitionHandler() {
+    updateHeaderHeight();
+    updateMobileMenuPosition();
+}
+
 function init() {
     updateHeaderHeight();
     updateMobileMenuPosition();
     window.addEventListener("scroll", scrollHandler);
-    window.addEventListener("resize", resizeHandler);
     burgerBtn.addEventListener("click", burgerBtnClickHandler);
+    headerMenuWrapper.addEventListener("transitionrun", headerTransitionHandler);
 }
 
 init();
