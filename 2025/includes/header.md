@@ -2,7 +2,7 @@
     
     <div class="header__menu-wrapper">
     <div class="header__inner">
-            <a href="{{ './' | relative_url }}" class="logo header__logo" style="background-image: url({{ site.data.year-2025.config.logoUrl }})"></a>
+        <a href="{{ './' | relative_url }}" class="logo header__logo" style="background-image: url({{ site.data.year-2025.config.logoUrl }})"></a>
 
         <nav class="mainmenu header__menu">
             <ul class="mainmenu__list">

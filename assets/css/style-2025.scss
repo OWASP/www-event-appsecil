@@ -144,7 +144,7 @@ hr {
   left: 0;
   top: 0;
   bottom: 0;
-  padding: 30px 20px;
+  padding: 60px 20px;
   width: 100%;
   background: $highlight;
   color: $white;
@@ -154,12 +154,10 @@ hr {
   opacity: 0;
   transition: 0.5s;
 
-  &.mobile-menu_active {
+  &_active {
     transform: translateX(0);
     opacity: 1;
   }
-
-  
 
   li {
     text-align: center;
@@ -184,6 +182,10 @@ hr {
   }
 
   &__item_with-children {
+    &>a {
+      pointer-events: none;
+    }
+    
     .mobile-menu__submenu {
       display: none;
     }
@@ -370,7 +372,9 @@ hr {
   }
 
   .mainmenu__item_with-children {
-    
+    &>a {
+      pointer-events: none;
+    }
 
     &:hover .mainmenu__submenu {
       visibility: visible;

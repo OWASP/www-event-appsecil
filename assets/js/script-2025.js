@@ -9,10 +9,14 @@ const body = document.querySelector('body');
 let headerHeight;
 
 function updateHeaderHeight() {
-    if (headerHeight === headerMenuWrapper.offsetHeight) return;
-    headerHeight = headerMenuWrapper.offsetHeight;
+    headerHeight = headerMenuWrapper.clientHeight;
     header.style.height = headerHeight + 'px';
 }
+
+function updateMobileMenuPosition() {
+    mobileMenu.style.top = headerMenuWrapper.getBoundingClientRect().bottom + 'px';
+}
+
 
 function fixMenu() {
     !headerMenuWrapper.classList.contains('header__menu-wrapper_fixed')
@@ -26,12 +30,15 @@ function unfixMenu() {
 
 function scrollHandler() {
     window.scrollY > headerHeight ? fixMenu() : unfixMenu();
-    mobileMenu.style.top = headerMenuWrapper.getBoundingClientRect().bottom + 'px';
+    updateMobileMenuPosition();
 }
 
 function resizeHandler() {
+    console.log('resize');
     if (headerHeight === headerMenuWrapper.clientHeight) return;
+    console.log(headerHeight);
     updateHeaderHeight();
+    console.log(headerHeight);
 }
 
 function openMobileMenu() {
@@ -56,6 +63,7 @@ function burgerBtnClickHandler() {
 
 function init() {
     updateHeaderHeight();
+    updateMobileMenuPosition();
     window.addEventListener("scroll", scrollHandler);
     window.addEventListener("resize", resizeHandler);
     burgerBtn.addEventListener("click", burgerBtnClickHandler);
