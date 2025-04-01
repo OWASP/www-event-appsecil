@@ -22,9 +22,9 @@ layout: custom-2025
 
 Join 1,000+ developers, DevOps engineers, architects, security specialists, and product leaders for a day of expert talks, hands-on sessions, and networking.
 
-Call for Papers is Open! Stay tuned for agenda & registration updates.
+Call for Papers has now closed! Stay tuned for the agenda!
 
-<a href="./CFP" class="button button_type_main">Submit your talk</a>
+<!--<a href="./CFP" class="button button_type_main">Submit your talk</a>-->
 
 ---
 

@@ -14,7 +14,7 @@ The largest AppSec conference in Israel, bringing together professionals from ac
 
 <div class="join-us__buttons">
     <a href="https://appsecil2025.forms-wizard.biz/" class="button button_type_main">Register</a>
-    <a href="./CFP" class="button button_type_inverse">Become a speaker</a>
+    <!--<a href="./CFP" class="button button_type_inverse">Become a speaker</a>-->
 </div>
 
 </div>

@@ -6,7 +6,7 @@ layout: custom-2025
 <div class="page-section__inner">
 <div class="text text_type_narrow" markdown="1">
 
-# Call for Presentations
+# Call for Presentations (Now closed)
 
 What are we looking for? Anything and everything AppSec! Application security, software security, web security…
 In general, the only restriction on the subject of the talks is being related to Application Security or Software Security in some way (not necessarily Web).
@@ -55,7 +55,7 @@ Whether you’re a first-time speaker or a seasoned pro, this is your chance to 
 
 ---
 
-<a href="https://www.papercall.io/owasp-il-2025" class="button button_type_main" target="_blank">Submit your talk</a>
+<!--<a href="https://www.papercall.io/owasp-il-2025" class="button button_type_main" target="_blank">Submit your talk</a>-->
 
 </div>
 </div>
