@@ -4,8 +4,8 @@
   url  : https://appsecil2025.forms-wizard.biz/
 - title: Team
   url  : ./#team
-- title: CFP
-  url  : ./CFP
+#- title: CFP
+#  url  : ./CFP
 - title: Sponsors
   url  : ./sponsors
 
