@@ -8,6 +8,9 @@ safe: false
 
 current_year: 2025
 
+plugins:
+  - jekyll-redirect-from
+
 defaults: 
   - scope: 
       path: "2023/*.md"
