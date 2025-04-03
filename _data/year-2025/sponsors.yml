@@ -17,6 +17,9 @@
   - name : Palantir Security
     url  : https://www.palantirsecurity.com/
     image: ./assets/img/2025/sponsors/palantir_security.png
+  - name : Mobb
+    url  : https://www.mobb.ai/
+    image: ./assets/img/2025/sponsors/mobb.png
 - tier: Badges
   sponsors:
   - name : Akamai
