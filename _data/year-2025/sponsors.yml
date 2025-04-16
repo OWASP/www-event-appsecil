@@ -20,7 +20,12 @@
   - name : Mobb
     url  : https://www.mobb.ai/
     image: ./assets/img/2025/sponsors/mobb.png
-- tier: Badges
+- tier: lanyards
+  sponsors:
+  - name : Playtika
+    url  : https://www.playtika.com/
+    image: ./assets/img/2025/sponsors/playtika.png
+- tier: badges
   sponsors:
   - name : Akamai
     url  : https://www.akamai.com/
