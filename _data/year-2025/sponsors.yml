@@ -1,5 +1,8 @@
 - tier: gold
   sponsors:
+  - name : J.P. Morgan
+    url  : https://www.jpmorganchase.com/
+    image: ./assets/img/2025/sponsors/jmpc.png
   - name : Jit
     url  : https://www.jit.io/
     image: ./assets/img/2025/sponsors/jit.png
