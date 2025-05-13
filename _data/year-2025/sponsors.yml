@@ -23,6 +23,9 @@
   - name : Mobb
     url  : https://www.mobb.ai/
     image: ./assets/img/2025/sponsors/mobb.png
+  - name : Root
+    url  : https://www.root.io/
+    image: ./assets/img/2025/sponsors/root-logo.svg
 - tier: lanyards
   sponsors:
   - name : Playtika
