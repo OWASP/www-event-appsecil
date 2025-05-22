@@ -12,6 +12,9 @@
   - name : Backlash
     url  : https://www.backslash.security/
     image: ./assets/img/2025/sponsors/backslash.png
+  - name : Tenable
+    url  : https://www.tenable.com/
+    image: ./assets/img/2025/sponsors/tenable.jpeg
 - tier: silver
   sponsors:
   - name : Checkmarx
