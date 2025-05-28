@@ -1,8 +1,10 @@
+- tier: diamond
+  sponsors:
+  - name : Ox
+    url  : https://www.ox.security/
+    image: ./assets/img/2025/sponsors/logo_ox.png
 - tier: gold
   sponsors:
-  - name : J.P. Morgan
-    url  : https://www.jpmorganchase.com/
-    image: ./assets/img/2025/sponsors/jmpc.png
   - name : Jit
     url  : https://www.jit.io/
     image: ./assets/img/2025/sponsors/jit.png
@@ -17,6 +19,9 @@
     image: ./assets/img/2025/sponsors/tenable.jpeg
 - tier: silver
   sponsors:
+  - name : J.P. Morgan
+    url  : https://www.jpmorganchase.com/
+    image: ./assets/img/2025/sponsors/jmpc.png
   - name : Checkmarx
     url  : https://checkmarx.com/
     image: ./assets/img/2025/sponsors/checkmarx.png
@@ -29,6 +34,14 @@
   - name : Root
     url  : https://www.root.io/
     image: ./assets/img/2025/sponsors/root-logo.svg
+  - name : Appsec Labs
+    url  : https://appsec-labs.com/
+    image: ./assets/img/2025/sponsors/appsec_labs.jpg
+- tier: CTF created and hosted by
+  sponsors:
+  - name : F5
+    url  : https://www.f5.com/
+    image: ./assets/img/2025/sponsors/f5-logo-black.svg
 - tier: lanyards
   sponsors:
   - name : Playtika
