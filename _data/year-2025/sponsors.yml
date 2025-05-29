@@ -52,3 +52,8 @@
   - name : Akamai
     url  : https://www.akamai.com/
     image: ./assets/img/2025/sponsors/akamai.png
+- tier: shirts
+  sponsors:
+  - name : CT-Cyber
+    url  : https://www.ct-cyber.com/
+    image: ./assets/img/2025/sponsors/ct-cyber.png
