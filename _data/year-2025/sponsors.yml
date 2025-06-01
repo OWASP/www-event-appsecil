@@ -37,6 +37,11 @@
   - name : Appsec Labs
     url  : https://appsec-labs.com/
     image: ./assets/img/2025/sponsors/appsec_labs.jpg
+- tier: startup
+  sponsors:
+  - name : Nokod
+    url  : https://nokodsecurity.com/
+    image: ./assets/img/2025/sponsors/nokod.png
 - tier: CTF created and hosted by
   sponsors:
   - name : F5
@@ -56,4 +61,4 @@
   sponsors:
   - name : CT-Cyber
     url  : https://www.ct-cyber.com/
-    image: ./assets/img/2025/sponsors/ct-cyber.png
+    image: ./assets/img/2025/sponsors/ct-cyber-black.png
