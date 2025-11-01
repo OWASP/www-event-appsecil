@@ -1,0 +1,64 @@
+- tier: diamond
+  sponsors:
+  - name : Ox
+    url  : https://www.ox.security/
+    image: ./assets/img/2025/sponsors/logo_ox.png
+- tier: gold
+  sponsors:
+  - name : Jit
+    url  : https://www.jit.io/
+    image: ./assets/img/2025/sponsors/jit.png
+  - name : Zenity
+    url  : https://www.zenity.io/
+    image: ./assets/img/2025/sponsors/zenity.png
+  - name : Backlash
+    url  : https://www.backslash.security/
+    image: ./assets/img/2025/sponsors/backslash.png
+  - name : Tenable
+    url  : https://www.tenable.com/
+    image: ./assets/img/2025/sponsors/tenable.jpeg
+- tier: silver
+  sponsors:
+  - name : J.P. Morgan
+    url  : https://www.jpmorganchase.com/
+    image: ./assets/img/2025/sponsors/jpmorgan.jpg
+  - name : Checkmarx
+    url  : https://checkmarx.com/
+    image: ./assets/img/2025/sponsors/checkmarx.png
+  - name : Palantir Security
+    url  : https://www.palantirsecurity.com/
+    image: ./assets/img/2025/sponsors/palantir_security.png
+  - name : Mobb
+    url  : https://www.mobb.ai/
+    image: ./assets/img/2025/sponsors/mobb.png
+  - name : Root
+    url  : https://www.root.io/
+    image: ./assets/img/2025/sponsors/root-logo.svg
+  - name : Appsec Labs
+    url  : https://appsec-labs.com/
+    image: ./assets/img/2025/sponsors/appsec_labs.jpg
+- tier: startup
+  sponsors:
+  - name : Nokod
+    url  : https://nokodsecurity.com/
+    image: ./assets/img/2025/sponsors/nokod.png
+- tier: CTF created and hosted by
+  sponsors:
+  - name : F5
+    url  : https://www.f5.com/
+    image: ./assets/img/2025/sponsors/f5-logo-black.svg
+- tier: lanyards
+  sponsors:
+  - name : Playtika
+    url  : https://www.playtika.com/
+    image: ./assets/img/2025/sponsors/playtika.png
+- tier: badges
+  sponsors:
+  - name : Akamai
+    url  : https://www.akamai.com/
+    image: ./assets/img/2025/sponsors/akamai.png
+- tier: shirts
+  sponsors:
+  - name : CT-Cyber
+    url  : https://www.ct-cyber.com/
+    image: ./assets/img/2025/sponsors/ct-cyber-black.png
