@@ -64,6 +64,12 @@ function init() {
     window.addEventListener("scroll", scrollHandler);
     burgerBtn.addEventListener("click", burgerBtnClickHandler);
     headerMenuWrapper.addEventListener("transitionrun", headerTransitionHandler);
+
+    if (document.querySelector('.gallery')) {
+        const gallery = new Gallery('.gallery', { start: 0, loop: true, auto: 0 });
+        new ImgPopUp('.gallery__slide img', { nav: true });
+    } 
+    
 }
 
 init();
