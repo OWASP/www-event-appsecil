@@ -1,0 +1,16 @@
+- title: About
+  url  : ./#about
+- title: Registration
+  url  : https://appsecil2025.forms-wizard.biz/
+- title: CTF Registration
+  url  : https://appsecil25.ctf.today/
+- title: Agenda
+  url  : ./agenda
+- title: Team
+  url  : ./#team
+#- title: CFP
+#  url  : ./CFP
+- title: Sponsors
+  url  : ./sponsors
+
+
