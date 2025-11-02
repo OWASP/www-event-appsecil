@@ -1,17 +1,16 @@
-- title: Whether you build, secure, or manage software, this event is designed for you.
-  image: ./assets/img/2025/conf.jpg
+- title: Whether you build, secure, or manage software, this event is designed for you
+  image: ./assets/img/2026/about/about1.jpg
   items:
-    - Top speakers sharing the latest security insights.
-    - Hands-on sessions & networking with industry experts.
-    - Diverse audience - Developers, DevOps, security engineers, architects, and product leaders.
-- title: Expect a mix of technical deep dives, best practices, and real-world case studies, covering.
-  image: ./assets/img/2025/conf2.jpg
+    - Hear from top speakers sharing the latest security insights.
+    - Join hands-on sessions and network with leading industry experts.
+    - 'A diverse audience awaits you: security and cyber defense professionals, developers, software engineers, researchers, industry leaders, and executives.'
+- title: 'Expect a mix of technical deep dives, best practices, and real-world case studies, covering:'
+  image: ./assets/img/2026/about/about2.jpg
   items:
     - Secure software development.
     - DevOps & cloud security.
     - Web, mobile, and API security.
     - Threat modeling and risk management.
-    - AI Security and Securing with AI
 
 
 
