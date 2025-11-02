@@ -9,135 +9,77 @@ layout: custom-2026
 
 ### {{ site.data.year-2026.config.dates.conference }} | {{ site.data.year-2026.config.address }}
 
-<a href="https://appsecil2025.forms-wizard.biz/" class="button button_type_main">Register now!</a>
+<a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MXQ4ZGI2cTAxZWgzbGxmajNwbzZjdG42cWEgYXJpbmEubHV0b2V2YUBt&tmsrc=arina.lutoeva%40gmail.com" class="button button_type_main" target="_blank">Save the date</a>
 
   </div>
 </section>
 
-<section class="page-section">
+<section class="page-section" id="about">
   <div class="page-section__inner">
   <div class="text text_type_narrow" markdown="1">
 
 ## Israel’s premier application security event is back!
 
-Join 1,000+ developers, DevOps engineers, architects, security specialists, and product leaders for a day of expert talks, hands-on sessions, and networking.
+OWASP AppSec Israel is one of the leading cybersecurity conferences in the region, bringing together experts, professionals, and enthusiasts from around the world.
 
-Call for Papers has now closed! Stay tuned for the agenda!
-
-<!--<a href="./CFP" class="button button_type_main">Submit your talk</a>-->
-
----
-
-Please note that AppSecIL is family friendly and wheelchair accessible. Please notify a volunteer if there are any problems.
-
----
-
-**Don’t forget to use the #AppSecIL hashtag on social media!**
-
-<a href="https://groups.google.com/u/1/a/owasp.org/g/israel-chapter" class="button button_type_inverse button_with-arrow" target="_blank">Sign up to our mailing list for updates</a>
+Join 1,000+ developers, DevOps engineers, architects, security specialists, product leaders, and other industry professionals dedicated to advancing the future of application security.
   
+---
+
   </div>
+  {% include_relative includes/about-items.md %}
   </div>
 </section>
 
-<section class="page-section page-section_pale" id="about">
+<section class="page-section" id="photos">
   <div class="page-section__inner">
   <div class="text text_type_narrow" markdown="1">
 
-## How it was in 2025
+## A Glimpse of 2025: Highlights from OWASP AppSec Israel
 
-Take a look at the photo album capturing moments from OWASP’s AppSec Israel 2025 conference this year.
+Check out the photo album showcasing highlights from last year'sOWASP AppSec Israel 2025 conference.
 
+---
   </div>
-  <div class="gallery gallery_place_mainpage">
     {% include_relative includes/photos.md %}
   </div>
-  
-
-  </div>
 </section>
 
-<section class="page-section page-section_inverse page-section_name_about" id="about">
+<section class="page-section page-section_pale" id="save-the-date">
   <div class="page-section__inner">
   <div class="text text_type_narrow" markdown="1">
 
-## About OWASP AppSec Israel
+## Join us at OWASP’S AppSec Israel 2026 Conference
 
-OWASP AppSec Israel is the largest AppSec conference in Israel, bringing together professionals from across the software industry.
-
-[Over 700 people attended the previous conference](https://appsecil.org/2023/)
-
-  </div>
-
-{% include_relative includes/about-items.md %}
-
-{% include_relative includes/join-us.md %}
-
-  </div>
-</section>
-
-<!-- <section class="page-section">
-<div class="page-section__inner">
-<div class="text text_type_narrow" markdown="1">
-
-## Location and time
-
-The annual OWASP AppSec Israel 2026 conference will be held this year in Pavilion 10 of the The <a href="https://expotelaviv.co.il/en/" target="_blank">Tel Aviv Expo</a>, in central Tel Aviv, Israel.
+The annual OWASP AppSec Israel 2026 conference will be held this year in **Pavilion 10 of the The Tel Aviv Expo**, in central Tel Aviv, Israel. We are excited to have a biggerand better location to improve the experience for all participants!
 
 There are parking lots in the complex, and it is also very easily reachable by car or public transportation.
 
-<a href="https://expotelaviv.co.il/en/visitors/#instructions__tabs" class="button button_type_inverse" target="_blank">See here for more details</a>
+---
 
-</div>
-</div>
-</section> -->
-
-<section class="page-section page-section_pale">
-<div class="page-section__inner">
-<div class="text text_type_narrow" markdown="1">
-
-## Membership
-
-Please consider joining OWASP as an individual member. As a not-for-profit organization, OWASP has no direct income other than sponsorships and membership fees.
-
-For only 50 USD, you can get a discounted ticket for this conference, support this organization, help ensure we can continue to deliver great content, and you also get various other member benefits (including a discount for Global Conferences).
-
-<a href="https://owasp.org/join" class="button button_type_inverse" target="_blank">Learn more</a>
-
-</div>
-</div>
+<a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MXQ4ZGI2cTAxZWgzbGxmajNwbzZjdG42cWEgYXJpbmEubHV0b2V2YUBt&tmsrc=arina.lutoeva%40gmail.com" class="button button_type_main" target="_blank">Save the date</a>
+  </div>
+  </div>
 </section>
 
-<section class="page-section" id="team">
+
+
+<section class="page-section" id="sponsors">
 <div class="page-section__inner">
 <div class="text text_type_narrow" markdown="1">
 
-## The people behind the conference
+## Sponsors
 
-OWASP’s AppSec Israel 2025 is made by the people who contribute their time, brains, energy, and patience to its success.
+Sponsorship also helps support the OWASP community, and ensures that we can keep on making our conferences better and better. Sponsorship fees are intended to cover the costs of the conference only. If anything is left over, this is used to support the ongoing Chapter activity and improve the Conference even more. Since the Conference is open to all and not funded by ticket sales, we need your support to enable us to put on a great conference.
 
-The following people are working to ensure that OWASP AppSec Israel is such a fantastic conference!
+**We are now offering several tiers of premium sponsorship,and various a la carte opportunities.**
 
----
-
-</div>
-
-{% include_relative includes/team.md %}
-
-<div class="text text_type_narrow" markdown="1">
+There is also a cost-effective “Community Supporter” option for non-profits, government offices, small startups, and anyone else that wishes to support the community (Community Supporter level does not get a booth at the conference).
 
 ---
 
-## Volunteers
-
-At the moment, we are looking for volunteers to support different activities at the conference.
-
-Of course we are taking care of our volunteers, and there are some benefits ;)
-
-To join the Volunteers team - you can reach us out directly at [shanni.gelfand@owasp.org](shanni.gelfand@owasp.org)!
-
+<a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MXQ4ZGI2cTAxZWgzbGxmajNwbzZjdG42cWEgYXJpbmEubHV0b2V2YUBt&tmsrc=arina.lutoeva%40gmail.com" class="button button_type_main" target="_blank">Become a sponsor</a>
 
 </div>
-
 </div>
 </section>

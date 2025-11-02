@@ -1,6 +1,6 @@
 <ul class="about">
 
-{% for item in site.data.year-2025.about-items %}
+{% for item in site.data.year-2026.about-items %}
     <li class="about__item">
         <div class="about__info">
             <h3 class="about__title">{{item.title}}</h3>
