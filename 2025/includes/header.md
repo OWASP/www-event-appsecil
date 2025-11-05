@@ -11,7 +11,7 @@
                     <a href="{{ menu.url }}">{{menu.title}}</a>
                 </li>
                 {% endfor %}
-                <!-- <li class="mainmenu__item_with-children"><a href="#">Previous events</a>
+                <li class="mainmenu__item_with-children"><a href="#">Previous events</a>
                     <ul class="mainmenu__submenu">
                         {% for event in site.data.prevyears %}
                         <li>
@@ -19,7 +19,7 @@
                         </li>
                         {% endfor %}
                     </ul>
-                </li> -->
+                </li>
             </ul>
         </nav>
         <button class="burger-btn header__burger-btn" aria-label="menu">
