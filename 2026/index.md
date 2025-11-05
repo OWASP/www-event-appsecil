@@ -78,7 +78,7 @@ There is also a cost-effective “Community Supporter” option for non-profits,
 
 ---
 
-<a href="#" class="button button_type_main" target="_blank">Become a sponsor</a>
+<a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MXQ4ZGI2cTAxZWgzbGxmajNwbzZjdG42cWEgYXJpbmEubHV0b2V2YUBt&tmsrc=arina.lutoeva%40gmail.com" class="button button_type_main" target="_blank">Become a sponsor</a>
 
 </div>
 </div>
