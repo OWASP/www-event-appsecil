@@ -40,23 +40,6 @@ Please note that AppSecIL is family friendly and wheelchair accessible. Please n
   </div>
 </section>
 
-<section class="page-section page-section_pale" id="about">
-  <div class="page-section__inner">
-  <div class="text text_type_narrow" markdown="1">
-
-## How it was in 2025
-
-Take a look at the photo album capturing moments from OWASP’s AppSec Israel 2025 conference this year.
-
-  </div>
-  <div class="gallery gallery_place_mainpage">
-    {% include_relative includes/photos.md %}
-  </div>
-  
-
-  </div>
-</section>
-
 <section class="page-section page-section_inverse page-section_name_about" id="about">
   <div class="page-section__inner">
   <div class="text text_type_narrow" markdown="1">
