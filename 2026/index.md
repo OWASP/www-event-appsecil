@@ -9,7 +9,7 @@ layout: custom-2026
 
 ### {{ site.data.year-2026.config.dates.conference }} | {{ site.data.year-2026.config.address }}
 
-<a href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MmptcTBtMzVncWE5ZW5iMzc0NXJlb290MDMgN2MwNGNmODliZjE3MzliMjY1ZmQ5YjNjNTk5OGIyOTY4MmE1NTdlMDEwNGJiNGY1OWFkZTExMGEzNGQxMmUzYUBn&amp;tmsrc=7c04cf89bf1739b265fd9b3c5998b29682a557e0104bb4f59ade110a34d12e3a%40group.calendar.google.com" class="button button_type_main" target="_blank">Save the date</a>
+<a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MXQ4ZGI2cTAxZWgzbGxmajNwbzZjdG42cWEgYXJpbmEubHV0b2V2YUBt&tmsrc=arina.lutoeva%40gmail.com" class="button button_type_main" target="_blank">Save the date</a>
 
   </div>
 </section>
@@ -57,7 +57,7 @@ There are parking lots in the complex, and it is also very easily reachable by c
 
 ---
 
-<a href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MmptcTBtMzVncWE5ZW5iMzc0NXJlb290MDMgN2MwNGNmODliZjE3MzliMjY1ZmQ5YjNjNTk5OGIyOTY4MmE1NTdlMDEwNGJiNGY1OWFkZTExMGEzNGQxMmUzYUBn&amp;tmsrc=7c04cf89bf1739b265fd9b3c5998b29682a557e0104bb4f59ade110a34d12e3a%40group.calendar.google.com" class="button button_type_main" target="_blank">Save the date</a>
+<a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MXQ4ZGI2cTAxZWgzbGxmajNwbzZjdG42cWEgYXJpbmEubHV0b2V2YUBt&tmsrc=arina.lutoeva%40gmail.com" class="button button_type_main" target="_blank">Save the date</a>
   </div>
   </div>
 </section>
@@ -78,7 +78,7 @@ There is also a cost-effective “Community Supporter” option for non-profits,
 
 ---
 
-<a href="./2026/AppSec Israel 2026 Sponsorships.pdf" class="button button_type_main" target="_blank">Become a sponsor</a>
+<a href="#" class="button button_type_main" target="_blank">Become a sponsor</a>
 
 </div>
 </div>
