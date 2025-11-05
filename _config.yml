@@ -6,7 +6,7 @@ description: OWASP AppSec Israel annual conference
 # Since GH pages override this to "true", we test this value to see if we are running locally
 safe: false
 
-current_year: 2026
+current_year: 2025
 
 plugins:
   - jekyll-redirect-from
@@ -23,9 +23,4 @@ defaults:
     values: 
       year: 2025
       layout: layout-2025
-  - scope: 
-      path: "2026/*.md"
-    values: 
-      year: 2026
-      layout: layout-2026
       permalink: /:basename:output_ext
