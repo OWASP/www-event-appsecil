@@ -1,8 +1,7 @@
-- image: ./assets/img/2026/photos/photo1.jpg
-- image: ./assets/img/2026/photos/photo2.jpg
-- image: ./assets/img/2026/photos/photo3.jpg
-- image: ./assets/img/2026/photos/photo4.jpg
-- image: ./assets/img/2026/photos/photo5.jpg
-- image: ./assets/img/2026/photos/photo6.jpg
-- image: ./assets/img/2026/photos/photo7.jpg
-- image: ./assets/img/2026/photos/photo8.jpg
+- image: ./assets/img/2025/photos/gal1.jpg
+  # title: Some title
+  # text: lorem ipsum dolor sit amet
+- image: ./assets/img/2025/photos/gal2.jpg
+- image: ./assets/img/2025/photos/gal3.jpg
+- image: ./assets/img/2025/photos/gal4.jpg
+- image: ./assets/img/2025/photos/gal5.jpg

@@ -2,11 +2,11 @@
     
     <div class="header__menu-wrapper">
     <div class="header__inner">
-        <a href="{{ './' | relative_url }}" class="logo header__logo" style="background-image: url({{ site.data.year-2026.config.logoUrl }})"></a>
+        <a href="{{ './' | relative_url }}" class="logo header__logo" style="background-image: url({{ site.data.year-2025.config.logoUrl }})"></a>
 
         <nav class="mainmenu header__menu">
             <ul class="mainmenu__list">
-                {% for menu in site.data.year-2026.menus %}
+                {% for menu in site.data.year-2025.menus %}
                 <li>
                     <a href="{{ menu.url }}">{{menu.title}}</a>
                 </li>
@@ -34,7 +34,7 @@
     <div class="mobile-menu">
         <nav class="mobile-menu__nav">
             <ul class="mobile-menu__list">
-                {% for menu in site.data.year-2026.menus %}
+                {% for menu in site.data.year-2025.menus %}
                 <li>
                     <a href="{{ menu.url }}" class="mobile-menu__link">{{menu.title}}</a>
                 </li>
