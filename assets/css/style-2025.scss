@@ -987,20 +987,46 @@ hr {
     max-width: 700px;
   }
 
+  // Default for all tiers (matches silver)
+  [class^="sponsor-list__img_tier_"], [class*=" sponsor-list__img_tier_"] {
+    max-height: 140px;
+    max-width: 220px;
+  }
+
+  .sponsor-list__img_tier_diamond {
+    max-height: 340px;
+    max-width: 600px;
+  }
+
+  .sponsor-list__img_tier_platinum {
+    max-height: 210px;
+    max-width: 400px;
+  }
+
   .sponsor-list__img_tier_gold {
-    max-height: 198px;
+    max-height: 180px;
+    max-width: 300px;
   }
 }
 
 @media screen and (max-width: $screen-md) {
   .sponsor-list {
-    .sponsor-list__img {
-      max-height: 100px;
-      max-width: 100%;
+    // Default for all tiers (matches silver)
+    [class^="sponsor-list__img_tier_"], [class*=" sponsor-list__img_tier_"] {
+      max-height: 90px;
+      max-width: 110px;
     }
-  
+    .sponsor-list__img_tier_diamond {
+      max-height: 220px;
+      max-width: 390px;
+    }
+    .sponsor-list__img_tier_platinum {
+      max-height: 135px;
+      max-width: 260px;
+    }
     .sponsor-list__img_tier_gold {
-      max-height: 120px;
+      max-height: 115px;
+      max-width: 190px;
     }
   }
 }

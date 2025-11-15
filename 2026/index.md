@@ -78,7 +78,7 @@ There is also a cost-effective “Community Supporter” option for non-profits,
 
 ---
 
-<a href="./2026/AppSec Israel 2026 Sponsorships.pdf" class="button button_type_main" target="_blank">Become a sponsor</a>
+<a href="./sponsordoc" class="button button_type_main" target="_blank">Become a sponsor</a>
 
 </div>
 </div>
