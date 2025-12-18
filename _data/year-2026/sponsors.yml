@@ -13,8 +13,11 @@
 # - tier: gold
 #  sponsors:
 
-# - tier: silver
-#  sponsors:
+- tier: silver
+  sponsors:
+  - name : ARMO
+    url  : https://www.armosec.io/ 
+    image: 
 
 # - tier: startup
 #  sponsors:
