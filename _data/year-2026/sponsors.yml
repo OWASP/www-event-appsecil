@@ -3,10 +3,22 @@
 #  - name : 
 #    url  : 
 #    image: 
-# - tier: platinum
+
+- tier: platinum
+  sponsors:
+  - name : Echo.ai
+    url  : http://echo.ai/ 
+    image: Echo.png 
+
 # - tier: gold
+#  sponsors:
+
 # - tier: silver
+#  sponsors:
+
 # - tier: startup
+#  sponsors:
+
 # - tier: alacarte
 #  sponsors:
 #  - name : 
