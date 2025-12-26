@@ -31,6 +31,56 @@ Join 1,000+ developers, DevOps engineers, architects, security specialists, prod
   </div>
 </section>
 
+<section class="page-section page-section_pale" id="save-the-date">
+  <div class="page-section__inner">
+  <div class="text text_type_narrow" markdown="1">
+
+## Join us at OWASP’S AppSec Israel 2026 Conference
+
+The annual OWASP AppSec Israel 2026 conference will be held this year in **Pavilion 10 of the The Tel Aviv Expo**, in central Tel Aviv, Israel. We are excited to have a biggerand better location to improve the experience for all participants!
+
+There are parking lots in the complex, and it is also very easily reachable by car or public transportation.
+
+---
+
+<div class="buttons-area">
+
+<a href="#" class="button button_type_main" target="_blank">Register now</a>
+
+<a href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MmptcTBtMzVncWE5ZW5iMzc0NXJlb290MDMgN2MwNGNmODliZjE3MzliMjY1ZmQ5YjNjNTk5OGIyOTY4MmE1NTdlMDEwNGJiNGY1OWFkZTExMGEzNGQxMmUzYUBn&amp;tmsrc=7c04cf89bf1739b265fd9b3c5998b29682a557e0104bb4f59ade110a34d12e3a%40group.calendar.google.com" class="button button_type_main" target="_blank">Save to calendar</a>
+
+  </div>
+
+---
+
+CFP closes: **coming soon**  
+Notification: **coming soon**  
+Conference: **May 18, 2026**
+  </div>
+  </div>
+</section>
+
+<section class="page-section page-section_inverse">
+  <div class="page-section__inner">
+  <div class="text text_type_narrow" markdown="1">
+
+## Call for presentations 
+
+What are we looking for? Anything and everything AppSec!Application security, software security, web security…
+
+In general, the only restriction on the subject of the talks is being related to Application Security or Software Security in some way (not necessarily Web).
+
+We will not accept any talks regarding other aspects of Security, that are not applicative in nature. Talks at any technical level can be accepted.
+
+---
+
+<a href="#" class="button button_type_white" target="_blank">Submit your talk</a>
+
+
+  </div>
+  </div>
+</section>
+
 <section class="page-section" id="photos">
   <div class="page-section__inner">
   <div class="text text_type_narrow" markdown="1">
@@ -45,32 +95,16 @@ Check out the photo album showcasing highlights from last year'sOWASP AppSec Isr
   </div>
 </section>
 
-<section class="page-section page-section_pale" id="save-the-date">
-  <div class="page-section__inner">
-  <div class="text text_type_narrow" markdown="1">
 
-## Join us at OWASP’S AppSec Israel 2026 Conference
-
-The annual OWASP AppSec Israel 2026 conference will be held this year in **Pavilion 10 of the The Tel Aviv Expo**, in central Tel Aviv, Israel. We are excited to have a biggerand better location to improve the experience for all participants!
-
-There are parking lots in the complex, and it is also very easily reachable by car or public transportation.
-
----
-
-<a href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MmptcTBtMzVncWE5ZW5iMzc0NXJlb290MDMgN2MwNGNmODliZjE3MzliMjY1ZmQ5YjNjNTk5OGIyOTY4MmE1NTdlMDEwNGJiNGY1OWFkZTExMGEzNGQxMmUzYUBn&amp;tmsrc=7c04cf89bf1739b265fd9b3c5998b29682a557e0104bb4f59ade110a34d12e3a%40group.calendar.google.com" class="button button_type_main" target="_blank">Save the date</a>
-  </div>
-  </div>
-</section>
-
-
-
-<section class="page-section" id="sponsors">
+<section class="page-section page-section_lblue" id="sponsors">
 <div class="page-section__inner">
 <div class="text text_type_narrow" markdown="1">
 
 ## Sponsors
 
-Sponsorship also helps support the OWASP community, and ensures that we can keep on making our conferences better and better. Sponsorship fees are intended to cover the costs of the conference only. If anything is left over, this is used to support the ongoing Chapter activity and improve the Conference even more. Since the Conference is open to all and not funded by ticket sales, we need your support to enable us to put on a great conference.
+Sponsorship also helps support the OWASP community, and ensures that we can keep on making our conferences better and better.
+
+Sponsorship fees are intended to cover the costs of the conference only. If anything is left over, this is used to support the ongoing Chapter activity and improve the Conference even more. Since the Conference is open to all and not funded by ticket sales, we need your support to enable us to put on a great conference.
 
 **We are now offering several tiers of premium sponsorship,and various a la carte opportunities.**
 
@@ -81,5 +115,37 @@ There is also a cost-effective “Community Supporter” option for non-profits,
 <a href="./sponsordoc" class="button button_type_main" target="_blank">Become a sponsor</a>
 
 </div>
+</div>
+</section>
+
+<section class="page-section page-section_grey" id="sponsors">
+<div class="page-section__inner">
+<div class="text text_type_narrow" markdown="1">
+
+## Membership
+
+</div>
+<div class="text text_type_columns" markdown="1">
+
+The Open Web Application Security Project (OWASP) is an open-source, not-for-profit application security organization made up of corporations, educational organizations, and individuals from around the world. Providing free, vendor-neutral, practical, cost-effective application security guidance, the OWASP Foundation is the de-facto standards body for web application security used by developers and organizations globally.
+
+Please consider joining OWASP as an individual member. As a non-profit organization, OWASP has no direct income other than sponsorships and membership fees.
+
+**For only $50**, you can get a discounted ticket to this conference, support the organization, help ensure we can continue delivering great content, and enjoy various other member benefits, including discounts for global conferences.
+
+**Don’t forget to specify the Israel chapter when you join!**
+
+This will allocate a small portion of your membership fee to support the Israel chapter and mark your account as associated with it. Plus, you’ll receive a small gift at the conference as a token of our appreciation.
+
+</div>
+
+<div class="text text_type_narrow" markdown="1">
+
+---
+
+<a href="./sponsordoc" class="button button_type_main" target="_blank">Become a sponsor</a>
+
+</div>
+
 </div>
 </section>
