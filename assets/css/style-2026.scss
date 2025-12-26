@@ -222,17 +222,27 @@ hr {
 */
 
 .header {
-  background-color: $pale;
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.header_fixed {
+  background-color: $white;
+  color: $dark;
 }
 
 .header__inner {
-  padding: 28px 30px;
+  padding: 40px 30px;
   display: flex;
   gap: 10px;
   align-items: center;
   max-width: 1050px;
   margin: 0 auto;
-  background-color: inherit;
 }
 
 .header__logo {
@@ -252,7 +262,7 @@ hr {
   position: relative;
   z-index: 100;
   background-color: inherit;
-  border-bottom: 1px solid #D7DAE2;
+  // border-bottom: 1px solid #D7DAE2;
   transition: 0.3s;
 }
 
@@ -261,6 +271,7 @@ hr {
   left: 0;
   top: 0;
   width: 100%;
+  border-bottom: 1px solid #D7DAE2;
   animation: menu-appear 0.6s;
   
 
@@ -327,7 +338,7 @@ hr {
   display: block;
   width: 309px;
   max-width: 100%;
-  height: 99px;
+  height: 60px;
   background: center center no-repeat;
   background-size: contain;
 }
@@ -352,7 +363,7 @@ hr {
     gap: 10px 40px;
 
     a {
-      color: $dark;
+      color: inherit;
       font-size: 14px;
       font-weight: 400;
       transition: 0.3s;
@@ -381,6 +392,10 @@ hr {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     opacity: 0;
     transition: visibility 0s 0.3s, opacity 0.3s, top 0.3s;
+
+    a {
+      color: $dark;
+    }
   }
 
   .mainmenu__item_with-children {
