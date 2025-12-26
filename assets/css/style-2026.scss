@@ -1380,3 +1380,29 @@ hr {
   gap: 14px 28px;
   justify-content: center;
 }
+
+// team-grid
+
+.team-grid {
+  gap: 60px;
+
+  .grid__item {
+    flex: 0 0 calc((100% - 120px) / 3);
+  }
+
+  .team-grid__cover {
+    border: 4px solid $highlight;
+    border-radius: 15px;;
+  }
+
+  .team-grid__title {
+    color: $highlight;
+    margin-top: 14px;
+  }
+}
+
+@media screen and (max-width: $screen-lg) {
+  .grid {
+    gap: 20px;
+  }
+}

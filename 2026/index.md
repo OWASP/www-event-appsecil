@@ -149,3 +149,20 @@ This will allocate a small portion of your membership fee to support the Israel 
 
 </div>
 </section>
+
+<section class="page-section">
+<div class="page-section__inner">
+<div class="text text_type_narrow" markdown="1">
+
+## The people behind the conference
+
+OWASP’s AppSec Israel 2026 is driven by dedicated individuals who contribute their time, energy and expertise  to ensure its success. The following people are working to ensure that OWASP AppSec Israel is such a fantastic conference:
+
+---
+
+</div>
+
+{% include_relative includes/team.md %}
+
+</div>
+</section>
