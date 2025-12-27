@@ -1,7 +1,7 @@
-- image: ./assets/img/2025/photos/gal1.jpg
+- image: ./../assets/img/2025/photos/gal1.jpg
   # title: Some title
   # text: lorem ipsum dolor sit amet
-- image: ./assets/img/2025/photos/gal2.jpg
-- image: ./assets/img/2025/photos/gal3.jpg
-- image: ./assets/img/2025/photos/gal4.jpg
-- image: ./assets/img/2025/photos/gal5.jpg
+- image: ./../assets/img/2025/photos/gal2.jpg
+- image: ./../assets/img/2025/photos/gal3.jpg
+- image: ./../assets/img/2025/photos/gal4.jpg
+- image: ./../assets/img/2025/photos/gal5.jpg
