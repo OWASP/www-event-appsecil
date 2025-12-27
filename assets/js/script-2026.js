@@ -70,7 +70,8 @@ function init() {
     headerMenuWrapper.addEventListener("transitionrun", headerTransitionHandler);
 
     if (document.querySelector('.gallery')) {
-        const gallery = new Gallery('.gallery', { start: 0, loop: true, auto: 0 });
+        const navWrapper = document.querySelector('.gallery-wrapper');
+        const gallery = new Gallery('.gallery', { start: 0, loop: true, auto: 0, navRoot: navWrapper });
         new ImgPopUp('.gallery__slide img', { nav: true });
     } 
     
