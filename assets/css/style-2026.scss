@@ -462,7 +462,7 @@ hr {
 .page-section__inner {
   max-width: 1050px;
   margin: 0 auto;
-  padding: 100px 30px;
+  padding: 50px 30px;
   box-sizing: border-box;
 }
 
@@ -526,9 +526,69 @@ hr {
   }
 }
 
-.page-section_name_cfp {
-  .page-section__inner {
-    background: url(../img/2025/wasp-bg.svg) center / contain no-repeat;
+// .page-section_name_cfp {
+//   .page-section__inner {
+//     background: url(../img/2025/wasp-bg.svg) center / contain no-repeat;
+//   }
+// }
+
+.page-section_name_cfp_hero {
+  background: linear-gradient(135deg, #2B5BBE 0%, #4169E1 100%);
+  padding: 80px 20px;
+}
+
+.page-section_name_cfp_topics {
+  padding: 60px 20px;
+}
+
+.cfp-timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin: 30px 0;
+}
+
+.timeline-item {
+  font-size: 16px;
+}
+
+.timeline-label {
+  color: $highlight;
+  font-weight: 400;
+}
+
+.timeline-value {
+  color: $highlight;
+  font-weight: 800;
+}
+
+.cfp-avatar-inline {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 4px solid $highlight;
+  object-fit: cover;
+  display: block;
+  margin: 20px auto;
+}
+
+@media screen and (max-width: $screen-md) {
+  .cfp-details-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .cfp-timeline {
+    position: static;
+    transform: none;
+  }
+
+  .cfp-avatar {
+    position: static;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
   }
 }
 
@@ -593,6 +653,19 @@ hr {
     &:hover {
       background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none'%3E%3Cpath stroke='%232055E5' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 12h14M12 5l7 7-7 7'/%3E%3C/svg%3E");
     }
+  }
+}
+
+.button_type_secondary {
+  background-color: $white;
+  color: $highlight;
+  border: 2px solid $highlight;
+  border-radius: 8px;
+  margin-top: 20px;
+  
+  &:hover {
+    background-color: $hover;
+    color: $darker;
   }
 }
 
@@ -676,6 +749,10 @@ hr {
       margin-bottom: 16px;
     }
   }
+}
+
+.text_type_narrow_centered {
+  text-align: center;
 }
 
 /***
@@ -1306,4 +1383,37 @@ hr {
     }
   }
   
+}
+
+.topics-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.topic-item {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+
+  h4, p {
+    text-align: left;
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+}
+
+.topic-title {
+  color: #2B5BBE;
+  font-weight: bold;
+}
+
+@media screen and (max-width: $screen-md) {
+  .topics-grid {
+    grid-template-columns: 1fr;
+  }
 }

@@ -8,8 +8,8 @@
 #   url  : ./agenda
 # - title: Team
 #   url  : ./#team
-#- title: CFP
-#  url  : ./CFP
+- title: CFP
+  url  : ./CFP
 - title: Save the Date
   url  : ./#save-the-date
 - title: Sponsors
