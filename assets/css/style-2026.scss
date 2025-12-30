@@ -538,7 +538,7 @@ hr {
 }
 
 .page-section_name_cfp_topics {
-  padding: 60px 20px;
+  padding: 80px 20px 0 20px;
 }
 
 .cfp-timeline {
@@ -546,7 +546,7 @@ hr {
   flex-direction: column;
   align-items: center;
   gap: 8px;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
 .timeline-item {
@@ -573,6 +573,58 @@ hr {
   margin: 20px auto;
 }
 
+.cfp-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.cfp-phone-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.cfp-phone-left,
+.cfp-phone-right {
+  flex: 0 0 160px;
+  text-align: center;
+  
+  p {
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+  
+  strong {
+    color: $highlight;
+    font-weight: 600;
+  }
+}
+
+.cfp-phone-left{
+  margin-bottom: 100px;
+}
+
+.cfp-phone-image {
+  height: auto;
+  flex: 0 0 auto;
+  margin-top: -28px;
+  position: relative;
+  z-index: 2;
+  box-shadow: 88px 0 40px rgba(0,0,0,0.2);
+  background: none;
+  border-top-right-radius: 53px;
+  border-top-left-radius: 53px;
+}
+
+.hashtag {
+  color: $highlight;
+  text-decoration: underline;
+}
+
 @media screen and (max-width: $screen-md) {
   .cfp-details-content {
     flex-direction: column;
@@ -589,6 +641,10 @@ hr {
     width: 80px;
     height: 80px;
     margin: 0 auto;
+  }
+
+  .cfp-phone-section {
+    display: none;
   }
 }
 
@@ -640,6 +696,7 @@ hr {
   background-color: $highlight;
   color: $white;
   border: 2px solid $highlight;
+  border-radius: 8px;
   
   &:hover {
     background-color: $hover;

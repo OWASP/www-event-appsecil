@@ -96,12 +96,6 @@ Whether you’re a first-time speaker or a seasoned pro, this is your chance to 
 
 ---
 
-</div>
-</div>
-</section>
-
-<section class="page-section">
-<div class="page-section__inner">
 <div class="cfp-details-content">
 
 <div class="cfp-timeline">
@@ -119,21 +113,26 @@ Whether you’re a first-time speaker or a seasoned pro, this is your chance to 
 </div>
 </div>
 
-<div class="cfp-avatar">
-<img src="https://via.placeholder.com/80" alt="OWASP" class="cfp-avatar-img" />
-</div>
 </div>
 
 <div class="cfp-button-wrapper">
 <a href="https://www.papercall.io/owasp-il-2026" class="button button_type_main" target="_blank">Submit you talk</a>
 </div>
+
+
+</div>
 </div>
 </section>
 
-<!-- * CFP closes: {{ site.data.year-2026.config.dates.cfpCloses }}
-* Notification: {{ site.data.year-2026.config.dates.notification }}
-* Conference: {{ site.data.year-2026.config.dates.conference }} -->
+<div class="cfp-phone-section">
+<div class="cfp-phone-left">
+<p class="cfp-text-phone-left">Follow our LinkedIn Page to stay updated and never miss upcoming events and community news.</p>
+<a href="https://www.linkedin.com/company/owasp-israel/" class="button button_type_main" target="_blank">Go to linkedin</a>
+</div>
 
+<img src="/assets/img/2026/iPhone-15-Pro-Mockup.png" alt="OWASP AppSec Israel 2026" class="cfp-phone-image" />
 
-
-<!--<a href="https://www.papercall.io/owasp-il-2026" class="button button_type_main" target="_blank">Submit your talk</a>-->
+<div class="cfp-phone-right">
+<p>Don't forget to use the <span class="hashtag">#AppSecIL</span> hashtag on social media!</p>
+</div>
+</div>
