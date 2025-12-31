@@ -1,10 +1,13 @@
-{% if site.data.year-2025.sponsors %} 
+{% if site.data.year-2026.sponsors %} 
 
-{% for tier in site.data.year-2025.sponsors %}
+{% for tier in site.data.year-2026.sponsors %}
   {% if tier.sponsors %}
 
   <h2 class="tier-title">{{ tier.tier }}</h2>
-  <ul class="sponsor-list">
+  {% if tier.description %}
+  <p class="tier-text">{{ tier.description }}</p>
+  {% endif %}
+  <ul class="sponsor-list sponsor-list_cols_{{ tier.cols }}">
     {% for sponsor in tier.sponsors %}
       <li class="sponsor-list__item">
         {% if sponsor.url %}
