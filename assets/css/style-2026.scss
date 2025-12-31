@@ -282,7 +282,8 @@ hr {
 
   .logo {
     height: 50px;
-    width: 155px;
+    min-width: 155px;
+    background-image: url(../img/2026/logo-2026-black.png)!important;
   }
 }
 
