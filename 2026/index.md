@@ -166,3 +166,39 @@ OWASP’s AppSec Israel 2026 is driven by dedicated individuals who contribute t
 
 </div>
 </section>
+
+<section class="page-section page-section_pale">
+<div class="page-section__inner">
+<div class="text text_type_narrow" markdown="1">
+
+**Please note that AppSecIL is family friendly and wheelchair accessible.**
+
+If you need to bring your baby with you in order to attend, please do so! We only request that you be sensitive to others close to you, if your child needs to make noise. 
+
+The auditorium and other classrooms are wheelchair accessible. Please notify a staff member if there are any problems.
+
+---
+
+<a href="#" class="button button_type_main" target="_blank">Sign up to our mailing list for updates</a>
+
+</div>
+</div>
+</section>
+
+<section class="page-section page-section_lblue">
+<div class="page-section__inner">
+<div class="text text_type_narrow" markdown="1">
+
+## Volunteers
+
+OWASP AppSec Israel thrives thanks to amazing volunteers from the AppSec and DevSec community. They bring energy, expertise, and passion to make the conference happen. Volunteering is a great way to connect, learn, and give back to the community.
+
+If you want to be a volunteer and be a part of this event, text at [shanni.gelfand@owasp.org]()
+
+---
+
+<a href="#" class="button button_type_main" target="_blank">Sign up to our mailing list for updates</a>
+
+</div>
+</div>
+</section>
