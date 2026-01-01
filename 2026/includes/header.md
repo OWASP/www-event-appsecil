@@ -1,14 +1,13 @@
+{% if page.startSection %}
+<header class="header header_style_{{page.startSection}}">
+{% else %}
 <header class="header">
-    
+{% endif %}  
+
     <div class="header__menu-wrapper">
     <div class="header__inner">
         <a href="{{ './' | relative_url }}" class="logo header__logo" style="background-image: url({{ site.data.year-2026.config.logoUrl }})"></a>
-    {% if page.startSection == "inverse" %}
-        <nav class="mainmenu mainmenu_style_inverse header__menu">
-    {% else %}
         <nav class="mainmenu header__menu">
-    {% endif %}
-
         
             <ul class="mainmenu__list">
                 {% for menu in site.data.year-2026.menus %}

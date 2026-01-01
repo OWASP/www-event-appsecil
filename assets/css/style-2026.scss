@@ -237,6 +237,24 @@ hr {
   color: $dark;
 }
 
+.header_style_inverse {
+  .mainmenu .mainmenu__list a {
+    &:hover {
+      color: $hover;
+    }
+  }
+}
+
+.header_style_lblue {
+  .mainmenu .mainmenu__list a {
+    color: $darker;
+  }
+
+  .logo {
+    background-image: url(../img/2026/logo-2026-black.png)!important;
+  }
+}
+
 .header__inner {
   padding: 40px 30px;
   display: flex;
@@ -414,16 +432,6 @@ hr {
   }
 }
 
-.mainmenu_style_inverse {
-  .mainmenu__list {
-    a {
-      &:hover {
-        color: $hover;
-      }
-    }
-  }
-}
-
 /***
   Main
 */
@@ -500,6 +508,11 @@ hr {
   strong  {
     color: $highlight;
     font-weight: normal;
+
+    em {
+      font-style: normal;
+      font-weight: bold;
+    }
   }
 }
 
