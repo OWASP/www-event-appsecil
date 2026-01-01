@@ -113,7 +113,7 @@ hr {
     position: absolute;
     width: 24px;
     height: 2px;
-    background-color: $dark;
+    background-color: #fff;
     left: 6px;
     top: calc(50% - 1px);
     border-radius: 2px;
@@ -164,7 +164,7 @@ hr {
   bottom: 0;
   padding: 60px 20px;
   width: 100%;
-  background: $highlight;
+  background: rgba(0,0,0,0.9);
   color: $white;
   z-index: 50;
   overflow: auto;
@@ -247,6 +247,10 @@ hr {
 .header_fixed {
   background-color: $white;
   color: $dark;
+
+  .burger-btn span {
+    background-color: $darker;
+  }
 }
 
 .header_style_inverse {
@@ -264,6 +268,10 @@ hr {
 
   .logo {
     background-image: url(../img/2026/logo-2026-black.png)!important;
+  }
+
+  .burger-btn span {
+    background-color: $darker;
   }
 }
 
@@ -312,7 +320,7 @@ hr {
 
   .logo {
     height: 50px;
-    min-width: 155px;
+    min-width: 220px;
     background-image: url(../img/2026/logo-2026-black.png)!important;
   }
 }
@@ -377,7 +385,7 @@ hr {
 
 @media screen and (max-width: $screen-md) {
   .logo {
-    width: 155px;
+    width: 220px;
     height: 50px;
   }
 }
