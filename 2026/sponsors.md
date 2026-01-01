@@ -1,5 +1,6 @@
 ---
 layout: custom-2026
+startSection: inverse
 ---
 
 <section class="page-section page-section_inverse">

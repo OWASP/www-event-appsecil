@@ -414,6 +414,16 @@ hr {
   }
 }
 
+.mainmenu_style_inverse {
+  .mainmenu__list {
+    a {
+      &:hover {
+        color: $hover;
+      }
+    }
+  }
+}
+
 /***
   Main
 */
