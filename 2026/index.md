@@ -126,7 +126,7 @@ There is also a cost-effective “Community Supporter” option for non-profits,
 </div>
 </section>
 
-<section class="page-section page-section_grey" id="sponsors">
+<section class="page-section page-section_grey" id="membership">
 <div class="page-section__inner">
 <div class="text text_type_narrow" markdown="1">
 
