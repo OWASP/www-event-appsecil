@@ -3,6 +3,8 @@ layout: custom-2026
 startSection: lblue
 ---
 
+{% assign cfg = site.data["year-2026"].config %}
+
 <section class="page-section page-section_lblue">
 <div class="page-section__inner">
 
@@ -22,7 +24,7 @@ From secure development and cloud security to AI threats and real-world case stu
 
 <a href="#" class="button button_type_main" target="_blank">Learn more</a>
 
-<a href="#" class="button button_type_main" target="_blank">Save the date</a>
+<a href="{{cfg.links.calendar}}" class="button button_type_main" target="_blank">Save the date</a>
 
 </div>
 </div>
@@ -33,19 +35,16 @@ From secure development and cloud security to AI threats and real-world case stu
 <div class="page-section__inner">
 <div class="text text_type_narrow" markdown="1">
 
-**Please note that AppSecIL is family friendly and wheelchair accessible.**
-
-If you need to bring your baby with you in order to attend, please do so! We only request that you be sensitive to others close to you, if your child needs to make noise.
-
-The auditorium and other classrooms are wheelchair accessible. Please notify a staff member if there are any problems.
+{% include_relative includes/accessibility.md %}
 
 ---
-
-<a href="#" class="button button_type_main" target="_blank">Sign up to our mailing list for updates</a>
 
 </div>
 </div>
 </section>
 
+<section class="page-section page-section_name_social">
+<div class="page-section__inner">
 {% include_relative includes/social-section.md %}
-
+</div>
+</section>
