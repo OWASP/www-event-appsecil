@@ -2,14 +2,22 @@
 layout: custom-2026
 ---
 
+{% assign cfg = site.data["year-2026"].config %}
+
 <section class="page-section page-section_name_promo">
   <div class="page-section__inner" markdown="1">
 
-# Welcome to OWASP's {{ site.data.year-2026.config.title }}!
+# Welcome to OWASP's {{ cfg.title }}!
 
-### {{ site.data.year-2026.config.dates.conference }} | {{ site.data.year-2026.config.address }}
+### {{ cfg.dates.conference }} | {{ cfg.address }}
 
-<a href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MmptcTBtMzVncWE5ZW5iMzc0NXJlb290MDMgN2MwNGNmODliZjE3MzliMjY1ZmQ5YjNjNTk5OGIyOTY4MmE1NTdlMDEwNGJiNGY1OWFkZTExMGEzNGQxMmUzYUBn&amp;tmsrc=7c04cf89bf1739b265fd9b3c5998b29682a557e0104bb4f59ade110a34d12e3a%40group.calendar.google.com" class="button button_type_main" target="_blank">Save the date</a>
+<div class="buttons-area">
+
+<a href="{{ cfg.links.registration }}" class="button button_type_main" target="_blank">Register Now</a>
+
+<a href="/CFP" class="button button_type_main" target="_blank">Submit your talk</a>
+
+</div>
 
   </div>
 </section>
@@ -45,17 +53,17 @@ There are parking lots in the complex, and it is also very easily reachable by c
 
 <div class="buttons-area">
 
-<a href="#" class="button button_type_main" target="_blank">Register now</a>
+<a href="{{ cfg.links.registration }}" class="button button_type_main" target="_blank">Register now</a>
 
-<a href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MmptcTBtMzVncWE5ZW5iMzc0NXJlb290MDMgN2MwNGNmODliZjE3MzliMjY1ZmQ5YjNjNTk5OGIyOTY4MmE1NTdlMDEwNGJiNGY1OWFkZTExMGEzNGQxMmUzYUBn&amp;tmsrc=7c04cf89bf1739b265fd9b3c5998b29682a557e0104bb4f59ade110a34d12e3a%40group.calendar.google.com" class="button button_type_main" target="_blank">Save to calendar</a>
+<a href="{{ cfg.links.calendar }}" class="button button_type_main" target="_blank">Save to calendar</a>
 
   </div>
 
 ---
 
-CFP closes: **coming soon**  
-Notification: **coming soon**  
-Conference: **May 18, 2026**
+CFP closes: **{{cfg.dates.cfpCloses}}**  
+Notification: **{{cfg.dates.notification}}**  
+Conference: **{{cfg.dates.conference}}**
   </div>
   </div>
 </section>
@@ -74,7 +82,7 @@ We will not accept any talks regarding other aspects of Security, that are not a
 
 ---
 
-<a href="#" class="button button_type_white" target="_blank">Submit your talk</a>
+<a href="/CFP" class="button button_type_white">Submit your talk</a>
 
 
   </div>
@@ -171,15 +179,7 @@ OWASP’s AppSec Israel 2026 is driven by dedicated individuals who contribute t
 <div class="page-section__inner">
 <div class="text text_type_narrow" markdown="1">
 
-**Please note that AppSecIL is family friendly and wheelchair accessible.**
-
-If you need to bring your baby with you in order to attend, please do so! We only request that you be sensitive to others close to you, if your child needs to make noise. 
-
-The auditorium and other classrooms are wheelchair accessible. Please notify a staff member if there are any problems.
-
----
-
-<a href="#" class="button button_type_main" target="_blank">Sign up to our mailing list for updates</a>
+{% include_relative includes/accessibility.md %}
 
 </div>
 </div>
@@ -195,10 +195,12 @@ OWASP AppSec Israel thrives thanks to amazing volunteers from the AppSec and Dev
 
 If you want to be a volunteer and be a part of this event, text at [shanni.gelfand@owasp.org]()
 
----
-
-<a href="#" class="button button_type_main" target="_blank">Sign up to our mailing list for updates</a>
-
 </div>
+</div>
+</section>
+
+<section class="page-section page-section_lblue page-section_name_social">
+<div class="page-section__inner">
+  {% include_relative includes/social-section.md %}
 </div>
 </section>
