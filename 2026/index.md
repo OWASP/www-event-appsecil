@@ -158,7 +158,7 @@ This will allocate a small portion of your membership fee to support the Israel 
 </div>
 </section>
 
-<section class="page-section">
+<section class="page-section" id="team">
 <div class="page-section__inner">
 <div class="text text_type_narrow" markdown="1">
 
