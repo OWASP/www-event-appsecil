@@ -3,15 +3,19 @@ layout: custom-2026
 startSection: inverse
 ---
 
+{% assign cfg = site.data["year-2026"].config %}
+
 <section class="page-section page-section_inverse page-section_name_cfp page-section_name_cfp_hero">
 <div class="page-section__inner">
-<div class="text text_type_narrow text_type_narrow_centered" markdown="1">
+<div class="text text_type_narrow" markdown="1">
 
 ## We're calling for presentations for OWASP AppSec Israel 2026
 
 We're looking for fresh, vendor-neutral talks that span all levels of expertise-whether you're presenting cutting-edge research, sharing lessons from the trenches, or showcasing real-world case studies.
 
-<a href="https://www.papercall.io/owasp-il-2026" class="button button_type_white" target="_blank">Submit your talk</a>
+---
+
+<a href="{{cfg.links.cfp}}" class="button button_type_white" target="_blank">Submit your talk</a>
 
 </div>
 </div>
@@ -24,6 +28,9 @@ We're looking for fresh, vendor-neutral talks that span all levels of expertise-
 ## Topics
 
 While all submissions must have an applicative focus, we welcome diverse perspectives, including but not limited to:
+
+</div>
+<div class="text" markdown="1">
 
 <div class="topics-grid">
 
@@ -91,6 +98,9 @@ While all submissions must have an applicative focus, we welcome diverse perspec
 
 ---
 
+</div>
+<div class="text text_type_narrow" markdown="1">
+
 We are particularly interested in hearing from practitioners in large organizations who can share field-tested case studies or practical solutions. Priority will be given to original content not presented at other events.
 
 Whether you’re a first-time speaker or a seasoned pro, this is your chance to engage with one of the largest AppSec communities, showcase your expertise, and contribute to advancing the field.
@@ -102,22 +112,22 @@ Whether you’re a first-time speaker or a seasoned pro, this is your chance to 
 <div class="cfp-timeline">
 <div class="timeline-item">
 <span class="timeline-label">CFP closes:</span>
-<span class="timeline-value">{{ site.data.year-2026.config.dates.cfpCloses }}</span>
+<span class="timeline-value">{{ cfg.dates.cfpCloses }}</span>
 </div>
 <div class="timeline-item">
 <span class="timeline-label">Notification:</span>
-<span class="timeline-value">{{ site.data.year-2026.config.dates.notification }}</span>
+<span class="timeline-value">{{ cfg.dates.notification }}</span>
 </div>
 <div class="timeline-item">
 <span class="timeline-label">Conference:</span>
-<span class="timeline-value">May 18, 2026</span>
+<span class="timeline-value">{{cfg.dates.conference}}</span>
 </div>
 </div>
 
 </div>
 
 <div class="cfp-button-wrapper">
-<a href="https://www.papercall.io/owasp-il-2026" class="button button_type_main" target="_blank">Submit you talk</a>
+<a href="{{cfg.links.cfp}}" class="button button_type_main" target="_blank">Submit you talk</a>
 </div>
 
 
@@ -125,4 +135,8 @@ Whether you’re a first-time speaker or a seasoned pro, this is your chance to 
 </div>
 </section>
 
-{% include_relative includes/social-section.md %}
+<section class="page-section page-section_name_social">
+<div class="page-section__inner">
+    {% include_relative includes/social-section.md %}
+</div>
+</section>

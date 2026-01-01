@@ -450,6 +450,7 @@ hr {
 
 .main .page-section:first-child .page-section__inner {
   padding-top: 200px;
+  padding-bottom: 180px;
 }
 
 /***
@@ -606,11 +607,6 @@ hr {
   .about {
     margin-top: 60px;
   }
-}
-
-.page-section_name_cfp_hero {
-  background: linear-gradient(135deg, #2B5BBE 0%, #4169E1 100%);
-  padding: 80px 20px;
 }
 
 .page-section_name_cfp_topics {
@@ -789,8 +785,13 @@ hr {
   width: 70%;
   margin: 0 auto;
 
-  h4, p {
+  .topic-title {
+    margin-bottom: 0;
     text-align: left;
+  }
+
+  h4, p {
+    text-align: left!important;
     max-width: none;
     margin-left: 0;
     margin-right: 0;
@@ -801,6 +802,16 @@ hr {
 .topic-title {
   color: #2B5BBE;
   font-weight: bold;
+}
+
+@media screen and (max-width: $screen-sm) {
+  .topics-grid {
+    grid-template-columns: 1fr;
+
+    .topic-item {
+      width: 100%;
+    }
+  }
 }
 
 /***
