@@ -672,15 +672,15 @@ hr {
   margin-bottom: 60px;
 }
 
-.cfp-phone-section {
+.phone-section {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
 }
 
-.cfp-phone-left,
-.cfp-phone-right {
+.phone-left,
+.phone-right {
   flex: 0 0 160px;
   text-align: center;
 
@@ -695,11 +695,11 @@ hr {
   }
 }
 
-.cfp-phone-left{
+.phone-left{
   margin-bottom: 100px;
 }
 
-.cfp-phone-image {
+.phone-image {
   height: auto;
   flex: 0 0 auto;
   margin-top: -28px;
@@ -734,11 +734,11 @@ hr {
     margin: 0 auto;
   }
 
-  .cfp-phone-image {
+  .phone-image {
     display: none;
   }
 
-  .cfp-phone-section {
+  .phone-section {
     flex-direction: column;
     max-width: 320px;
     margin: 0 auto;
@@ -746,7 +746,7 @@ hr {
     border-top: 1px solid #3c3c3c;
   }
 
-  .cfp-phone-left {
+  .phone-left {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1725,3 +1725,33 @@ hr {
     }
   }
 }
+
+// Registration iframe
+
+.registration-iframe-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.registration-iframe {
+  width: 100%;
+  /* Default: let CSS provide a reasonable min-height. JS will attempt viewport-based sizing as a best-effort fallback. */
+  height: auto;
+  min-height: 2000px;
+  border: none;
+  border-radius: 8px;
+  display: block;
+}
+
+@media screen and (max-width: $screen-md) {
+  .registration-iframe {
+    min-height: 1000px;
+  }
+}
+
+@media screen and (max-width: $screen-sm) {
+  .registration-iframe {
+    min-height: 1200px;
+  }
+}
+

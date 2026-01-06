@@ -1,7 +1,7 @@
 - title: About
   url  : ./#about
 - title: Registration
-  url  : https://appsecil2026.forms-wizard.biz/
+  url  : ./registration
 # - title: CTF Registration
 #   url  : https://appsecil25.ctf.today/
 - title: CFP
