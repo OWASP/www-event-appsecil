@@ -1727,7 +1727,6 @@ hr {
 
 .registration-iframe {
   width: 100%;
-  /* Default: let CSS provide a reasonable min-height. JS will attempt viewport-based sizing as a best-effort fallback. */
   height: auto;
   min-height: 2000px;
   border: none;
@@ -1745,5 +1744,13 @@ hr {
   .registration-iframe {
     min-height: 1200px;
   }
+}
+
+.team-intro h2 {
+  color: $highlight;
+}
+
+.team-intro p {
+  color: $highlight;
 }
 

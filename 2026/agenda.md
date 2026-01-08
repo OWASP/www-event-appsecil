@@ -12,7 +12,7 @@ startSection: lblue
 
 # Agenda
 
-Explore the full lineup of expert talks, hands-on sessions, and community highlights at OWASP AppSec Israel 2025 — the country’s leading application security event.
+Explore the full lineup of expert talks, hands-on sessions, and community highlights at OWASP AppSec Israel 2026 — the country’s leading application security event.
 
 From secure development and cloud security to AI threats and real-world case studies, this year’s agenda brings together top minds and practical insights for developers, DevOps, security engineers, and tech leaders.
 
