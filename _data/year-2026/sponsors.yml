@@ -12,7 +12,7 @@
   sponsors:
   - name : echo
     url  : https://www.echo.ai/
-    image: ./assets/img/sponsors/echo.png
+    image: ./assets/img/2026/sponsors/echo.png
 - tier: gold
   description: "Companies supporting the conference at a strong premium level, gaining high visibility and meaningful engagement opportunities with attendees."
   cols: 3
@@ -26,7 +26,7 @@
   sponsors:
   - name : Armo
     url  : https://www.armosec.io/
-    image: ./assets/img/sponsors/ARMO_Dark.jpg
+    image: ./assets/img/2026/sponsors/ARMO_Dark.jpg
 - tier: startup
   description: "Early-stage companies showcasing their innovation with an accessible exhibitor option designed for teams founded within the last three years."
   cols: 3
