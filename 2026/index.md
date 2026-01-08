@@ -13,7 +13,7 @@ layout: custom-2026
 
 <div class="buttons-area">
 
-<a href="{{ cfg.links.registration }}" class="button button_type_main" target="_blank">Register Now</a>
+<a href="/registration" class="button button_type_main" target="_blank">Register Now</a>
 
 <a href="/CFP" class="button button_type_main" target="_blank">Submit your talk</a>
 
