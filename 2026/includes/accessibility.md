@@ -6,4 +6,4 @@ The auditorium and other classrooms are wheelchair accessible. Please notify a s
 
 ---
 
-<a href="#" class="button button_type_main" target="_blank">Sign up to our mailing list for updates</a>
+<a href="https://groups.google.com/u/1/a/owasp.org/g/israel-chapter" class="button button_type_main" target="_blank">Sign up to our mailing list for updates</a>

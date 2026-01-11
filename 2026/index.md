@@ -53,7 +53,7 @@ There are parking lots in the complex, and it is also very easily reachable by c
 
 <div class="buttons-area">
 
-<a href="{{ cfg.links.registration }}" class="button button_type_main" target="_blank">Register now</a>
+<a href="/registration" class="button button_type_main" target="_blank">Register now</a>
 
 <a href="{{ cfg.links.calendar }}" class="button button_type_main" target="_blank">Save to calendar</a>
 
