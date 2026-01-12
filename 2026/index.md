@@ -195,7 +195,7 @@ OWASP's AppSec Israel 2026 is driven by dedicated individuals who contribute the
 
 OWASP AppSec Israel thrives thanks to amazing volunteers from the AppSec and DevSec community. They bring energy, expertise, and passion to make the conference happen. Volunteering is a great way to connect, learn, and give back to the community.
 
-If you want to be a volunteer and be a part of this event, text at [shanni.gelfand@owasp.org]()
+If you want to be a volunteer and be a part of this event, contact [shanni.gelfand@owasp.org](mailto:shanni.gelfand@owasp.org)
 
 </div>
 </div>
