@@ -1,10 +1,14 @@
+{% if page.startSection %}
+<header class="header header_style_{{page.startSection}}">
+{% else %}
 <header class="header">
-    
+{% endif %}  
+
     <div class="header__menu-wrapper">
     <div class="header__inner">
         <a href="{{ './' | relative_url }}" class="logo header__logo" style="background-image: url({{ site.data.year-2026.config.logoUrl }})"></a>
-
         <nav class="mainmenu header__menu">
+        
             <ul class="mainmenu__list">
                 {% for menu in site.data.year-2026.menus %}
                 <li>

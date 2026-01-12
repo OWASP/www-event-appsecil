@@ -1,5 +1,5 @@
 class Gallery {
-  constructor(root, { start = 0, loop = true, auto = 0 } = {}) {
+  constructor(root, { start = 0, loop = true, auto = 0, navRoot = null } = {}) {
     this.root  = typeof root === 'string' ? document.querySelector(root) : root;
     if (!this.root) throw new Error('Gallery root not found');
 
@@ -7,8 +7,10 @@ class Gallery {
     this.slides = Array.from(this.root.querySelectorAll('.gallery__slides > .gallery__slide'));
     if (!this.track || this.slides.length === 0) throw new Error('Slides not found');
 
-    this.prevBtn = this.root.querySelector('.gallery__btn_type_prev');
-    this.nextBtn = this.root.querySelector('.gallery__btn_type_next');
+    const nav = navRoot || this.root;
+
+    this.prevBtn = nav.querySelector('.gallery__btn_type_prev');
+    this.nextBtn = nav.querySelector('.gallery__btn_type_next');
 
     this.loop = loop;
     this.auto = auto;

@@ -1,53 +1,105 @@
 ---
-layout: custom-2025
+layout: custom-2026
+startSection: inverse
 ---
 
-<section class="page-section page-section_inverse page-section_name_cfp">
+{% assign cfg = site.data["year-2026"].config %}
+
+<section class="page-section page-section_inverse page-section_name_cfp page-section_name_cfp_hero">
 <div class="page-section__inner">
 <div class="text text_type_narrow" markdown="1">
 
-# Call for Presentations (Now closed)
+## We're calling for presentations for OWASP AppSec Israel 2026
 
-What are we looking for? Anything and everything AppSec! Application security, software security, web security…
-In general, the only restriction on the subject of the talks is being related to Application Security or Software Security in some way (not necessarily Web).
-We will not accept any talks regarding other aspects of Security, that are not applicative in nature. Talks at any technical level can be accepted.
-
-We’re looking for fresh, vendor-neutral talks that span all levels of expertise—whether you’re presenting cutting-edge research, sharing lessons from the trenches, or showcasing real-world case studies. 
-
-## Topics
-
-While all submissions must have an applicative focus, we welcome diverse perspectives, including but not limited to:
+We're looking for fresh, vendor-neutral talks that span all levels of expertise-whether you're presenting cutting-edge research, sharing lessons from the trenches, or showcasing real-world case studies.
 
 ---
 
-* *Secure Development: Secure coding practices, supply chain security, static analysis, threat modeling, countermeasures, SDLC, and DevSecOps*
-* *Mobile Security: Mobile development, testing methodologies, and securing mobile web applications*
-* *Cloud Security: Offensive and defensive approaches to securing cloud-based applications*
-* *Applicative Infrastructure Security: Database security, serverless frameworks, identity management, and container security*
-* *Penetration Testing: Techniques, tools, exploit development, and evasion strategies*
-* *Emerging Web Technologies: Security challenges in new frameworks and technologies*
-* *IoT Security: Securing connected devices and Internet of Things ecosystems*
-* *Applied Cryptography: Research, algorithm usage, and cryptographic attacks or defenses*
-* *Incident Response: Threat detection, triage, forensics, and malware analysis*
-* *OWASP Tools and Projects: Real-world implementations and success stories*
-* *Policy and Legal: Privacy, compliance, and high-level security considerations*
-* *Fun Hacks and Creative Ideas: Cool exploits, social engineering, and more*
+<a href="{{cfg.links.cfp}}" class="button button_type_white" target="_blank">Submit your talk</a>
 
 </div>
 </div>
 </section>
 
-<section class="page-section">
+<section class="page-section page-section_name_cfp_topics">
 <div class="page-section__inner">
 <div class="text text_type_narrow" markdown="1">
 
-## Timeline
+## Topics
 
-* CFP closes: {{ site.data.year-2025.config.dates.cfpCloses }}
-* Notification: {{ site.data.year-2025.config.dates.notification }}
-* Conference: {{ site.data.year-2025.config.dates.conference }}
+While all submissions must have an applicative focus, we welcome diverse perspectives, including but not limited to:
+
+</div>
+<div class="text" markdown="1">
+
+<div class="topics-grid">
+
+<div class="topic-item">
+<p class="topic-title">Secure Development</p>
+<p>Secure coding practices, supply chain security, static analysis, threat modeling, countermeasures, SDLC, and DevSecOps</p>
+</div>
+
+<div class="topic-item">
+<p class="topic-title">Mobile Security</p>
+<p>Mobile development, testing methodologies, and securing mobile web applications</p>
+</div>
+
+<div class="topic-item">
+<p class="topic-title">Cloud Security</p>
+<p>Offensive and defensive approaches to securing cloud-based applications</p>
+</div>
+
+<div class="topic-item">
+<p class="topic-title">Applicative Infrastructure Security</p>
+<p>Database security, serverless frameworks, identity management, and container security</p>
+</div>
+
+<div class="topic-item">
+<p class="topic-title">Penetration Testing</p>
+<p>Techniques, tools, exploit development, and evasion strategies</p>
+</div>
+
+<div class="topic-item">
+<p class="topic-title">Emerging Web Technologies</p>
+<p>Security challenges in new frameworks and technologies</p>
+</div>
+
+<div class="topic-item">
+<p class="topic-title">IoT Security</p>
+<p>Securing connected devices and Internet of Things ecosystems</p>
+</div>
+
+<div class="topic-item">
+<p class="topic-title">Applied Cryptography</p>
+<p>Research, algorithm usage, and cryptographic attacks or defenses</p>
+</div>
+
+<div class="topic-item">
+<p class="topic-title">Incident Response</p>
+<p>Threat detection, triage, forensics, and malware analysis</p>
+</div>
+
+<div class="topic-item">
+<p class="topic-title">OWASP Tools and Projects</p>
+<p>Real-world implementations and success stories</p>
+</div>
+
+<div class="topic-item">
+<p class="topic-title">Policy and Legal</p>
+<p>Privacy, compliance, and high-level security considerations</p>
+</div>
+
+<div class="topic-item">
+<p class="topic-title">Fun Hacks and Creative Ideas</p>
+<p>Cool exploits, social engineering, and more</p>
+</div>
+
+</div>
 
 ---
+
+</div>
+<div class="text text_type_narrow" markdown="1">
 
 We are particularly interested in hearing from practitioners in large organizations who can share field-tested case studies or practical solutions. Priority will be given to original content not presented at other events.
 
@@ -55,8 +107,36 @@ Whether you’re a first-time speaker or a seasoned pro, this is your chance to 
 
 ---
 
-<!--<a href="https://www.papercall.io/owasp-il-2025" class="button button_type_main" target="_blank">Submit your talk</a>-->
+<div class="cfp-details-content">
+
+<div class="cfp-timeline">
+<div class="timeline-item">
+<span class="timeline-label">CFP closes:</span>
+<span class="timeline-value">{{ cfg.dates.cfpCloses }}</span>
+</div>
+<div class="timeline-item">
+<span class="timeline-label">Notification:</span>
+<span class="timeline-value">{{ cfg.dates.notification }}</span>
+</div>
+<div class="timeline-item">
+<span class="timeline-label">Conference:</span>
+<span class="timeline-value">{{cfg.dates.conference}}</span>
+</div>
+</div>
 
 </div>
+
+<div class="cfp-button-wrapper">
+<a href="{{cfg.links.cfp}}" class="button button_type_main" target="_blank">Submit your talk</a>
+</div>
+
+
+</div>
+</div>
+</section>
+
+<section class="page-section page-section_name_social">
+<div class="page-section__inner">
+    {% include_relative includes/social-section.md %}
 </div>
 </section>
