@@ -71,6 +71,6 @@ Note: The auditorium and other classrooms are wheelchair accessible. Please noti
   <img src="/assets/img/owasp_logo.jpg" style="width:20em; margin-left:-0.75em;">
 </a>   
 
-The Open Web Application Security Project (OWASP) is an open-source, not-for-profit application security organization made up of corporations, educational organizations, and individuals from around the world. 
+The Open Worldwide Application Security Project (OWASP) is an open-source, not-for-profit application security organization made up of corporations, educational organizations, and individuals from around the world. 
 Providing free, vendor-neutral, practical, cost-effective application security guidance, the OWASP Foundation is the de-facto standards body for web application security used by developers and organizations globally.   
 [Learn more about OWASP and membership benefits](https://owasp.org/membership/).  
