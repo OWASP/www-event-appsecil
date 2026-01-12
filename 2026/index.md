@@ -82,7 +82,7 @@ We will not accept any talks regarding other aspects of Security, that are not a
 
 ---
 
-<a href="/CFP" class="button button_type_white">Submit your talk</a>
+<a href="./CFP" class="button button_type_white">Submit your talk</a>
 
 
   </div>
