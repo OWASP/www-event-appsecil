@@ -9,61 +9,9 @@
 - tier: platinum
   description: "Organizations making a major contribution to the conference and receiving prominent exposure across the venue, agenda, and online materials."
   cols: 2
-<<<<<<< HEAD
-  sponsors:
-  - name : Jit
-    url  : https://www.jit.io/
-    image: ./assets/img/2025/sponsors/jit.png
-  - name : Zenity
-    url  : https://www.zenity.io/
-    image: ./assets/img/2025/sponsors/zenity.png
-  - name : Backlash
-    url  : https://www.backslash.security/
-    image: ./assets/img/2025/sponsors/backslash.png
-  - name : Tenable
-    url  : https://www.tenable.com/
-    image: ./assets/img/2025/sponsors/tenable.jpeg
-- tier: gold
-  description: "Companies supporting the conference at a strong premium level, gaining high visibility and meaningful engagement opportunities with attendees."
-  cols: 3
-  sponsors:
-  - name : J.P. Morgan
-    url  : https://www.jpmorganchase.com/
-    image: ./assets/img/2025/sponsors/jpmorgan.jpg
-  - name : Checkmarx
-    url  : https://checkmarx.com/
-    image: ./assets/img/2025/sponsors/checkmarx.png
-  - name : Palantir Security
-    url  : https://www.palantirsecurity.com/
-    image: ./assets/img/2025/sponsors/palantir_security.png
-  - name : Mobb
-    url  : https://www.mobb.ai/
-    image: ./assets/img/2025/sponsors/mobb.png
-  - name : Root
-    url  : https://www.root.io/
-    image: ./assets/img/2025/sponsors/root-logo.svg
-  - name : Appsec Labs
-    url  : https://appsec-labs.com/
-    image: ./assets/img/2025/sponsors/appsec_labs.jpg
-- tier: silver
-  description: "Organizations contributing to the conference’s success while maintaining solid brand presence throughout the event."
-  cols: 3
-  sponsors:
-  - name : Nokod
-    url  : https://nokodsecurity.com/
-    image: ./assets/img/2025/sponsors/nokod.png
-- tier: startup
-  description: "Early-stage companies showcasing their innovation with an accessible exhibitor option designed for teams founded within the last three years."
-  cols: 3
-  sponsors:
-  - name : F5
-    url  : https://www.f5.com/
-    image: ./assets/img/2025/sponsors/f5-logo-black.svg
-  
-=======
   sponsors:
   - name : echo
-    url  : https://www.echo.ai/
+    url  : пше https://www.echo.ai/
     image: echo.png
 - tier: gold
   description: "Companies supporting the conference at a strong premium level, gaining high visibility and meaningful engagement opportunities with attendees."
@@ -87,4 +35,3 @@
   #   url  : https://www.f5.com/
   #   image: ./assets/img/2025/sponsors/f5-logo-black.svg
   
->>>>>>> upstream/main
