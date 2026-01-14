@@ -127,7 +127,7 @@ Whether you’re a first-time speaker or a seasoned pro, this is your chance to 
 </div>
 
 <div class="cfp-button-wrapper">
-<a href="{{cfg.links.cfp}}" class="button button_type_main" target="_blank">Submit you talk</a>
+<a href="{{cfg.links.cfp}}" class="button button_type_main" target="_blank">Submit your talk</a>
 </div>
 
 

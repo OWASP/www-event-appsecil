@@ -15,7 +15,7 @@ We offer several premium tiers, a la carte options, and a cost-effective Communi
 
 ---
 
-<a href="./sponsorsd" class="button button_type_white" target="_blank">Become a sponsor</a>
+<a href="./AppSecIL2026Sponsorships.pdf" class="button button_type_white" target="_blank">Become a sponsor</a>
 
 </div>
 </div>

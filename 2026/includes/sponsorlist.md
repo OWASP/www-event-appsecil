@@ -13,7 +13,7 @@
         {% if sponsor.url %}
         <a href="{{ sponsor.url }}" class="sponsor-list__link" target="_blank">
         {% endif %}      
-        <img src="{{ sponsor.image }}" alt="{{sponsor.name}}" class="sponsor-list__img sponsor-list__img_tier_{{ tier.tier }}">
+        <img src="/assets/img/Sponsors/{{ sponsor.image }}" alt="{{sponsor.name}}" class="sponsor-list__img sponsor-list__img_tier_{{ tier.tier }}">
         {% if sponsor.url %}
         </a>
         {% endif %}

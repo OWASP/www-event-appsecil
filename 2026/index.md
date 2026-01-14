@@ -13,9 +13,9 @@ layout: custom-2026
 
 <div class="buttons-area">
 
-<a href="{{ cfg.links.registration }}" class="button button_type_main" target="_blank">Register Now</a>
+<a href="./registration" class="button button_type_main" target="_blank">Register Now</a>
 
-<a href="/CFP" class="button button_type_main" target="_blank">Submit your talk</a>
+<a href="./CFP" class="button button_type_main" target="_blank">Submit your talk</a>
 
 </div>
 
@@ -53,7 +53,7 @@ There are parking lots in the complex, and it is also very easily reachable by c
 
 <div class="buttons-area">
 
-<a href="{{ cfg.links.registration }}" class="button button_type_main" target="_blank">Register now</a>
+<a href="./registration" class="button button_type_main" target="_blank">Register now</a>
 
 <a href="{{ cfg.links.calendar }}" class="button button_type_main" target="_blank">Save to calendar</a>
 
@@ -82,7 +82,7 @@ We will not accept any talks regarding other aspects of Security, that are not a
 
 ---
 
-<a href="/CFP" class="button button_type_white">Submit your talk</a>
+<a href="./CFP" class="button button_type_white">Submit your talk</a>
 
 
   </div>
@@ -160,14 +160,16 @@ This will allocate a small portion of your membership fee to support the Israel 
 
 <section class="page-section" id="team">
 <div class="page-section__inner">
+<div class="team-intro">
 <div class="text text_type_narrow" markdown="1">
 
 ## The people behind the conference
 
-OWASP’s AppSec Israel 2026 is driven by dedicated individuals who contribute their time, energy and expertise  to ensure its success. The following people are working to ensure that OWASP AppSec Israel is such a fantastic conference:
+OWASP's AppSec Israel 2026 is driven by dedicated individuals who contribute their time, energy and expertise  to ensure its success. The following people are working to ensure that OWASP AppSec Israel is such a fantastic conference:
 
 ---
 
+</div>
 </div>
 
 {% include_relative includes/team.md %}
@@ -193,7 +195,7 @@ OWASP’s AppSec Israel 2026 is driven by dedicated individuals who contribute t
 
 OWASP AppSec Israel thrives thanks to amazing volunteers from the AppSec and DevSec community. They bring energy, expertise, and passion to make the conference happen. Volunteering is a great way to connect, learn, and give back to the community.
 
-If you want to be a volunteer and be a part of this event, text at [shanni.gelfand@owasp.org]()
+If you want to be a volunteer and be a part of this event, contact [shanni.gelfand@owasp.org](mailto:shanni.gelfand@owasp.org)
 
 </div>
 </div>
