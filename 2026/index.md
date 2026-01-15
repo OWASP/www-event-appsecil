@@ -120,7 +120,7 @@ There is also a cost-effective “Community Supporter” option for non-profits,
 
 ---
 
-<a href="./sponsordoc" class="button button_type_main" target="_blank">Become a sponsor</a>
+<a href="./AppSecIL2026Sponsorships.pdf" class="button button_type_main" target="_blank">Become a sponsor</a>
 
 </div>
 </div>
