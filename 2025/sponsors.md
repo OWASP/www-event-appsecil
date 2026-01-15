@@ -21,7 +21,7 @@ There is also a cost-effective “Community Supporter” option for non-profits,
 
 ---
 
-<a href="./2025/AppSecIL2025Sponsorships.pdf" class="button button_type_inverse button_centered" target="_blank">Become a sponsor</a>
+<a href="./AppSecIL2025Sponsorships.pdf" class="button button_type_inverse button_centered" target="_blank">Become a sponsor</a>
 
 ---
 
