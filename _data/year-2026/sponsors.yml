@@ -2,24 +2,20 @@
   description: "Companies providing the highest level of support, ensuring maximum visibility and a central presence at the event while helping elevate the entire AppSecIL 2026 experience."
   cols: 1
   sponsors:
-  # - name : Ox
-  #   url  : https://www.ox.security/
-  #   image: ./assets/img/2025/sponsors/logo_ox.png
 
 - tier: platinum
   description: "Organizations making a major contribution to the conference and receiving prominent exposure across the venue, agenda, and online materials."
   cols: 2
   sponsors:
-  - name : echo
+  - name : Echo Security
     url  : https://www.echo.ai/
     image: echo.png
+
 - tier: gold
   description: "Companies supporting the conference at a strong premium level, gaining high visibility and meaningful engagement opportunities with attendees."
   cols: 3
   sponsors:
-  # - name : J.P. Morgan
-  #   url  : https://www.jpmorganchase.com/
-  #   image: ./assets/img/2025/sponsors/jpmorgan.jpg
+
 - tier: silver
   description: "Organizations contributing to the conference’s success while maintaining solid brand presence throughout the event."
   cols: 3
@@ -27,11 +23,18 @@
   - name : Armo
     url  : https://www.armosec.io/
     image: ARMO_Dark.jpg
+
 - tier: startup
   description: "Early-stage companies showcasing their innovation with an accessible exhibitor option designed for teams founded within the last three years."
-  cols: 3
+  cols: 5
   sponsors:
-  # - name : F5
-  #   url  : https://www.f5.com/
-  #   image: ./assets/img/2025/sponsors/f5-logo-black.svg
-  
+
+- tier: alacarte
+  description: 
+  cols: 5 
+  sponsors: 
+  - name : CT-Cyber 
+    url  : https://ct-cyber.com
+    image: ct-cyber-black.png 
+    type : Shirts 
+
