@@ -10,12 +10,15 @@
   <ul class="sponsor-list sponsor-list_cols_{{ tier.cols }}">
     {% for sponsor in tier.sponsors %}
       <li class="sponsor-list__item">
+        {% if sponsor.type %}
+          <span>{{sponsor.type}}</span>
+        {% endif %}
         {% if sponsor.url %}
-        <a href="{{ sponsor.url }}" class="sponsor-list__link" target="_blank">
+          <a href="{{ sponsor.url }}" class="sponsor-list__link" target="_blank">
         {% endif %}      
-        <img src="/assets/img/Sponsors/{{ sponsor.image }}" alt="{{sponsor.name}}" class="sponsor-list__img sponsor-list__img_tier_{{ tier.tier }}">
+          <img src="/assets/img/Sponsors/{{ sponsor.image }}" alt="{{sponsor.name}}" class="sponsor-list__img sponsor-list__img_tier_{{ tier.tier }}">
         {% if sponsor.url %}
-        </a>
+          </a>
         {% endif %}
       </li>
     {% endfor %}
