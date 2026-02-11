@@ -28,6 +28,9 @@
   description: "Early-stage companies showcasing their innovation with an accessible exhibitor option designed for teams founded within the last three years."
   cols: 5
   sponsors:
+  - name : Seal Security 
+    url  : https://seal.security/?utm_source=owaspil
+    image: SealSecurity.svg
 
 - tier: alacarte
   description: 
