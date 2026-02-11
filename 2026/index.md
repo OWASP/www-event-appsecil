@@ -120,7 +120,7 @@ There is also a cost-effective “Community Supporter” option for non-profits,
 
 ---
 
-<a href="./AppSecIL2026Sponsorships.pdf" class="button button_type_main" target="_blank">Become a sponsor</a>
+<a href="./sponsordoc" class="button button_type_main" target="_blank">Become a sponsor</a>
 
 </div>
 </div>
@@ -151,7 +151,7 @@ This will allocate a small portion of your membership fee to support the Israel 
 
 ---
 
-<a href="./sponsordoc" class="button button_type_main" target="_blank">Become a sponsor</a>
+<a href="http://owasp.org/join" class="button button_type_main" target="_blank">Learn more</a>
 
 </div>
 
