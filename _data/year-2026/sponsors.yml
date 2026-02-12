@@ -2,6 +2,9 @@
   description: "Companies providing the highest level of support, ensuring maximum visibility and a central presence at the event while helping elevate the entire AppSecIL 2026 experience."
   cols: 1
   sponsors:
+#  - name : 
+#    url  : 
+#    image: 
 
 - tier: platinum
   description: "Organizations making a major contribution to the conference and receiving prominent exposure across the venue, agenda, and online materials."
@@ -10,11 +13,20 @@
   - name : Echo Security
     url  : https://www.echo.ai/
     image: echo.png
+#  - name : 
+#    url  : 
+#    image: 
 
 - tier: gold
   description: "Companies supporting the conference at a strong premium level, gaining high visibility and meaningful engagement opportunities with attendees."
   cols: 3
   sponsors:
+  - name : Tenzai
+    url  : http://tenzai.com/
+    image: Tenzai.png
+#  - name : 
+#    url  : 
+#    image: 
 
 - tier: silver
   description: "Organizations contributing to the conference’s success while maintaining solid brand presence throughout the event."
@@ -23,6 +35,9 @@
   - name : Armo
     url  : https://www.armosec.io/
     image: ARMO_Dark.jpg
+#  - name : 
+#    url  : 
+#    image: 
 
 - tier: startup
   description: "Early-stage companies showcasing their innovation with an accessible exhibitor option designed for teams founded within the last three years."
@@ -31,6 +46,9 @@
   - name : Seal Security 
     url  : https://seal.security/?utm_source=owaspil
     image: SealSecurity.svg
+#  - name : 
+#    url  : 
+#    image: 
 
 - tier: alacarte
   description: 
@@ -40,4 +58,9 @@
     url  : https://ct-cyber.com
     image: ct-cyber-black.png 
     type : Shirts 
+#  - name : 
+#    url  : 
+#    image: 
+#    type : 
+
 
