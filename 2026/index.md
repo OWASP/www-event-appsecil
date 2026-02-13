@@ -13,9 +13,9 @@ layout: custom-2026
 
 <div class="buttons-area">
 
-<a href="./registration" class="button button_type_main" target="_blank">Register Now</a>
+<a href="./registration" class="button button_type_main">Register Now</a>
 
-<a href="./CFP" class="button button_type_main" target="_blank">Submit your talk</a>
+<a href="./CFP" class="button button_type_main">Submit your talk</a>
 
 </div>
 
@@ -53,7 +53,7 @@ There are parking lots in the complex, and it is also very easily reachable by c
 
 <div class="buttons-area">
 
-<a href="./registration" class="button button_type_main" target="_blank">Register now</a>
+<a href="./registration" class="button button_type_main">Register now</a>
 
 <a href="{{ cfg.links.calendar }}" class="button button_type_main" target="_blank">Save to calendar</a>
 
@@ -120,7 +120,7 @@ There is also a cost-effective “Community Supporter” option for non-profits,
 
 ---
 
-<a href="./AppSecIL2026Sponsorships.pdf" class="button button_type_main" target="_blank">Become a sponsor</a>
+<a href="./sponsordoc" class="button button_type_main" target="_blank">Become a sponsor</a>
 
 </div>
 </div>
@@ -151,7 +151,7 @@ This will allocate a small portion of your membership fee to support the Israel 
 
 ---
 
-<a href="./sponsordoc" class="button button_type_main" target="_blank">Become a sponsor</a>
+<a href="http://owasp.org/join" class="button button_type_main" target="_blank">Learn more</a>
 
 </div>
 
