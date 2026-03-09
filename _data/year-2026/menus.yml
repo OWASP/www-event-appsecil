@@ -4,8 +4,8 @@
   url  : ./registration
 # - title: CTF Registration
 #   url  : https://appsecil25.ctf.today/
-- title: CFP
-  url  : ./CFP
+#- title: CFP
+#  url  : ./CFP
 - title: Sponsors
   url  : ./sponsors
 - title: Agenda
