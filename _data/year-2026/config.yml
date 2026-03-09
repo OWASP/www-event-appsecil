@@ -7,12 +7,12 @@ address: Tel Aviv Expo, Pavilion 10
 # Conference dates
 dates:
   conference: May 18, 2026
-  cfpCloses: Feb 28, 2026
+  cfpCloses: closed
   notification: coming soon
 
 logoUrl: ./assets/img/2026/AppSecIL_2026_Logo.png
 
 links:
   registration: https://appsecil2026.forms-wizard.biz/
-  calendar: https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MmptcTBtMzVncWE5ZW5iMzc0NXJlb290MDMgN2MwNGNmODliZjE3MzliMjY1ZmQ5YjNjNTk5OGIyOTY4MmE1NTdlMDEwNGJiNGY1OWFkZTExMGEzNGQxMmUzYUBn&amp;tmsrc=7c04cf89bf1739b265fd9b3c5998b29682a557e0104bb4f59ade110a34d12e3a%40group.calendar.google.com
+  calendar: https://calendar.google.com/calendar/render?action=TEMPLATE&text=OWASP+AppSec+IL+2026&dates=20260518T060000Z/20260518T150000Z&details=OWASP+AppSec+Israel+is+one+of+the+leading+cybersecurity+conferences+in+the+region,+bringing+together+experts,+professionals,+and+enthusiasts+from+around+the+world.+Join+1,000%2B+developers,+DevOps+engineers,+architects,+security+specialists,+product+leaders,+and+other+industry+professionals+dedicated+to+advancing+the+future+of+application+security.&location=Tel+Aviv+Expo,+Pavilion+10,+Tel+Aviv,+Israel
   cfp: https://sessionize.com/appsecil-2026

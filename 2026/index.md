@@ -15,7 +15,7 @@ layout: custom-2026
 
 <a href="./registration" class="button button_type_main">Register Now</a>
 
-<a href="./CFP" class="button button_type_main">Submit your talk</a>
+<!--<a href="./CFP" class="button button_type_main">Submit your talk</-a>-->
 
 </div>
 
@@ -74,15 +74,11 @@ Conference: **{{cfg.dates.conference}}**
 
 ## Call for presentations 
 
-What are we looking for? Anything and everything AppSec!Application security, software security, web security…
-
-In general, the only restriction on the subject of the talks is being related to Application Security or Software Security in some way (not necessarily Web).
-
-We will not accept any talks regarding other aspects of Security, that are not applicative in nature. Talks at any technical level can be accepted.
+Call for Papers has now closed! Stay tuned for the agenda!
 
 ---
 
-<a href="./CFP" class="button button_type_white">Submit your talk</a>
+<!--<a href="./CFP" class="button button_type_white">Submit your talk</a>-->
 
 
   </div>
