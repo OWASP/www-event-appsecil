@@ -2,9 +2,9 @@
   description: "Companies providing the highest level of support, ensuring maximum visibility and a central presence at the event while helping elevate the entire AppSecIL 2026 experience."
   cols: 1
   sponsors:
-#  - name : 
-#    url  : 
-#    image: 
+  - name : Minimus.io 
+    url  : https://www.minimus.io/
+    image: Minimus.png
 
 - tier: platinum
   description: "Organizations making a major contribution to the conference and receiving prominent exposure across the venue, agenda, and online materials."
