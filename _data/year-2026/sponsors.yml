@@ -67,3 +67,13 @@
 #    type : 
 
 
+- tier: community
+  description: "Small organizations with limited finances that are interested in supporting the local OWASP Israel chapter."
+  cols: 7
+  sponsors:
+  - name : SecureFlag
+    url  : https://www.secureflag.com/
+    image: Secureflag.svg
+#  - name : 
+#    url  : 
+#    image: 
