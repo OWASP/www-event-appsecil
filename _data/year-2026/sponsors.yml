@@ -24,6 +24,9 @@
   - name : Tenzai
     url  : http://tenzai.com/
     image: Tenzai.png
+  - name : Zenity
+    url  : https://zenity.io/
+    image: zenity.png
 #  - name : 
 #    url  : 
 #    image: 
