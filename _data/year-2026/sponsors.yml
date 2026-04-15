@@ -35,6 +35,9 @@
   - name : Armo
     url  : https://www.armosec.io/
     image: ARMO_Dark.jpg
+  - name : Legit Security 
+    url  : https://www.legitsecurity.com/
+    image: LegitSecurity.png
 #  - name : 
 #    url  : 
 #    image: 
