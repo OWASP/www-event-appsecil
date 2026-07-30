@@ -41,6 +41,9 @@
   - name : Legit Security 
     url  : https://www.legitsecurity.com/
     image: LegitSecurity.png
+  - name : Palantir Security
+    url  : https://www.palantirsecurity.com/
+    image: palantir_security.png
 #  - name : 
 #    url  : 
 #    image: 
