@@ -35,9 +35,9 @@
   description: "Organizations contributing to the conference’s success while maintaining solid brand presence throughout the event."
   cols: 3
   sponsors:
-  - name : Armo
-    url  : https://www.armosec.io/
-    image: ARMO_Dark.jpg
+#  - name : Armo
+#    url  : https://www.armosec.io/
+#    image: ARMO_Dark.jpg
   - name : Legit Security 
     url  : https://www.legitsecurity.com/
     image: LegitSecurity.png
