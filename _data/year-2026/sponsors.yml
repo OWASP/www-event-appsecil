@@ -44,6 +44,9 @@
   - name : Palantir Security
     url  : https://www.palantirsecurity.com/
     image: palantir_security.png
+  - name : Reflectiz
+    url  : http://www.reflectiz.com/
+    image: Reflectiz.png
 #  - name : 
 #    url  : 
 #    image: 
