@@ -69,12 +69,15 @@
   - name : CT-Cyber 
     url  : https://ct-cyber.com
     image: ct-cyber-black.png 
-    type : Shirts 
+    type : T-Shirts 
+  - name : DefendU
+    url  : https://defendu.io/
+    image: DefendU.png
+    type : T-Shirts 
 #  - name : 
 #    url  : 
 #    image: 
 #    type : 
-
 
 - tier: community
   description: "Small organizations with limited finances that are interested in supporting the local OWASP Israel chapter."
