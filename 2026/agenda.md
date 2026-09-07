@@ -16,17 +16,10 @@ Explore the full lineup of expert talks, hands-on sessions, and community highli
 
 From secure development and cloud security to AI threats and real-world case studies, this year’s agenda brings together top minds and practical insights for developers, DevOps, security engineers, and tech leaders.
 
-***The agenda will be published once all speakers are confirmed.In the meantime, you can explore information about the presentations and topics we’re currently collecting.***
-
 ---
 
-<div class="buttons-area">
-
-<a href="#" class="button button_type_main" target="_blank">Learn more</a>
-
-<a href="{{cfg.links.calendar}}" class="button button_type_main" target="_blank">Save the date</a>
-
-</div>
+<a id="sched-embed" href="https://appsecdayisrael2026.sched.com/" data-sched-sidebar="no">View the AppSec Israel 2026 schedule &amp; directory.</a>
+<script type="text/javascript" src="https://appsecdayisrael2026.sched.com/js/embed.js"></script>
 </div>
 </div>
 </section>
