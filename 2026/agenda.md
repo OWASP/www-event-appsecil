@@ -18,6 +18,9 @@ From secure development and cloud security to AI threats and real-world case stu
 
 ---
 
+</div>
+
+<div style="background: #fff; margin: 50px 0 0; padding: 10px;">
 <a id="sched-embed" href="https://appsecdayisrael2026.sched.com/" data-sched-sidebar="no">View the AppSec Israel 2026 schedule &amp; directory.</a>
 <script type="text/javascript" src="https://appsecdayisrael2026.sched.com/js/embed.js"></script>
 </div>
