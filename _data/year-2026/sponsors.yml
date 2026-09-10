@@ -77,6 +77,10 @@
     url  : https://defendu.io/
     image: DefendU.png
     type : T-Shirts 
+  - name : Dash Security
+    url  : https://dash.security/?utm_source=owasp&utm_medium=event&utm_campaign=owasp_2026
+    image: Dash.png
+    type : Lanyards
 #  - name : 
 #    url  : 
 #    image: 
