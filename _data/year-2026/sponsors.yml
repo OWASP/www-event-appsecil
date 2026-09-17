@@ -47,6 +47,9 @@
   - name : Reflectiz
     url  : https://www.reflectiz.com/blog/owasp-top-ten-2026/
     image: Reflectiz.png
+  - name : Gong
+    url  : https://www.gong.io/
+    image: Gong_io.png
 #  - name : 
 #    url  : 
 #    image: 
