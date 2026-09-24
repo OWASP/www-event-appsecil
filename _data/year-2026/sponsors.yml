@@ -50,6 +50,9 @@
   - name : Gong
     url  : https://www.gong.io/
     image: Gong_io.png
+  - name : Pentera
+    url  : https://pentera.io
+    image: Pentera.png
 #  - name : 
 #    url  : 
 #    image: 
