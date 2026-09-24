@@ -13,6 +13,9 @@
   - name : Echo Security
     url  : https://www.echo.ai/
     image: echo.png
+  - name : Thales Cybersecurity
+    url  : https://cpl.thalesgroup.com/
+    image: Thales.jpg
 #  - name : 
 #    url  : 
 #    image: 
