@@ -53,6 +53,9 @@
   - name : Gong
     url  : https://gong.teamme.link/
     image: Gong_io.png
+  - name : Pentera
+    url  : https://pentera.io
+    image: Pentera.png
   - name : Akamai Technologies
     url  : https://akamai.com/security
     image: Akamai.png
