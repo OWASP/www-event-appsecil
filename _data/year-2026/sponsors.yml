@@ -96,6 +96,10 @@
     url  : https://dash.security/?utm_source=owasp&utm_medium=event&utm_campaign=owasp_2026
     image: Dash.png
     type : Lanyards
+  - name : OX Security
+    url  : https://www.ox.security/
+    image: OxSecurity.svg
+    type : Coffee
 #  - name : 
 #    url  : 
 #    image: 
