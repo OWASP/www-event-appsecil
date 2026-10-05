@@ -13,6 +13,9 @@
   - name : Echo Security
     url  : https://www.echo.ai/
     image: echo.png
+  - name : Thales Cybersecurity
+    url  : https://cpl.thalesgroup.com/
+    image: Thales.jpg
 #  - name : 
 #    url  : 
 #    image: 
@@ -48,11 +51,14 @@
     url  : https://www.reflectiz.com/blog/owasp-top-ten-2026/
     image: Reflectiz.png
   - name : Gong
-    url  : https://www.gong.io/
+    url  : https://gong.teamme.link/
     image: Gong_io.png
   - name : Pentera
     url  : https://pentera.io
     image: Pentera.png
+  - name : Akamai Technologies
+    url  : https://akamai.com/security
+    image: Akamai.png
 #  - name : 
 #    url  : 
 #    image: 
