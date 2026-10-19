@@ -2,6 +2,7 @@
 ---
 
 @import "./reset.css";
+@import "./photo-viewer.css";
 
 $dark: #555A65;
 $darker: #3c3c3c;
@@ -1632,6 +1633,36 @@ hr {
  }
 .imgpop__btn:hover {
   background-color: rgba(0,0,0,.75);
+}
+
+// Photo album
+.photo-album {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr));
+  gap: 24px;
+  list-style: none;
+  margin: 40px 0 0;
+  padding: 0;
+}
+
+.photo-album__link {
+  display: block;
+  overflow: hidden;
+  border: 4px solid $highlight;
+  border-radius: 15px;
+  background: $white;
+
+  img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+}
+
+.photo-album__link:focus-visible {
+  outline: 3px solid $darker;
+  outline-offset: 4px;
 }
 
 // photos

@@ -1,0 +1,43 @@
+/* Shared controls for the image popup used by the 2025 and 2026 layouts. */
+.imgpop[hidden],
+.imgpop__btn[hidden] {
+  display: none;
+}
+
+.imgpop .imgpop__img {
+  max-width: calc(100vw - 32px);
+  max-height: calc(100vh - 140px);
+  max-height: calc(100dvh - 140px);
+}
+
+.imgpop__close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, .75);
+  color: #fff;
+  font-size: 32px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.imgpop__counter {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, .75);
+  color: #fff;
+}
+
+.imgpop button:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+}

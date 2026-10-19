@@ -73,8 +73,11 @@ function init() {
         const navWrapper = document.querySelector('.gallery-wrapper');
         const gallery = new Gallery('.gallery', { start: 0, loop: true, auto: 0, navRoot: navWrapper });
         new ImgPopUp('.gallery__slide img', { nav: true });
-    } 
-    
+    }
+
+    if (document.querySelector('.photo-album__link')) {
+        new ImgPopUp('.photo-album__link', { nav: true });
+    }
 }
 
 init();
