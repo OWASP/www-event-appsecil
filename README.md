@@ -19,8 +19,13 @@ them automatically; no YAML entries or plugins are needed. JPG, JPEG, PNG, GIF,
 WebP and AVIF files are supported, including uppercase extensions. Non-image
 files are ignored.
 
-Photos appear in filename order (including any subfolders). Use prefixes such
-as `001-keynote.jpg`, `002-audience.jpg` to control their order. Descriptive
+Photos appear in filename order (including any subfolders). Photos with known
+capture times use a `YYYY-MM-DD_HH-MM-SS_` filename prefix so they appear from
+earliest to latest. Photos without a known capture time use an `undated_`
+prefix and appear afterward. The website does not need the original files or
+read capture timestamps from image metadata.
+
+You can also use prefixes such as `001-keynote.jpg` to control order. Descriptive
 filenames provide the image alt text, with hyphens and underscores replaced by
 spaces. Images are displayed as lazy-loaded thumbnails and open at full size.
 Resize very large originals before adding them to keep the page quick to load.
