@@ -15,7 +15,7 @@
                     <ul class="mainmenu__submenu">
                         {% for event in site.data.prevyears %}
                         <li>
-                            <a href="{{ event.url }}" target="_blank">{{event.year}}</a>
+                            <a href="{{ event.url | relative_url }}" target="_blank">{{event.year}}</a>
                         </li>
                         {% endfor %}
                     </ul>
@@ -43,7 +43,7 @@
                     <ul class="mobile-menu__submenu">
                         {% for event in site.data.prevyears %}
                         <li>
-                            <a href="{{ event.url }}" target="_blank">{{event.year}}</a>
+                            <a href="{{ event.url | relative_url }}" target="_blank">{{event.year}}</a>
                         </li>
                         {% endfor %}
                     </ul>

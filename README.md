@@ -83,3 +83,37 @@ python -m unittest discover -s _tools -p test_import_meetups.py
 ```
 
 Open `http://127.0.0.1:4000/chapter/meetups/` to review the result.
+
+## Preserving the conference wiki archive
+
+The 2007-2016 year folders contain locally hosted OWASP wiki conference content,
+including linked presentation, sponsorship and CTF pages. Source API snapshots,
+revision IDs and downloaded images/documents are in `assets/conferences/`.
+`manifest.json` records source URLs, checksums and any failed downloads. Keep these
+files committed: building or viewing the site does not require the wiki.
+
+To repeat the import (existing snapshots and downloads are reused):
+
+```powershell
+python -m pip install --target .bundle/conference-import -r _tools/conference-requirements.txt
+python _tools/import-conferences.py
+.\preview.bat -Build
+```
+
+Edit the importer rather than generated year pages. Review `manifest.json` for
+unavailable assets after importing. External recordings and non-wiki websites
+remain external links. Wiki attribution and license links appear on each page.
+
+The archive renderer (`_tools/conference-pages.py`) creates an overview plus
+separate agenda, speaker, sponsor and other topic pages. Every page has conference
+navigation, a nested subsection TOC, and previous/next links. The sidebar stays
+visible on desktop and becomes a collapsible contents panel on smaller screens.
+Archive typography and layout are in `assets/css/conference-archive.css`.
+
+To check links after building, run `python _tools/check-links.py --external`.
+This checks internal links and anchors throughout the built site, plus external
+URLs from the conference history and 2007–2016 archive. Results and affected
+pages are saved in `_tools/link-check-report.md` and `.json`. Use
+`--reuse-external` to reuse previous external results while checking updated
+local pages. HTTP 404/410 responses are listed separately from blocked requests,
+TLS failures and timeouts that need manual review.

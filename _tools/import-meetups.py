@@ -70,6 +70,7 @@ def render_description(text):
     # Sanitize after rendering Markdown. Escape Liquid delimiters so archived
     # text cannot execute Jekyll templates when the generated page is built.
     rendered = markdown.markdown(text or '', extensions=['extra', 'nl2br', 'sane_lists'])
+    rendered = re.sub(r'(href=[\"\'])www\.', r'\1https://www.', rendered, flags=re.I)
     clean = bleach.clean(rendered, tags=TAGS,
                          attributes={'a': ['href', 'title'], 'img': ['src', 'alt', 'title'],
                                      'th': ['align'], 'td': ['align']},

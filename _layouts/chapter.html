@@ -12,6 +12,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style-2026.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/chapter.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  {% if page.section == 'conferences' %}
+  <link rel="stylesheet" href="{{ '/assets/css/conference-archive.css' | relative_url }}">
+  {% if page.conference_archive %}<script src="{{ '/assets/js/conference-archive.js' | relative_url }}" defer></script>{% endif %}
+  {% endif %}
   {% if page.url contains '/chapter/meetups/' and page.full_width_sections != true %}
   <link rel="stylesheet" href="{{ '/assets/css/photo-viewer.css' | relative_url }}">
   <script src="{{ '/assets/js/ImgPopUp.js' | relative_url }}" defer></script>
@@ -31,7 +35,7 @@
         {% if page.section == 'chapter' %}
         {% include chapter-nav.html %}
         {% endif %}
-        <div class="text chapter-content{% if page.url contains '/chapter/meetups/' %} meetup-detail{% endif %}">
+        <div class="text chapter-content{% if page.conference_archive %} archive-wide{% endif %}{% if page.url contains '/chapter/meetups/' %} meetup-detail{% endif %}">
           {% if page.url contains '/chapter/meetups/' %}
           <h1>{{ page.title | escape }}</h1>
           {% include meetup-pagination.html %}

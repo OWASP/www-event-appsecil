@@ -11,6 +11,10 @@ spec.loader.exec_module(importer)
 
 
 class ImportMeetupsTests(unittest.TestCase):
+    def test_schemeless_web_links_are_absolute(self):
+        rendered = importer.render_description('[Tickets](www.eventbrite.com/e/594694937567/)')
+        self.assertIn('href="https://www.eventbrite.com/e/594694937567/"', rendered)
+
     def test_markdown_is_sanitized_and_liquid_is_inert(self):
         rendered = importer.render_description('**Talk** <img src="x" onerror="alert(1)"> '
                                                '[bad](javascript:alert) {{ site.title }} {% include x %}')

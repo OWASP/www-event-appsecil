@@ -1,0 +1,1650 @@
+{
+  "imported_at": "2026-11-04T08:15:32.854930+00:00",
+  "pages": [
+    {
+      "year": 2007,
+      "source": "https://wiki.owasp.org/index.php/OWASP_Israel_2007_Conference",
+      "revision": 56425,
+      "related": [
+        {
+          "title": "OWASP IL Sponsorship",
+          "revision": 232886,
+          "snapshot": "/assets/conferences/2007/OWASP_IL_Sponsorship.json"
+        }
+      ],
+      "rendered_pages": [
+        "/2007/",
+        "/2007/sponsors-contributors/",
+        "/2007/pictures/",
+        "/2007/program/",
+        "/2007/owasp-il-sponsorship/"
+      ],
+      "page": "/2007/",
+      "files": [
+        "https://wiki.owasp.org/images/1/11/OWASP_IL_Sponsor_IDC.jpg",
+        "https://wiki.owasp.org/images/1/1f/OWASP_IL_2007_Harvesting_Skype_SuperNodes.pdf",
+        "https://wiki.owasp.org/images/4/41/OWASP-WASCAppSec2007SanJose_DefeatWeb2.0Attacks.ppt",
+        "https://wiki.owasp.org/images/4/4e/OWASP_IL_2007_CSRF_basics.ppt",
+        "https://wiki.owasp.org/images/8/8c/OWASP_IL_LOGO_NISF.jpg",
+        "https://wiki.owasp.org/images/9/96/OWASP_IL_Conf_graphics_small.jpg",
+        "https://wiki.owasp.org/images/9/9c/Breach_logo.gif",
+        "https://wiki.owasp.org/images/b/bb/OWASP_IL_Sponsor_GamaSec.jpg",
+        "https://wiki.owasp.org/images/c/c4/OWASP-WASCAppSec2007SanJose_PKILie.ppt",
+        "https://wiki.owasp.org/images/c/c8/OWAS_IL_Sponsor_Applicure.JPG",
+        "https://wiki.owasp.org/images/c/cb/OWASP_IL_2007_SOA_security.ppt",
+        "https://wiki.owasp.org/images/d/d4/OWASP_IL_2007_SQL_Smuggling.pdf",
+        "https://wiki.owasp.org/images/thumb/7/77/OWASP_IL_Sponsor_Hacktics.jpg/160px-OWASP_IL_Sponsor_Hacktics.jpg"
+      ]
+    },
+    {
+      "year": 2008,
+      "source": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_at_the_Interdisciplinary_Center_Herzliya",
+      "revision": 109969,
+      "related": [
+        {
+          "title": "OWASP Israel 2008 Conference Adi Sharabani",
+          "revision": 38335,
+          "snapshot": "/assets/conferences/2008/OWASP_Israel_2008_Conference_Adi_Sharabani.json"
+        },
+        {
+          "title": "OWASP Israel 2008 Conference Alon Rosen",
+          "revision": 39443,
+          "snapshot": "/assets/conferences/2008/OWASP_Israel_2008_Conference_Alon_Rosen.json"
+        },
+        {
+          "title": "OWASP Israel 2008 Conference Amichai Shulman",
+          "revision": 38331,
+          "snapshot": "/assets/conferences/2008/OWASP_Israel_2008_Conference_Amichai_Shulman.json"
+        },
+        {
+          "title": "OWASP Israel 2008 Conference Amir Herzberg",
+          "revision": 38340,
+          "snapshot": "/assets/conferences/2008/OWASP_Israel_2008_Conference_Amir_Herzberg.json"
+        },
+        {
+          "title": "OWASP Israel 2008 Conference David Movshovitz",
+          "revision": 38344,
+          "snapshot": "/assets/conferences/2008/OWASP_Israel_2008_Conference_David_Movshovitz.json"
+        },
+        {
+          "title": "OWASP Israel 2008 Conference Erez Metula",
+          "revision": 38142,
+          "snapshot": "/assets/conferences/2008/OWASP_Israel_2008_Conference_Erez_Metula.json"
+        },
+        {
+          "title": "OWASP Israel 2008 Conference Ivan Ristic",
+          "revision": 36471,
+          "snapshot": "/assets/conferences/2008/OWASP_Israel_2008_Conference_Ivan_Ristic.json"
+        },
+        {
+          "title": "OWASP Israel 2008 Conference Maty Siman",
+          "revision": 38343,
+          "snapshot": "/assets/conferences/2008/OWASP_Israel_2008_Conference_Maty_Siman.json"
+        },
+        {
+          "title": "OWASP Israel 2008 Conference Ofer Maor",
+          "revision": 38337,
+          "snapshot": "/assets/conferences/2008/OWASP_Israel_2008_Conference_Ofer_Maor.json"
+        },
+        {
+          "title": "OWASP Israel 2008 Conference Ohad Ben Cohen",
+          "revision": 38345,
+          "snapshot": "/assets/conferences/2008/OWASP_Israel_2008_Conference_Ohad_Ben_Cohen.json"
+        },
+        {
+          "title": "OWASP Israel 2008 Conference Ronen Bachar",
+          "revision": 38698,
+          "snapshot": "/assets/conferences/2008/OWASP_Israel_2008_Conference_Ronen_Bachar.json"
+        },
+        {
+          "title": "OWASP Israel 2008 Conference Shai Chen",
+          "revision": 38338,
+          "snapshot": "/assets/conferences/2008/OWASP_Israel_2008_Conference_Shai_Chen.json"
+        },
+        {
+          "title": "OWASP Israel 2008 Conference Yuli Stremovsky",
+          "revision": 38333,
+          "snapshot": "/assets/conferences/2008/OWASP_Israel_2008_Conference_Yuli_Stremovsky.json"
+        }
+      ],
+      "rendered_pages": [
+        "/2008/",
+        "/2008/agenda/",
+        "/2008/the-people-behind-the-conference/",
+        "/2008/adi-sharabani/",
+        "/2008/alon-rosen/",
+        "/2008/amichai-shulman/",
+        "/2008/amir-herzberg/",
+        "/2008/david-movshovitz/",
+        "/2008/erez-metula/",
+        "/2008/ivan-ristic/",
+        "/2008/maty-siman/",
+        "/2008/ofer-maor/",
+        "/2008/ohad-ben-cohen/",
+        "/2008/ronen-bachar/",
+        "/2008/shai-chen/",
+        "/2008/yuli-stremovsky/"
+      ],
+      "page": "/2008/",
+      "files": [
+        "https://wiki.owasp.org/images/0/0a/OWASP_IL_2008_Yaniv_Miron_UTF7_XSS.ppt",
+        "https://wiki.owasp.org/images/1/10/OWASP_IL_Sponsor_Comsec.gif",
+        "https://wiki.owasp.org/images/1/19/OWASP_IL_2008_Ronen_Bachar_RIA.ppt",
+        "https://wiki.owasp.org/images/2/2b/OWASP_IL_2008_Ohad_Ben_Cohen_Korset.pdf",
+        "https://wiki.owasp.org/images/3/31/OWASP_IL_2008_Maty_Siman_Security_Code_Analysis.ppt",
+        "https://wiki.owasp.org/images/3/38/OWASP_IL_IDC_Logo.gif",
+        "https://wiki.owasp.org/images/3/3a/OWASP_IL_Breach_Labs_Logo.jpg",
+        "https://wiki.owasp.org/images/3/3d/OWASP_IL_2008_Yuli_Stremovsky.GreenSQL_Database_Firewall.ppt",
+        "https://wiki.owasp.org/images/3/3d/OWASP_IL_Sponsors_Avent.jpg",
+        "https://wiki.owasp.org/images/3/3f/OWASP_IL_2008_Yossi_Oren_APEG.ppt",
+        "https://wiki.owasp.org/images/4/41/OWASP_IL_Sponsor_Checkpoint.gif",
+        "https://wiki.owasp.org/images/4/47/OWASP_IL_Sponsor_Logo_Checkmarx.jpg",
+        "https://wiki.owasp.org/images/5/51/OWASP_IL_2008_Erez_Metula_.NET_Rootkits.ppt",
+        "https://wiki.owasp.org/images/5/58/AppSecEU2008-WHID.ppt",
+        "https://wiki.owasp.org/images/5/59/OWASP_IL_2008_Amichai_Shulman_BeyondGoogleHackingn.ppt",
+        "https://wiki.owasp.org/images/5/5e/UnknownMalcodeDetection_OWASP-IL-08.pdf",
+        "https://wiki.owasp.org/images/6/66/2008-09-14_OWASP_Israel_2008.ppt",
+        "https://wiki.owasp.org/images/6/6c/OWASP_IL_Sponsors_IBM.jpg",
+        "https://wiki.owasp.org/images/7/76/OWASP_IL_2008_Sharabani_BlackBox_Vs_WhiteBox.ppt",
+        "https://wiki.owasp.org/images/7/77/OWASP_IL_Sponsor_Hacktics.jpg",
+        "https://wiki.owasp.org/images/7/78/OWASP_IL_2008_Ofer_Maor_Testing_The_Tester.ppt",
+        "https://wiki.owasp.org/images/8/89/OWASP_IL_Sponsors_Imperva.png",
+        "https://wiki.owasp.org/images/8/8c/OWASP_IL_LOGO_NISF.jpg",
+        "https://wiki.owasp.org/images/9/98/OWASP_IL_2008_Alon_Resen_eVoting.pdf",
+        "https://wiki.owasp.org/images/9/9d/OWASP_IL_2008_David_Movshovitz_AJAX.ppt",
+        "https://wiki.owasp.org/images/9/9d/OWASP_IL_ISSA_Logo.gif",
+        "https://wiki.owasp.org/images/e/e0/OWASP_IL_Sponsor_GamaSec_Logo.jpg",
+        "https://wiki.owasp.org/images/e/e3/OWASP_IL_2008_Amir_Herzberg_Defending_against_Phishing_without_Client-side_Code.ppt",
+        "https://wiki.owasp.org/images/e/eb/OWASP_IL_2008_Shai_Chen_PT_to_Java_Client_Server_Apps.ppt",
+        "https://wiki.owasp.org/images/f/f1/OWASP_IL_Sponsors_IDC_New.JPG"
+      ]
+    },
+    {
+      "year": 2009,
+      "source": "https://wiki.owasp.org/index.php/OWASP_Israel_2009",
+      "revision": 69645,
+      "related": [],
+      "rendered_pages": [
+        "/2009/",
+        "/2009/location-and-time/",
+        "/2009/contact/",
+        "/2009/agenda/"
+      ],
+      "page": "/2009/",
+      "files": [
+        "https://wiki.owasp.org/images/2/2c/OWASP_IL_2009_The_Bank_Job.ppt",
+        "https://wiki.owasp.org/images/6/6c/OWASP_IL_Sponsors_IBM.jpg",
+        "https://wiki.owasp.org/images/8/89/OWASP_IL_Sponsors_Imperva.png",
+        "https://wiki.owasp.org/images/b/b9/OWASP_IL_2009_SSSL.ppt",
+        "https://wiki.owasp.org/images/d/dd/OWASP_IL_2009_IdM.ppt",
+        "https://wiki.owasp.org/images/f/f1/OWASP_IL_2009_ReDoS.ppt",
+        "https://wiki.owasp.org/images/f/f1/OWASP_IL_Sponsors_IDC_New.JPG",
+        "https://wiki.owasp.org/images/f/f9/OWASP_IL_2009_XSS_detection.ppt"
+      ]
+    },
+    {
+      "year": 2010,
+      "source": "https://wiki.owasp.org/index.php/OWASP_Israel_2010",
+      "revision": 89072,
+      "related": [],
+      "rendered_pages": [
+        "/2010/",
+        "/2010/location-and-time/",
+        "/2010/contact/",
+        "/2010/pictures/",
+        "/2010/agenda-presentations/",
+        "/2010/the-people-behind-the-conference/"
+      ],
+      "page": "/2010/",
+      "files": [
+        "https://wiki.owasp.org/images/1/1d/OWASPIL2010-BeyondNegativeSec-OrKatz.ppt",
+        "https://wiki.owasp.org/images/4/4b/OWASPIL2010-CompressedHTTPMatching-YaronKoral.pptx",
+        "https://wiki.owasp.org/images/5/52/OWASPIL2010-RuntimeHardening-ErezMetula.pdf",
+        "https://wiki.owasp.org/images/7/72/OWASPIL2010-PracticalCloudSec-GiladParannNissany.pptx",
+        "https://wiki.owasp.org/images/7/75/OWASPIL2010-PracticalModSe-JoshAmishavZlatin.pdf",
+        "https://wiki.owasp.org/images/8/83/OWASPIL2010-HackerIntelligence-TalBeery.pptx",
+        "https://wiki.owasp.org/images/9/9c/Hacktics_logo_verblue.jpg",
+        "https://wiki.owasp.org/images/9/9e/Trustwave_2010_Logo.jpg",
+        "https://wiki.owasp.org/images/b/b2/OWASPIL2010-CSAIsraelCloudSec-GuyAlfassi.pdf",
+        "https://wiki.owasp.org/images/d/dc/OWASPIL2010-RealLifeDoS-ZivGadot.ppt",
+        "https://wiki.owasp.org/images/f/f0/OWASPIL2010-PCIAppSec-ShayZalalichin.pdf",
+        "https://wiki.owasp.org/images/f/f1/OWASP_IL_Sponsors_IDC_New.JPG",
+        "https://wiki.owasp.org/images/f/f3/OWASPIL2010-OpeningWords-OferMaor.ppt"
+      ]
+    },
+    {
+      "year": 2011,
+      "source": "https://wiki.owasp.org/index.php/OWASP_Israel_2011",
+      "revision": 117698,
+      "related": [
+        {
+          "title": "OWASP Israel 2011 Presentations",
+          "revision": 116900,
+          "snapshot": "/assets/conferences/2011/OWASP_Israel_2011_Presentations.json"
+        }
+      ],
+      "rendered_pages": [
+        "/2011/",
+        "/2011/location-and-time/",
+        "/2011/registration/",
+        "/2011/agenda/",
+        "/2011/the-people-behind-the-conference/",
+        "/2011/presentations/"
+      ],
+      "page": "/2011/",
+      "files": [
+        "https://wiki.owasp.org/images/0/08/TrustwaveIL.jpg",
+        "https://wiki.owasp.org/images/1/10/OWASP_IL_Sponsor_Comsec.gif",
+        "https://wiki.owasp.org/images/1/16/OWASPIL2011-OmriWeisman-GlassBoxTesting.ppt",
+        "https://wiki.owasp.org/images/2/24/AppSecLabsIL.png",
+        "https://wiki.owasp.org/images/3/33/LivepersonIL.png",
+        "https://wiki.owasp.org/images/3/34/EY-IL.jpg",
+        "https://wiki.owasp.org/images/4/40/OWASPIL2011-IreneAbezgauz-CMSnOtherGiants.pptx",
+        "https://wiki.owasp.org/images/4/41/OWASP_IL_Sponsor_Checkpoint.gif",
+        "https://wiki.owasp.org/images/4/45/SeekerIL.png",
+        "https://wiki.owasp.org/images/5/51/Security_testing_for_REST_applications.pdf",
+        "https://wiki.owasp.org/images/5/57/OWASPIL2011-ErezMetula-WhenCryptoGoesWrong.pdf",
+        "https://wiki.owasp.org/images/5/58/OWSPIL2011_Tamir_Tampering101.pdf",
+        "https://wiki.owasp.org/images/5/5e/RSA-IL.png",
+        "https://wiki.owasp.org/images/6/64/SecArt-IL.png",
+        "https://wiki.owasp.org/images/7/7a/SilverIL.png",
+        "https://wiki.owasp.org/images/7/7e/GoldIL.png",
+        "https://wiki.owasp.org/images/8/88/OWASPIL2011-Bejerano-Maor-BuildingSDLC.pptx",
+        "https://wiki.owasp.org/images/8/89/OWASP_IL_Sponsors_Imperva.png",
+        "https://wiki.owasp.org/images/8/89/StackExch-IL.png",
+        "https://wiki.owasp.org/images/8/8f/OWASPIL2011-AmichaiShulman-FindingSecurityInMiseryOfOthers.pptx",
+        "https://wiki.owasp.org/images/9/95/PCIL.jpg",
+        "https://wiki.owasp.org/images/a/a2/OWASPIL2011_Zalalichin_Mobile_Security.pdf",
+        "https://wiki.owasp.org/images/a/a5/IBM-IL.png",
+        "https://wiki.owasp.org/images/b/b4/OWASPIL2011-OferMaor-OpeningWords.ppt",
+        "https://wiki.owasp.org/images/c/c1/ForesightIL.jpg",
+        "https://wiki.owasp.org/images/c/cf/OWASPIL2011-YotamHarchol-SpaceTimeTradeoffDPI.pptx",
+        "https://wiki.owasp.org/images/d/d9/OWASPIL2011-Douglen-Bregman-AgileSDL.ppt",
+        "https://wiki.owasp.org/images/e/ea/OWASPIL2011-ShayChen-TSRC.pptx",
+        "https://wiki.owasp.org/images/e/ec/JB-IL.png",
+        "https://wiki.owasp.org/images/f/f1/OWASP_IL_Sponsors_IDC_New.JPG"
+      ]
+    },
+    {
+      "year": 2012,
+      "source": "https://wiki.owasp.org/index.php/OWASP_Israel_2012",
+      "revision": 140061,
+      "related": [],
+      "rendered_pages": [
+        "/2012/",
+        "/2012/location-and-time/",
+        "/2012/agenda/",
+        "/2012/the-people-behind-the-conference/"
+      ],
+      "page": "/2012/",
+      "files": [
+        "https://wiki.owasp.org/images/0/03/Komodo-small.jpg",
+        "https://wiki.owasp.org/images/0/0d/GRSEEIL.jpg",
+        "https://wiki.owasp.org/images/3/31/RafaelLogo.jpg",
+        "https://wiki.owasp.org/images/3/33/LivepersonIL.png",
+        "https://wiki.owasp.org/images/3/34/EY-IL.jpg",
+        "https://wiki.owasp.org/images/4/4e/SecOZ-ILLogo.jpg",
+        "https://wiki.owasp.org/images/5/56/LogoQuotium.png",
+        "https://wiki.owasp.org/images/5/5e/RSA-IL.png",
+        "https://wiki.owasp.org/images/6/6c/HPLogoIL.png",
+        "https://wiki.owasp.org/images/7/7a/SilverIL.png",
+        "https://wiki.owasp.org/images/7/7e/GoldIL.png",
+        "https://wiki.owasp.org/images/8/89/OWASP_IL_Sponsors_Imperva.png",
+        "https://wiki.owasp.org/images/9/93/Akamai_logoIL.gif",
+        "https://wiki.owasp.org/images/a/a3/RadwareIL-Logo.jpg",
+        "https://wiki.owasp.org/images/a/a5/IBM-IL.png",
+        "https://wiki.owasp.org/images/c/c1/ForesightIL.jpg",
+        "https://wiki.owasp.org/images/f/f1/OWASP_IL_Sponsors_IDC_New.JPG"
+      ]
+    },
+    {
+      "year": 2013,
+      "source": "https://wiki.owasp.org/index.php/OWASP_Israel_2013",
+      "revision": 160612,
+      "related": [
+        {
+          "title": "OWASP Israel 2013 Presentations",
+          "revision": 160655,
+          "snapshot": "/assets/conferences/2013/OWASP_Israel_2013_Presentations.json"
+        }
+      ],
+      "rendered_pages": [
+        "/2013/",
+        "/2013/location-and-time/",
+        "/2013/agenda/",
+        "/2013/the-people-behind-the-conference/",
+        "/2013/presentations/"
+      ],
+      "page": "/2013/",
+      "files": [
+        "https://wiki.owasp.org/images/0/03/Komodo-small.jpg",
+        "https://wiki.owasp.org/images/0/0d/GRSEEIL.jpg",
+        "https://wiki.owasp.org/images/1/1b/TrusteerIL.png",
+        "https://wiki.owasp.org/images/2/24/AppSecLabsIL.png",
+        "https://wiki.owasp.org/images/3/34/EY-IL.jpg",
+        "https://wiki.owasp.org/images/4/4d/OWASP_IL_2013_10_OWASP_Ron_Moritz_Why_Are_Investors_Excited_About_Cyber_Security_Startups.pdf",
+        "https://wiki.owasp.org/images/5/52/OWASP_IL_2013_10_Shay_Chen_Invisible_Purge.pdf",
+        "https://wiki.owasp.org/images/5/56/LogoQuotium.png",
+        "https://wiki.owasp.org/images/5/5a/OWASP_IL_2013_10_Yaniv_Simsolo_Delivering_Security_in_CD_Environments.pdf",
+        "https://wiki.owasp.org/images/5/5c/OWASP_IL_2013_10_Nir_Valtman_STDD.pdf",
+        "https://wiki.owasp.org/images/5/5e/Comsec_consulting.jpg",
+        "https://wiki.owasp.org/images/7/73/OWASP_IL_2013_10_Oren_Peleg_Automatic_trust_based_segregation_for_content_providers.pdf",
+        "https://wiki.owasp.org/images/7/7a/SilverIL.png",
+        "https://wiki.owasp.org/images/7/7e/GoldIL.png",
+        "https://wiki.owasp.org/images/8/87/OWASP_IL_2013_10_Avi_Douglan_Spam-DeathThreats-Abuse-OnlineCommunities.pdf",
+        "https://wiki.owasp.org/images/8/89/OWASP_IL_Sponsors_Imperva.png",
+        "https://wiki.owasp.org/images/9/93/Akamai_logoIL.gif",
+        "https://wiki.owasp.org/images/9/9f/OWASP_IL_2013_10_Irene_Abezgauz_Evolution_of_Application_Security.pdf",
+        "https://wiki.owasp.org/images/a/a2/Checkmarx.jpg",
+        "https://wiki.owasp.org/images/d/d6/OWASP_IL_2013_10_Erez_Metula_The_ReFrameworker_Android_runtime_manipulator.pdf",
+        "https://wiki.owasp.org/images/e/e2/OWASP_IL_2013_10_Chilik_Tamir_GameOfPwns-Pwning_iOS_pentesting_with_iNalyzer.pdf",
+        "https://wiki.owasp.org/images/e/e7/OWASP_IL_2013_10_Adi_Sharabani_Mobile_Threats.pdf",
+        "https://wiki.owasp.org/images/f/f1/OWASP_IL_Sponsors_IDC_New.JPG",
+        "https://wiki.owasp.org/images/f/f2/OWASP_IL_2013_10_Chechik_Davidi_Utilizing_Popular_Websites_for_Malicious_Purposes_Using_RDI.pdf"
+      ]
+    },
+    {
+      "year": 2014,
+      "source": "https://wiki.owasp.org/index.php/AppSec_Israel_2014",
+      "revision": 182457,
+      "related": [
+        {
+          "title": "AppSec Israel 2014 Presentations",
+          "revision": 182456,
+          "snapshot": "/assets/conferences/2014/AppSec_Israel_2014_Presentations.json"
+        },
+        {
+          "title": "AppSec Israel 2014 CFP",
+          "revision": 180399,
+          "snapshot": "/assets/conferences/2014/AppSec_Israel_2014_CFP.json"
+        }
+      ],
+      "rendered_pages": [
+        "/2014/",
+        "/2014/location-and-time/",
+        "/2014/sponsors/",
+        "/2014/agenda/",
+        "/2014/presentations/",
+        "/2014/cfp/"
+      ],
+      "page": "/2014/",
+      "files": [
+        "https://wiki.owasp.org/images/2/24/AppSecLabsIL.png",
+        "https://wiki.owasp.org/images/5/56/LogoQuotium.png",
+        "https://wiki.owasp.org/images/8/87/AppSecIL_2014_A_Journey_To_Protect_POS_-_Nir_Valtman.pdf",
+        "https://wiki.owasp.org/images/8/89/OWASP_IL_Sponsors_Imperva.png",
+        "https://wiki.owasp.org/images/9/95/AppSecIL_2014_Steering_the_Battleship_-_Bringing_Product_Security_to_HP_Software_-_Tomer_Gershoni.pptx",
+        "https://wiki.owasp.org/images/a/a0/AppSecIL_2014_MyPreciousss-HoldingOnToSensitiveData_OferMaor.pdf",
+        "https://wiki.owasp.org/images/a/ab/AppSecIL_2014_Mobile_Security_Attacks_-_A_Glimpse_From_the_Trenches_-_Yair_Amit_-_Adi_Sharabani_-_Skycure.pdf",
+        "https://wiki.owasp.org/images/a/af/AppSecIL_2014_Security_Storms_are_Brewing_in_Your_JavaScript_-_Maty_Siman.pptx",
+        "https://wiki.owasp.org/images/b/b2/AppSecIL_2014_Passwords_Rehashed_All_Over_Again_-_Avi_Douglen.pptx",
+        "https://wiki.owasp.org/images/b/bd/AppSecIL_2014_Infosec_Natural_Selection_%E2%80%93_What_SHOULD_Be_Evaluated_FIRST_-_Shay_Chen.pptx",
+        "https://wiki.owasp.org/images/b/bd/AppSecIL_2014_Static_Analysis_Improved_Fuzzing_-_Moti_Cohen.pptx",
+        "https://wiki.owasp.org/images/e/e0/AppSecIL_2014_The_Bank_Job_Mobile_Edition_-_Remote_Exploitation_of_Cordova_for_Android_-_David_Kaplan_-_Roee_Hay.pdf",
+        "https://wiki.owasp.org/images/e/e1/AppSecIL_2014_Manipulating_the_Manipulator_-_Tomer_Teller.pdf",
+        "https://wiki.owasp.org/images/e/e3/AppSecIL_2014_In-Secure_Mongo_And_Angular_Code_-_Israel_Chorzevski.PDF",
+        "https://wiki.owasp.org/images/e/ef/AppSecIL_2014_ErezMetula_AppSecLabs_Dynamic_Analysis_of_Android_Apps.pdf",
+        "https://wiki.owasp.org/images/f/f1/OWASP_IL_Sponsors_IDC_New.JPG",
+        "https://wiki.owasp.org/images/thumb/0/03/Komodo-small.jpg/160px-Komodo-small.jpg",
+        "https://wiki.owasp.org/images/thumb/3/34/EY-IL.jpg/220px-EY-IL.jpg",
+        "https://wiki.owasp.org/images/thumb/5/54/OWASP_IL_Sponsors_Checkpoint.jpg/300px-OWASP_IL_Sponsors_Checkpoint.jpg",
+        "https://wiki.owasp.org/images/thumb/7/78/OWASP_IL_Sponsors_Radware.jpg/160px-OWASP_IL_Sponsors_Radware.jpg",
+        "https://wiki.owasp.org/images/thumb/9/93/Akamai_logoIL.gif/300px-Akamai_logoIL.gif.png",
+        "https://wiki.owasp.org/images/thumb/a/a2/Checkmarx.jpg/280px-Checkmarx.jpg"
+      ]
+    },
+    {
+      "year": 2015,
+      "source": "https://wiki.owasp.org/index.php/AppSec_Israel_2015",
+      "revision": 205009,
+      "related": [
+        {
+          "title": "AppSec Israel 2015 Presentations",
+          "revision": 205300,
+          "snapshot": "/assets/conferences/2015/AppSec_Israel_2015_Presentations.json"
+        },
+        {
+          "title": "OWASP IL Sponsorship",
+          "revision": 232886,
+          "snapshot": "/assets/conferences/2015/OWASP_IL_Sponsorship.json"
+        },
+        {
+          "title": "AppSec Israel 2015 CFP",
+          "revision": 201036,
+          "snapshot": "/assets/conferences/2015/AppSec_Israel_2015_CFP.json"
+        }
+      ],
+      "rendered_pages": [
+        "/2015/",
+        "/2015/location-and-time/",
+        "/2015/sponsors/",
+        "/2015/registration/",
+        "/2015/agenda/",
+        "/2015/sponsorships/",
+        "/2015/presentations/",
+        "/2015/owasp-il-sponsorship/",
+        "/2015/cfp/"
+      ],
+      "page": "/2015/",
+      "files": [
+        "https://wiki.owasp.org/images/0/0d/GRSEEIL.jpg",
+        "https://wiki.owasp.org/images/1/16/AppSecIL2015_Man-In-The-Cloud_SagieDulce.pptx",
+        "https://wiki.owasp.org/images/2/24/AppSecLabsIL.png",
+        "https://wiki.owasp.org/images/4/47/EventBriteRegisterButton.png",
+        "https://wiki.owasp.org/images/5/5e/AppSecIL2015_NodeJS-Attacks_HelenBravo.pptx",
+        "https://wiki.owasp.org/images/6/6d/AppSecIL2015_Too_Big_to_Fail_-_Breaking_WordPress_Core_NetanelRubin.pdf",
+        "https://wiki.owasp.org/images/7/7e/AppSecIL2015_Keynote_Jeremiah_Grossman.pptx",
+        "https://wiki.owasp.org/images/8/83/AppSecIL2015_MobileMalwareBattle_YairAmit.pptx",
+        "https://wiki.owasp.org/images/8/89/AppSecIL2015_From_zero_to_secure_in_1_minute_MosheFerber.pdf",
+        "https://wiki.owasp.org/images/8/89/OWASP_IL_Sponsors_Imperva.png",
+        "https://wiki.owasp.org/images/9/95/AppSecIL2015_OneClassToRuleThemAll_RoeeHay.pdf",
+        "https://wiki.owasp.org/images/9/96/OWASP_IL_Conf_graphics_small.jpg",
+        "https://wiki.owasp.org/images/a/a2/Checkmarx.jpg",
+        "https://wiki.owasp.org/images/a/a5/OWASPIL_ColMan.jpg",
+        "https://wiki.owasp.org/images/a/a7/AppSecIL2015_Cross-Site-Search-Attacks_HemiLeibowitz.pdf",
+        "https://wiki.owasp.org/images/a/aa/AppSecIL2015_Game_of_Hacks_AmitAshbel.pptx",
+        "https://wiki.owasp.org/images/b/b7/AppSecIL2015_IoT-Insecurity_ErezMetula-IsraelChorzevski.pdf",
+        "https://wiki.owasp.org/images/b/ba/AppSecIL2015_Theories_of_Agile_Fails_of_Security_DanielLiber.pptx",
+        "https://wiki.owasp.org/images/d/d9/AppSecIL2015_SpyInTheSandbox_YossiOren.pptx",
+        "https://wiki.owasp.org/images/f/f5/AppSecIL2015_0x3E9WaysToDIE_YanivBalmas.pdf",
+        "https://wiki.owasp.org/images/thumb/3/34/EY-IL.jpg/240px-EY-IL.jpg",
+        "https://wiki.owasp.org/images/thumb/3/36/Manageware.png/180px-Manageware.png",
+        "https://wiki.owasp.org/images/thumb/3/37/BGU_IL.png/180px-BGU_IL.png",
+        "https://wiki.owasp.org/images/thumb/4/4a/Gvahim.png/110px-Gvahim.png",
+        "https://wiki.owasp.org/images/thumb/6/63/See-Security_College.jpg/180px-See-Security_College.jpg",
+        "https://wiki.owasp.org/images/thumb/6/6e/ESL_IL_logo.png/240px-ESL_IL_logo.png",
+        "https://wiki.owasp.org/images/thumb/8/81/Ipsec_logo.png/110px-Ipsec_logo.png",
+        "https://wiki.owasp.org/images/thumb/9/9f/F6S.jpg/80px-F6S.jpg",
+        "https://wiki.owasp.org/images/thumb/b/ba/Magshimim.png/130px-Magshimim.png",
+        "https://wiki.owasp.org/images/thumb/c/c1/Black_Duck_Logo.jpg/180px-Black_Duck_Logo.jpg",
+        "https://wiki.owasp.org/images/thumb/c/cf/Komodo.png/180px-Komodo.png",
+        "https://wiki.owasp.org/images/thumb/d/d0/Synopsys_logo.jpg/300px-Synopsys_logo.jpg",
+        "https://wiki.owasp.org/images/thumb/f/fb/Akamai_LogoIL.png/240px-Akamai_LogoIL.png"
+      ]
+    },
+    {
+      "year": 2016,
+      "source": "https://wiki.owasp.org/index.php/AppSec_Israel_2016",
+      "revision": 221837,
+      "related": [
+        {
+          "title": "AppSec Israel 2016 CTF",
+          "revision": 221118,
+          "snapshot": "/assets/conferences/2016/AppSec_Israel_2016_CTF.json"
+        },
+        {
+          "title": "AppSec Israel 2016 Presentations",
+          "revision": 222464,
+          "snapshot": "/assets/conferences/2016/AppSec_Israel_2016_Presentations.json"
+        },
+        {
+          "title": "AppSec Israel 2016 Sponsorships",
+          "revision": 220561,
+          "snapshot": "/assets/conferences/2016/AppSec_Israel_2016_Sponsorships.json"
+        }
+      ],
+      "rendered_pages": [
+        "/2016/",
+        "/2016/location-and-time/",
+        "/2016/sponsors/",
+        "/2016/registration/",
+        "/2016/agenda/",
+        "/2016/sponsorships/",
+        "/2016/the-people-behind-the-conference/",
+        "/2016/ctf/",
+        "/2016/presentations/",
+        "/2016/sponsorships-details/"
+      ],
+      "page": "/2016/",
+      "files": [
+        "https://wiki.owasp.org/images/0/04/AppSecIL2016_AdvancedCrossSiteSearch_NethanelGelernter.pdf",
+        "https://wiki.owasp.org/images/0/05/PMO_Israel_logo.png",
+        "https://wiki.owasp.org/images/0/07/AppSecIL2016_WhyHackersAreWinningMobileMalwareBattle-YairAmit.pdf",
+        "https://wiki.owasp.org/images/0/08/AppSecIL2016_InteractiveCodeReview_TamirShavro.pdf",
+        "https://wiki.owasp.org/images/1/17/Komodo_small.png",
+        "https://wiki.owasp.org/images/1/1b/Liveperson_logo.jpg",
+        "https://wiki.owasp.org/images/2/29/AppSecIL2016_HackingTheIoT-PenTestingRFDevices_ErezMetula.pdf",
+        "https://wiki.owasp.org/images/2/2b/SeeHR_LogoIL.jpg",
+        "https://wiki.owasp.org/images/2/2d/AppSecIL2016_AFewLinesOfCode-JS_AmitAshbel-ErezYalon.pptx",
+        "https://wiki.owasp.org/images/2/2d/AppSecIL2016_IntegratingSecurityInAgile_ElenaKravchenko-EfratWasserman.pptx",
+        "https://wiki.owasp.org/images/3/30/SafeBreach_small_logo.png",
+        "https://wiki.owasp.org/images/4/40/GE_digital_logo.png",
+        "https://wiki.owasp.org/images/4/42/AppSecIL2016_DontFeedTheHippos_MartinKnobloch.pdf",
+        "https://wiki.owasp.org/images/4/47/EventBriteRegisterButton.png",
+        "https://wiki.owasp.org/images/4/4a/Gvahim.png",
+        "https://wiki.owasp.org/images/4/4f/Intuit_IL.gif",
+        "https://wiki.owasp.org/images/5/50/Checkmarx_new.png",
+        "https://wiki.owasp.org/images/5/52/Comsec_group_logo.png",
+        "https://wiki.owasp.org/images/5/55/Komodo_new.png",
+        "https://wiki.owasp.org/images/5/5a/GE_digital_logo_small.png",
+        "https://wiki.owasp.org/images/6/65/Synopsys_375.jpg",
+        "https://wiki.owasp.org/images/6/69/Nixu_logo_IL.jpg",
+        "https://wiki.owasp.org/images/9/93/AppSecIL2016_TheUnwantedSons-WAFBypassTechniques_ShayChen.pptx",
+        "https://wiki.owasp.org/images/a/a5/OWASPIL_ColMan.jpg",
+        "https://wiki.owasp.org/images/b/ba/Magshimim.png",
+        "https://wiki.owasp.org/images/d/dd/AppSecIL_Logo_2016.png",
+        "https://wiki.owasp.org/images/e/e6/SafeBreach_logo.png",
+        "https://wiki.owasp.org/images/e/ed/Imperva_logox375.png",
+        "https://wiki.owasp.org/images/f/f1/Akamai_LogoIL_Gold.png",
+        "https://wiki.owasp.org/images/f/f9/AppSecIL2016_CripplingHTTPSwithUnholyPAC_AmitKlein.pdf",
+        "https://wiki.owasp.org/images/f/fa/AppSecIL2016_DarkSideSearchEngineOptimizations_OrKatz.pdf",
+        "https://wiki.owasp.org/images/f/fa/AppSecIL2016_NodeJS-Security_LiranTal.pdf",
+        "https://wiki.owasp.org/images/f/fb/AppSecIL2016_JavaHurdling_TalMelamed.pdf",
+        "https://wiki.owasp.org/images/f/fb/AppSecLabsIL_New.jpg",
+        "https://wiki.owasp.org/images/thumb/3/37/BGU_IL.png/180px-BGU_IL.png"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "source": "https://wiki.owasp.org/images/0/03/Komodo-small.jpg",
+      "local": "/assets/conferences/files/39af3eae96c4-Komodo-small.jpg",
+      "bytes": 10676,
+      "sha256": "e32f4efaa7204a4eccf28ccea0940003c8fa5ea5931361b80932d88e1d21d00c"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/0/04/AppSecIL2016_AdvancedCrossSiteSearch_NethanelGelernter.pdf",
+      "local": "/assets/conferences/files/242d2e8c270b-AppSecIL2016_AdvancedCrossSiteSearch_NethanelGelernter.pdf",
+      "bytes": 1352596,
+      "sha256": "45f09152775b9b54b5145b9b7ebe8795fcb4f60f1f5525bf01d98646997bed81"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/0/05/PMO_Israel_logo.png",
+      "local": "/assets/conferences/files/b098dbfbd3a6-PMO_Israel_logo.png",
+      "bytes": 7685,
+      "sha256": "56c8dcdc4abe7c94efefb11cca71579306043aad452d0811d3946f1de939006d"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/0/07/AppSecIL2016_WhyHackersAreWinningMobileMalwareBattle-YairAmit.pdf",
+      "local": "/assets/conferences/files/3fccf35f89ad-AppSecIL2016_WhyHackersAreWinningMobileMalwareBattle-YairAmit.pdf",
+      "bytes": 18451730,
+      "sha256": "3d6fb21fab360b1d0991ef54547b3e947ac925524b336f78ad519877b6d1b79c"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/0/08/AppSecIL2016_InteractiveCodeReview_TamirShavro.pdf",
+      "local": "/assets/conferences/files/b61e4f8a1fab-AppSecIL2016_InteractiveCodeReview_TamirShavro.pdf",
+      "bytes": 1197097,
+      "sha256": "7324b5dd422568600174c05830e46561e5010b8520a20715331feeed1c30f2c6"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/0/08/TrustwaveIL.jpg",
+      "local": "/assets/conferences/files/4fbdfbba5a96-TrustwaveIL.jpg",
+      "bytes": 8717,
+      "sha256": "106b582bcac719095e8124dbe4668522cee1547599700afc0d13116c69a8ee77"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/0/0a/OWASP_IL_2008_Yaniv_Miron_UTF7_XSS.ppt",
+      "local": "/assets/conferences/files/7c7553c922c5-OWASP_IL_2008_Yaniv_Miron_UTF7_XSS.ppt",
+      "bytes": 6371840,
+      "sha256": "f4c9f155583d26328feab48f3db23082d077f2826755a07f04c16a87eb3569cb"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/0/0d/GRSEEIL.jpg",
+      "local": "/assets/conferences/files/00dd95f18f60-GRSEEIL.jpg",
+      "bytes": 31899,
+      "sha256": "6fb81af0590e589ba7dbb46bb36a8a7a7ba8dc3002d195bd5a557bae5d709604"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/1/10/OWASP_IL_Sponsor_Comsec.gif",
+      "local": "/assets/conferences/files/d5b95a0f59b6-OWASP_IL_Sponsor_Comsec.gif",
+      "bytes": 3666,
+      "sha256": "c6ddbcbef8131bd7a0b46647d5ff0034deacdfb3fa3d66493e9eb7f6c1d021a9"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/1/11/OWASP_IL_Sponsor_IDC.jpg",
+      "local": "/assets/conferences/files/b4d77fdcff78-OWASP_IL_Sponsor_IDC.jpg",
+      "bytes": 3013,
+      "sha256": "3b70cac99f380ada34d074b44928aede73be73ee5cde5c24f0e6483e057cbed1"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/1/16/AppSecIL2015_Man-In-The-Cloud_SagieDulce.pptx",
+      "local": "/assets/conferences/files/4029c0a8eaa1-AppSecIL2015_Man-In-The-Cloud_SagieDulce.pptx",
+      "bytes": 1654501,
+      "sha256": "614de2e24563ff731f307b49ed2ea4d6b8803b074cc3efce6a3bc454ad7d090b"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/1/16/OWASPIL2011-OmriWeisman-GlassBoxTesting.ppt",
+      "local": "/assets/conferences/files/d8c54a362c56-OWASPIL2011-OmriWeisman-GlassBoxTesting.ppt",
+      "bytes": 2034176,
+      "sha256": "fe9332a69058effa677eb6e82763ce3df32f74dd22a0dfe9656366cec32e002c"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/1/17/Komodo_small.png",
+      "local": "/assets/conferences/files/89a3ecce383a-Komodo_small.png",
+      "bytes": 6559,
+      "sha256": "ea1a8ff25362fd68c06fa535bb68916924f1d09672928c358344ce31aeb00c5e"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/1/19/OWASP_IL_2008_Ronen_Bachar_RIA.ppt",
+      "local": "/assets/conferences/files/f56d86a75d53-OWASP_IL_2008_Ronen_Bachar_RIA.ppt",
+      "bytes": 267264,
+      "sha256": "f3c270c1e0d7b23d5eeec270ab82b6c18d0f671034aed5f1b4e27d22008f2c56"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/1/1b/Liveperson_logo.jpg",
+      "local": "/assets/conferences/files/43e585f8d032-Liveperson_logo.jpg",
+      "bytes": 6589,
+      "sha256": "351b613e77203b82dd3319d397f2a5576b29b8102301ee45292f318e9755ca97"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/1/1b/TrusteerIL.png",
+      "local": "/assets/conferences/files/85c75f9f188f-TrusteerIL.png",
+      "bytes": 7488,
+      "sha256": "a04d4ed2dabbe5ba72b151252f06c63ba56a55a01a73251078d4647a62e66f43"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/1/1d/OWASPIL2010-BeyondNegativeSec-OrKatz.ppt",
+      "local": "/assets/conferences/files/8cca9132f730-OWASPIL2010-BeyondNegativeSec-OrKatz.ppt",
+      "bytes": 786944,
+      "sha256": "948ee239ded6e845ddb2a806777f50fef80fa84ca2287b82bda6bcf5246f622c"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/1/1f/OWASP_IL_2007_Harvesting_Skype_SuperNodes.pdf",
+      "local": "/assets/conferences/files/6ea7339b13fe-OWASP_IL_2007_Harvesting_Skype_SuperNodes.pdf",
+      "bytes": 1052028,
+      "sha256": "d4d3134ba4349d3f88430c55192d0bbfd91343183bc9c7a41c7e442a4eb2bd5b"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/2/24/AppSecLabsIL.png",
+      "local": "/assets/conferences/files/e30da50de20c-AppSecLabsIL.png",
+      "bytes": 9094,
+      "sha256": "c872412b7258678c445a84f1745cd52b882c5450525d478feb470f44f7cfdb1f"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/2/29/AppSecIL2016_HackingTheIoT-PenTestingRFDevices_ErezMetula.pdf",
+      "local": "/assets/conferences/files/ec8d9a2096cc-AppSecIL2016_HackingTheIoT-PenTestingRFDevices_ErezMetula.pdf",
+      "bytes": 4493480,
+      "sha256": "45eb94fb0a3db196c5bcb43011e0259e093ddd03d9ca83267df145a12d6545c8"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/2/2b/OWASP_IL_2008_Ohad_Ben_Cohen_Korset.pdf",
+      "local": "/assets/conferences/files/30c38497eb76-OWASP_IL_2008_Ohad_Ben_Cohen_Korset.pdf",
+      "bytes": 2725714,
+      "sha256": "0f39ac053714c8a3ef12610affd21b5a2c04e4374041aa55026e5fbe52aa5b46"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/2/2b/SeeHR_LogoIL.jpg",
+      "local": "/assets/conferences/files/f39af878ce99-SeeHR_LogoIL.jpg",
+      "bytes": 13186,
+      "sha256": "4cd1498fc754588ef8e3f9eef3f6d6c8745ef6b07db28a669f9e50c6699bcda0"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/2/2c/OWASP_IL_2009_The_Bank_Job.ppt",
+      "local": "/assets/conferences/files/2f4c764b1436-OWASP_IL_2009_The_Bank_Job.ppt",
+      "bytes": 711680,
+      "sha256": "ca087ffe5b2dc2edeb72e275c99b798ce6fee0fdedb774ca80eb4e359d54bdf3"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/2/2d/AppSecIL2016_AFewLinesOfCode-JS_AmitAshbel-ErezYalon.pptx",
+      "local": "/assets/conferences/files/38598135af61-AppSecIL2016_AFewLinesOfCode-JS_AmitAshbel-ErezYalon.pptx",
+      "bytes": 12497763,
+      "sha256": "d8bafb1f244c248ac98f0c78a8d3be820f5acc34e8d88bd3726fd68dd554a85b"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/2/2d/AppSecIL2016_IntegratingSecurityInAgile_ElenaKravchenko-EfratWasserman.pptx",
+      "local": "/assets/conferences/files/34984ba69f66-AppSecIL2016_IntegratingSecurityInAgile_ElenaKravchenko-EfratWasserman.pptx",
+      "bytes": 3114356,
+      "sha256": "9fd9209f14c6e3ecf2310ce1f77832c5150380d416431c738d6370e591fe684a"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/3/30/SafeBreach_small_logo.png",
+      "local": "/assets/conferences/files/d4de23c34706-SafeBreach_small_logo.png",
+      "bytes": 7573,
+      "sha256": "95c35013714e167f0af94b971892bcee28c34d75bfe07e294086f63324095a5a"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/3/31/OWASP_IL_2008_Maty_Siman_Security_Code_Analysis.ppt",
+      "local": "/assets/conferences/files/fe9b76334384-OWASP_IL_2008_Maty_Siman_Security_Code_Analysis.ppt",
+      "bytes": 529408,
+      "sha256": "a14441a6c1a74c126d36546e54a712457e517dc9a333ca3dc5562972ce278879"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/3/31/RafaelLogo.jpg",
+      "local": "/assets/conferences/files/42913bf973e8-RafaelLogo.jpg",
+      "bytes": 24635,
+      "sha256": "722a187e58b19351a4144eb6829d9fa6983a59085fccd8c1fe8c7dbff41d7599"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/3/33/LivepersonIL.png",
+      "local": "/assets/conferences/files/e3b33158afea-LivepersonIL.png",
+      "bytes": 3746,
+      "sha256": "a1d2622c42d75bfbc8ae5a2a67d260765155728c5df8fd27e4a0969d635b7900"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/3/34/EY-IL.jpg",
+      "local": "/assets/conferences/files/0f7229a1b7de-EY-IL.jpg",
+      "bytes": 89142,
+      "sha256": "cd924fa1948b2cb810f3d9fb2dac4bf7f0991c069dbe0d3bb5a61361a1a61db7"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/3/38/OWASP_IL_IDC_Logo.gif",
+      "local": "/assets/conferences/files/3d5e07acdc39-OWASP_IL_IDC_Logo.gif",
+      "bytes": 1984,
+      "sha256": "d3f39125364afd58aca18cfbd207e3c0ea1c9fc46532dde18da2ae4a2248c1af"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/3/3a/OWASP_IL_Breach_Labs_Logo.jpg",
+      "local": "/assets/conferences/files/eb432553c392-OWASP_IL_Breach_Labs_Logo.jpg",
+      "bytes": 3805,
+      "sha256": "fdd98ee5b498294b6e7473e1fce6cf9729a6ba7f7a84f0703d31bd5d3a35d2e5"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/3/3d/OWASP_IL_2008_Yuli_Stremovsky.GreenSQL_Database_Firewall.ppt",
+      "local": "/assets/conferences/files/083c8dded37e-OWASP_IL_2008_Yuli_Stremovsky.GreenSQL_Database_Firewall.ppt",
+      "bytes": 452096,
+      "sha256": "73ce3f46724550115b7daf2386e9e326b1cf952d7968708d51728d216b21172f"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/3/3d/OWASP_IL_Sponsors_Avent.jpg",
+      "local": "/assets/conferences/files/261cc0200ccb-OWASP_IL_Sponsors_Avent.jpg",
+      "bytes": 2370,
+      "sha256": "c3c28a01e56d73dd6a34242288a64b424916407506e3fb38613f54bd4f177600"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/3/3f/OWASP_IL_2008_Yossi_Oren_APEG.ppt",
+      "local": "/assets/conferences/files/a92b69433946-OWASP_IL_2008_Yossi_Oren_APEG.ppt",
+      "bytes": 261120,
+      "sha256": "41225f3d97072aa433df59ff1bf07d74921bb8695bee19401d11b0eec2b6b244"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/4/40/GE_digital_logo.png",
+      "local": "/assets/conferences/files/c48e41271b3d-GE_digital_logo.png",
+      "bytes": 42412,
+      "sha256": "4211f5dca9056ff693b04c8575f9db9f62e9b9fe357b7151431060e2ee4bd6c3"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/4/40/OWASPIL2011-IreneAbezgauz-CMSnOtherGiants.pptx",
+      "local": "/assets/conferences/files/d44e780be9c2-OWASPIL2011-IreneAbezgauz-CMSnOtherGiants.pptx",
+      "bytes": 3758381,
+      "sha256": "79fdaae418879c62bc9627dca81cdbdcfea2a5605fbff31a534c914df48930e7"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/4/41/OWASP-WASCAppSec2007SanJose_DefeatWeb2.0Attacks.ppt",
+      "local": "/assets/conferences/files/e5384463b01b-OWASP-WASCAppSec2007SanJose_DefeatWeb2.0Attacks.ppt",
+      "bytes": 341504,
+      "sha256": "1e9d504fc377f6f8e98707a9f7fff56fb9d8962abba7a0d498ec1ff4fac591b8"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/4/41/OWASP_IL_Sponsor_Checkpoint.gif",
+      "local": "/assets/conferences/files/1e9a37a11dde-OWASP_IL_Sponsor_Checkpoint.gif",
+      "bytes": 3454,
+      "sha256": "a76e27a5bca4b2a400e41e656c07fdae4918bdb0fcbee321a3475e8f1dac14c1"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/4/42/AppSecIL2016_DontFeedTheHippos_MartinKnobloch.pdf",
+      "local": "/assets/conferences/files/f2f772b5446e-AppSecIL2016_DontFeedTheHippos_MartinKnobloch.pdf",
+      "bytes": 7600327,
+      "sha256": "8984b4f12395725688becade4e63d71e322fc6ea7b2c27ab390e4b9c3cd7f2f2"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/4/45/SeekerIL.png",
+      "local": "/assets/conferences/files/a8849711c3f1-SeekerIL.png",
+      "bytes": 8601,
+      "sha256": "86beaf0927a3e967837881d82bbe67a3d513528b5694b731c47f9763e1cc0af6"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/4/47/EventBriteRegisterButton.png",
+      "local": "/assets/conferences/files/170e00f53c67-EventBriteRegisterButton.png",
+      "bytes": 6207,
+      "sha256": "6478b40ba5252afa046f3dba4e86d6e90d6e573cffbb8db266b6ecc9e333de46"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/4/47/OWASP_IL_Sponsor_Logo_Checkmarx.jpg",
+      "local": "/assets/conferences/files/eda1e441ebf3-OWASP_IL_Sponsor_Logo_Checkmarx.jpg",
+      "bytes": 3399,
+      "sha256": "59b3ce9bd2323675918c655c11db31628a94c32016aef4efc8191645b165c90e"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/4/4a/Gvahim.png",
+      "local": "/assets/conferences/files/4198d42192ba-Gvahim.png",
+      "bytes": 12181,
+      "sha256": "b000f1038842fb79a509a46e0a7b627c0df96a71d68d968c118a752971861ea2"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/4/4b/OWASPIL2010-CompressedHTTPMatching-YaronKoral.pptx",
+      "local": "/assets/conferences/files/c29fd31a411a-OWASPIL2010-CompressedHTTPMatching-YaronKoral.pptx",
+      "bytes": 720609,
+      "sha256": "a8df65d3029d9ac261209dc3518193a7adcfbdec96014965975dad160f63806a"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/4/4d/OWASP_IL_2013_10_OWASP_Ron_Moritz_Why_Are_Investors_Excited_About_Cyber_Security_Startups.pdf",
+      "local": "/assets/conferences/files/6fa01867e3e8-OWASP_IL_2013_10_OWASP_Ron_Moritz_Why_Are_Investors_Excited_About_Cyber_Security_Startups.pdf",
+      "bytes": 464666,
+      "sha256": "4975099468d1edc8f6fe4cdf0d65d844b7ae493fd5a347da918eefa5973898b4"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/4/4e/OWASP_IL_2007_CSRF_basics.ppt",
+      "local": "/assets/conferences/files/1cbe2e3edb7d-OWASP_IL_2007_CSRF_basics.ppt",
+      "bytes": 1750528,
+      "sha256": "45d92e9c8af00d894d4f657e15dbb4bc3bf6505ab00a457905768fbc1db4ee13"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/4/4e/SecOZ-ILLogo.jpg",
+      "local": "/assets/conferences/files/38d3811d0e10-SecOZ-ILLogo.jpg",
+      "bytes": 5781,
+      "sha256": "58edfe91fe961bfd17c17d519c22d021fdf804acaf70b95720bf1bd8e2a913a4"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/4/4f/Intuit_IL.gif",
+      "local": "/assets/conferences/files/7bec63865f07-Intuit_IL.gif",
+      "bytes": 5770,
+      "sha256": "fad6ca3555987b8d0d13118a7acd50362a2e9bdb709a1c32b169235620da175f"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/5/50/Checkmarx_new.png",
+      "local": "/assets/conferences/files/4f20de6a9b57-Checkmarx_new.png",
+      "bytes": 10352,
+      "sha256": "01d32a6f485078d2261e3b5ccd7445ac720b216028b080bd1d015403d49dce89"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/5/51/OWASP_IL_2008_Erez_Metula_.NET_Rootkits.ppt",
+      "local": "/assets/conferences/files/1478ed78cd04-OWASP_IL_2008_Erez_Metula_.NET_Rootkits.ppt",
+      "bytes": 547328,
+      "sha256": "79cbfd68c718254bc11c6f72fbad2432a0d77350dc7bb2cfdb67def0fd134837"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/5/51/Security_testing_for_REST_applications.pdf",
+      "local": "/assets/conferences/files/18808e1404a2-Security_testing_for_REST_applications.pdf",
+      "bytes": 772646,
+      "sha256": "78d0a55a4259cbd475f1b8c69811c5d5bee5edbe34efbb0d8d32b27d9d80a791"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/5/52/Comsec_group_logo.png",
+      "local": "/assets/conferences/files/ccf78a562c33-Comsec_group_logo.png",
+      "bytes": 17042,
+      "sha256": "c382ca406cb05e7801ca4a5d7122c59503bc36df8a3bed0160b7d037ad72ff4e"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/5/52/OWASPIL2010-RuntimeHardening-ErezMetula.pdf",
+      "local": "/assets/conferences/files/c4d859e3bfdd-OWASPIL2010-RuntimeHardening-ErezMetula.pdf",
+      "bytes": 345145,
+      "sha256": "f848728275b222b5b7a29a9ce23b76bf598b22de38b4db778762dff126216c47"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/5/52/OWASP_IL_2013_10_Shay_Chen_Invisible_Purge.pdf",
+      "local": "/assets/conferences/files/818632480b2a-OWASP_IL_2013_10_Shay_Chen_Invisible_Purge.pdf",
+      "bytes": 2203772,
+      "sha256": "79d677655d7512a51c7d39957e88a6ab6b9048d76c3ec63e65ac2c46195eaf24"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/5/55/Komodo_new.png",
+      "local": "/assets/conferences/files/9541b6cda11a-Komodo_new.png",
+      "bytes": 8966,
+      "sha256": "3f80161ebcbe75d5a727e1c7f12fc124731f4220d801115f3a6cfd39bc467f64"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/5/56/LogoQuotium.png",
+      "local": "/assets/conferences/files/5f7d771bb82d-LogoQuotium.png",
+      "bytes": 3918,
+      "sha256": "d6763a7f0b8b86dcd48147633c3ef3b6e9e4eb95ad646dd8786d50daa4f4450c"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/5/57/OWASPIL2011-ErezMetula-WhenCryptoGoesWrong.pdf",
+      "local": "/assets/conferences/files/237b6b821e11-OWASPIL2011-ErezMetula-WhenCryptoGoesWrong.pdf",
+      "bytes": 1353486,
+      "sha256": "330ae5f3bf7dd703a72f37dd430e0247adf890d1f964cccd7943f252b1ea75be"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/5/58/AppSecEU2008-WHID.ppt",
+      "local": "/assets/conferences/files/97d057cd182a-AppSecEU2008-WHID.ppt",
+      "bytes": 2510336,
+      "sha256": "22bee69a35bd5e2dd85dafad62477b9510d28fbc2052d54b18a89e27ab266ed8"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/5/58/OWSPIL2011_Tamir_Tampering101.pdf",
+      "local": "/assets/conferences/files/1ea86878364a-OWSPIL2011_Tamir_Tampering101.pdf",
+      "bytes": 1663893,
+      "sha256": "5374ccd82aea4a215f83b3c08175a354aeb8175e857e1f352fc4cb1966302f70"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/5/59/OWASP_IL_2008_Amichai_Shulman_BeyondGoogleHackingn.ppt",
+      "local": "/assets/conferences/files/4f9848ac6783-OWASP_IL_2008_Amichai_Shulman_BeyondGoogleHackingn.ppt",
+      "bytes": 2963968,
+      "sha256": "0616552f515e8c3339d79d845703aac8dd0a7ae6bb9ed23d7236867018998e09"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/5/5a/GE_digital_logo_small.png",
+      "local": "/assets/conferences/files/850f2838faa2-GE_digital_logo_small.png",
+      "bytes": 10109,
+      "sha256": "d9c6c2bcd56e7843ad8f432bde203194acabfdb1150f9cc85d41445fa9a4f887"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/5/5a/OWASP_IL_2013_10_Yaniv_Simsolo_Delivering_Security_in_CD_Environments.pdf",
+      "local": "/assets/conferences/files/9e995cce6812-OWASP_IL_2013_10_Yaniv_Simsolo_Delivering_Security_in_CD_Environments.pdf",
+      "bytes": 743119,
+      "sha256": "be36a77fcc33e305cdba59ec96bd59a3444b79c529d59926b9d0fe0c55183010"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/5/5c/OWASP_IL_2013_10_Nir_Valtman_STDD.pdf",
+      "local": "/assets/conferences/files/fed2ecc1d5c6-OWASP_IL_2013_10_Nir_Valtman_STDD.pdf",
+      "bytes": 1113899,
+      "sha256": "56c0fbd451ad69327aad4438ec73b0e2e2e7005cac3644a8cced5d21470b6d55"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/5/5e/AppSecIL2015_NodeJS-Attacks_HelenBravo.pptx",
+      "local": "/assets/conferences/files/1738c61067ba-AppSecIL2015_NodeJS-Attacks_HelenBravo.pptx",
+      "bytes": 5378127,
+      "sha256": "3337d4e6c9afdd77bffb7942b0e009f24f05b6c0ba6a935921157e5a35295a9b"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/5/5e/Comsec_consulting.jpg",
+      "local": "/assets/conferences/files/6952edf48b2d-Comsec_consulting.jpg",
+      "bytes": 22945,
+      "sha256": "7e63ce817766175810cabf1216ad1fa6b092068e02dd7ac26607bf0afc537483"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/5/5e/RSA-IL.png",
+      "local": "/assets/conferences/files/34504df74173-RSA-IL.png",
+      "bytes": 4277,
+      "sha256": "ee0b91c26afc3f4d5d6c3832c59eb4994551d20f202b85ae514bb420e3e4993d"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/5/5e/UnknownMalcodeDetection_OWASP-IL-08.pdf",
+      "local": "/assets/conferences/files/c41178fdffb2-UnknownMalcodeDetection_OWASP-IL-08.pdf",
+      "bytes": 314644,
+      "sha256": "01309a970b5e35e5e13dec1a7bfee3c0c0cb77aa9b34c7d67376e62a1caa65ea"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/6/64/SecArt-IL.png",
+      "local": "/assets/conferences/files/f35bd11147ba-SecArt-IL.png",
+      "bytes": 4569,
+      "sha256": "ea21bc4ab191fe6e47f1ac9513bfa8a17ceb780428c8bd92e74dff6e9e8037ae"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/6/65/Synopsys_375.jpg",
+      "local": "/assets/conferences/files/9e9cc54b8216-Synopsys_375.jpg",
+      "bytes": 13262,
+      "sha256": "1d1d7a01e954d8b49fd638f51c9db525c81fcbd8d61b65e309945d36c355f952"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/6/66/2008-09-14_OWASP_Israel_2008.ppt",
+      "local": "/assets/conferences/files/7e20e10cfab1-2008-09-14_OWASP_Israel_2008.ppt",
+      "bytes": 2047488,
+      "sha256": "59690152b2f266a1dcc414ab07fa7a526c8c1e26604881b6dcbf4cb7304584b1"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/6/69/Nixu_logo_IL.jpg",
+      "local": "/assets/conferences/files/a132dd4a4e9e-Nixu_logo_IL.jpg",
+      "bytes": 6582,
+      "sha256": "37f73e8cfe19a216e61245f4cdc46746cc4cfd64308a6c37c759587176e6ad00"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/6/6c/HPLogoIL.png",
+      "local": "/assets/conferences/files/07a0ad7f540d-HPLogoIL.png",
+      "bytes": 5312,
+      "sha256": "e25f833ad1c4bf59322ef0872636637b72d14779aa3297ee547957a6a1a5b828"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/6/6c/OWASP_IL_Sponsors_IBM.jpg",
+      "local": "/assets/conferences/files/1e7a1f8ec8b4-OWASP_IL_Sponsors_IBM.jpg",
+      "bytes": 2873,
+      "sha256": "f6312e99218e114a0ab894957b024c60f05966b470bc0f38c27813a54eb5188e"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/6/6d/AppSecIL2015_Too_Big_to_Fail_-_Breaking_WordPress_Core_NetanelRubin.pdf",
+      "local": "/assets/conferences/files/39ba2257dea0-AppSecIL2015_Too_Big_to_Fail_-_Breaking_WordPress_Core_NetanelRubin.pdf",
+      "bytes": 1044612,
+      "sha256": "1796053ad0035ef67cd0c22f44a23824e0d87fe69e58b5116976e1ca6c596aba"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/7/72/OWASPIL2010-PracticalCloudSec-GiladParannNissany.pptx",
+      "local": "/assets/conferences/files/723ffa7e4aed-OWASPIL2010-PracticalCloudSec-GiladParannNissany.pptx",
+      "bytes": 1576281,
+      "sha256": "1867835735b2e0804977fd8b1cc961e5c2f2a85b62839e182ee91c0cede5ffae"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/7/73/OWASP_IL_2013_10_Oren_Peleg_Automatic_trust_based_segregation_for_content_providers.pdf",
+      "local": "/assets/conferences/files/fcf702628dbf-OWASP_IL_2013_10_Oren_Peleg_Automatic_trust_based_segregation_for_content_providers.pdf",
+      "bytes": 2295587,
+      "sha256": "f4e40157c29012bff6e922c2307a76eec1799114e86cd03000dcbe55a135d460"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/7/75/OWASPIL2010-PracticalModSe-JoshAmishavZlatin.pdf",
+      "local": "/assets/conferences/files/f4b833e8571b-OWASPIL2010-PracticalModSe-JoshAmishavZlatin.pdf",
+      "bytes": 207777,
+      "sha256": "020d24a695349ba5961b46a46739648eb55327f2c26c671cd6f4dd805c036521"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/7/76/OWASP_IL_2008_Sharabani_BlackBox_Vs_WhiteBox.ppt",
+      "local": "/assets/conferences/files/8178a9d8d7bf-OWASP_IL_2008_Sharabani_BlackBox_Vs_WhiteBox.ppt",
+      "bytes": 1178624,
+      "sha256": "fa9c6171114081eb062862d1259e35ec9af588f1792c76450fe2f161516cb5e7"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/7/77/OWASP_IL_Sponsor_Hacktics.jpg",
+      "local": "/assets/conferences/files/cddab7e8cc79-OWASP_IL_Sponsor_Hacktics.jpg",
+      "bytes": 3756,
+      "sha256": "16307679f07835291a4ba3fe6a4305358f0142d372d4dad46976e6eb86b9cfd5"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/7/78/OWASP_IL_2008_Ofer_Maor_Testing_The_Tester.ppt",
+      "local": "/assets/conferences/files/87546e9d5f82-OWASP_IL_2008_Ofer_Maor_Testing_The_Tester.ppt",
+      "bytes": 558080,
+      "sha256": "b1bcb5fd856828b6720e4bfb37fd620c5eef380615590a4aac47b3727a72e451"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/7/7a/SilverIL.png",
+      "local": "/assets/conferences/files/4ec52cdc5239-SilverIL.png",
+      "bytes": 2010,
+      "sha256": "6ea1d4126fe75e1219cadbf1cfe2df0920c514d7f74d24e9a190b1104abf6947"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/7/7e/AppSecIL2015_Keynote_Jeremiah_Grossman.pptx",
+      "local": "/assets/conferences/files/bff0571b9851-AppSecIL2015_Keynote_Jeremiah_Grossman.pptx",
+      "bytes": 8355021,
+      "sha256": "badd7a972723563817548afe1a9b2ee98ac218c8e55ae0c610ea5c2a03734c97"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/7/7e/GoldIL.png",
+      "local": "/assets/conferences/files/832bb307982b-GoldIL.png",
+      "bytes": 1454,
+      "sha256": "0dd3678e92f34796822e3a9ed57bf7e0df35f4ddc2a2da6bc137d68cfd0e783b"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/8/83/AppSecIL2015_MobileMalwareBattle_YairAmit.pptx",
+      "local": "/assets/conferences/files/abb230ec8411-AppSecIL2015_MobileMalwareBattle_YairAmit.pptx",
+      "bytes": 4793009,
+      "sha256": "779bed2790442eac1401351b3957c95bf8e4e56f52382f0fccc6a2088a7c0811"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/8/83/OWASPIL2010-HackerIntelligence-TalBeery.pptx",
+      "local": "/assets/conferences/files/4d585099db31-OWASPIL2010-HackerIntelligence-TalBeery.pptx",
+      "bytes": 5650518,
+      "sha256": "08b51df994f16aee28148e1110228b020e2f4f6c7ecb91ef08f0b96bb87ea220"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/8/87/AppSecIL_2014_A_Journey_To_Protect_POS_-_Nir_Valtman.pdf",
+      "local": "/assets/conferences/files/b1dd9605ab53-AppSecIL_2014_A_Journey_To_Protect_POS_-_Nir_Valtman.pdf",
+      "bytes": 4967165,
+      "sha256": "8dc8f0e0a780631f9e68a7c85a84b6cccd615ab3160f6768323aa3a5a591c3b6"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/8/87/OWASP_IL_2013_10_Avi_Douglan_Spam-DeathThreats-Abuse-OnlineCommunities.pdf",
+      "local": "/assets/conferences/files/7723792b11e4-OWASP_IL_2013_10_Avi_Douglan_Spam-DeathThreats-Abuse-OnlineCommunities.pdf",
+      "bytes": 5381900,
+      "sha256": "90a0ba94ae29563b267588932407c684abc748580ed0567e7571289034f2b4b5"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/8/88/OWASPIL2011-Bejerano-Maor-BuildingSDLC.pptx",
+      "local": "/assets/conferences/files/4d4146cc6240-OWASPIL2011-Bejerano-Maor-BuildingSDLC.pptx",
+      "bytes": 1805116,
+      "sha256": "826acd704e14b4219bf5bd6c389b8ada82cb3f5e58ab0220a6c5799d35cf98af"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/8/89/AppSecIL2015_From_zero_to_secure_in_1_minute_MosheFerber.pdf",
+      "local": "/assets/conferences/files/93f01ada56fd-AppSecIL2015_From_zero_to_secure_in_1_minute_MosheFerber.pdf",
+      "bytes": 466015,
+      "sha256": "04dc32d809b963bc5d9f050c0e330a4063b63125fa7c5f487f2ce544591adb5b"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/8/89/OWASP_IL_Sponsors_Imperva.png",
+      "local": "/assets/conferences/files/c736696476ed-OWASP_IL_Sponsors_Imperva.png",
+      "bytes": 4804,
+      "sha256": "4e7a804059e42375ad71bcb5c0bbb39c6d57771ba365e541d2be12159b0ab12a"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/8/89/StackExch-IL.png",
+      "local": "/assets/conferences/files/316e50659429-StackExch-IL.png",
+      "bytes": 14286,
+      "sha256": "dc546d617dffa1e8149e309eb3babe080fc59a0df39cd8cc9bebc08a3ddf2aae"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/8/8c/OWASP_IL_LOGO_NISF.jpg",
+      "local": "/assets/conferences/files/b998fdcde8bf-OWASP_IL_LOGO_NISF.jpg",
+      "bytes": 2728,
+      "sha256": "51647e87089c542016e2382d6e63d2cc48c83ee7866a1c18d56c0543318792b5"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/8/8f/OWASPIL2011-AmichaiShulman-FindingSecurityInMiseryOfOthers.pptx",
+      "local": "/assets/conferences/files/594c2e28d2dc-OWASPIL2011-AmichaiShulman-FindingSecurityInMiseryOfOthers.pptx",
+      "bytes": 5876760,
+      "sha256": "90022f6957010247a6c17671a72db34c558e4d26930553ce736204d04c5058d3"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/9/93/Akamai_logoIL.gif",
+      "local": "/assets/conferences/files/e7f1bf1ebdd5-Akamai_logoIL.gif",
+      "bytes": 14486,
+      "sha256": "ed6eaa43e41e71d4d560e47b17d4f3002fa18e3c926d2134b2d7474326a12313"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/9/93/AppSecIL2016_TheUnwantedSons-WAFBypassTechniques_ShayChen.pptx",
+      "local": "/assets/conferences/files/392384293cf8-AppSecIL2016_TheUnwantedSons-WAFBypassTechniques_ShayChen.pptx",
+      "bytes": 1718553,
+      "sha256": "61a97f1124c53d195cde1e1597787af9eadb4f2634931d6500896cebaa8c1f65"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/9/95/AppSecIL2015_OneClassToRuleThemAll_RoeeHay.pdf",
+      "local": "/assets/conferences/files/0f0cd4a8861c-AppSecIL2015_OneClassToRuleThemAll_RoeeHay.pdf",
+      "bytes": 12743784,
+      "sha256": "2a565fddd50e8888526e0e421390c48fc5d58847afdde3e5435875a4fb072dcd"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/9/95/AppSecIL_2014_Steering_the_Battleship_-_Bringing_Product_Security_to_HP_Software_-_Tomer_Gershoni.pptx",
+      "local": "/assets/conferences/files/14e13b4a0f1b-AppSecIL_2014_Steering_the_Battleship_-_Bringing_Product_Security_to_HP_Software_-_Tomer_Gershoni.pptx",
+      "bytes": 14637118,
+      "sha256": "ae97141f0c3cf0183b0054746b654dc1012bc45afe9b99a590ff73fb76dc43a9"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/9/95/PCIL.jpg",
+      "local": "/assets/conferences/files/d4afa2aaf8af-PCIL.jpg",
+      "bytes": 5034,
+      "sha256": "4b620942c15b9e2709c4b503ef2c6be455601cd2cf32996fcc6c6b96ad034a98"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/9/96/OWASP_IL_Conf_graphics_small.jpg",
+      "local": "/assets/conferences/files/fff949ef3030-OWASP_IL_Conf_graphics_small.jpg",
+      "bytes": 47227,
+      "sha256": "17628bdb5ee96d7bfc47439cbdf6ec309b7b4235f34996e704b4dae61934b28e"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/9/98/OWASP_IL_2008_Alon_Resen_eVoting.pdf",
+      "local": "/assets/conferences/files/3cb75536732c-OWASP_IL_2008_Alon_Resen_eVoting.pdf",
+      "bytes": 6873477,
+      "sha256": "5683e413e5db61d75a4dc010bc16d6502a9bd46eef7e792c62a97a0b2e8be999"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/9/9c/Breach_logo.gif",
+      "local": "/assets/conferences/files/2ee6600beb6a-Breach_logo.gif",
+      "bytes": 2535,
+      "sha256": "1d6e684e00311e4107989e88be43394936ddb5e34c51ba450d354886c50bd790"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/9/9c/Hacktics_logo_verblue.jpg",
+      "local": "/assets/conferences/files/af262c51f373-Hacktics_logo_verblue.jpg",
+      "bytes": 39769,
+      "sha256": "01b4b1b9e2188224c10d5c45185d3597a2cec7d2e0000e35e02aedc050b967ee"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/9/9d/OWASP_IL_2008_David_Movshovitz_AJAX.ppt",
+      "local": "/assets/conferences/files/1f554630cc64-OWASP_IL_2008_David_Movshovitz_AJAX.ppt",
+      "bytes": 2881024,
+      "sha256": "488f7399cee2ab67c24f3787b23a5d8b674dc65402ef273577b94e87e654025e"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/9/9d/OWASP_IL_ISSA_Logo.gif",
+      "local": "/assets/conferences/files/f20d4a8bfb2a-OWASP_IL_ISSA_Logo.gif",
+      "bytes": 7571,
+      "sha256": "aae0e42700aa0b3916de7bfca65476349b657284b27375f31296ff26c5408c42"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/9/9e/Trustwave_2010_Logo.jpg",
+      "local": "/assets/conferences/files/bbbb527fb9d4-Trustwave_2010_Logo.jpg",
+      "bytes": 74999,
+      "sha256": "ec255fd8f3f2564772254e1cb57e553091b028201a5a558b1b7de62a025477af"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/9/9f/OWASP_IL_2013_10_Irene_Abezgauz_Evolution_of_Application_Security.pdf",
+      "local": "/assets/conferences/files/e766fdd8a033-OWASP_IL_2013_10_Irene_Abezgauz_Evolution_of_Application_Security.pdf",
+      "bytes": 1333002,
+      "sha256": "2eaa168a0dad15be69722fa3104c3bad4b37e404a15b6153eb61c71a42d0610e"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/a/a0/AppSecIL_2014_MyPreciousss-HoldingOnToSensitiveData_OferMaor.pdf",
+      "local": "/assets/conferences/files/e9b897a13f2c-AppSecIL_2014_MyPreciousss-HoldingOnToSensitiveData_OferMaor.pdf",
+      "bytes": 1885028,
+      "sha256": "0585e3a144cc682673b05321d32d4435329ad45c74e5607f2712049a3f2c2818"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/a/a2/Checkmarx.jpg",
+      "local": "/assets/conferences/files/4b6d080d4bc7-Checkmarx.jpg",
+      "bytes": 7742,
+      "sha256": "5e6530d1fe3ab0824a68775ed90ff4057f9320b1802951fc2d85385fca93ca26"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/a/a2/OWASPIL2011_Zalalichin_Mobile_Security.pdf",
+      "local": "/assets/conferences/files/7fb24f7e8f56-OWASPIL2011_Zalalichin_Mobile_Security.pdf",
+      "bytes": 2718447,
+      "sha256": "2b942f4e6105dc74b1674c3835afed4904206a80f6c84bd8764a90d98a6a4922"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/a/a3/RadwareIL-Logo.jpg",
+      "local": "/assets/conferences/files/692726a1e129-RadwareIL-Logo.jpg",
+      "bytes": 4559,
+      "sha256": "6780bd4230a5b3ae5c6c747eb4c20d67618da8000370b60ef04aab066817d924"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/a/a5/IBM-IL.png",
+      "local": "/assets/conferences/files/85357bcb877e-IBM-IL.png",
+      "bytes": 5159,
+      "sha256": "a90b68ef0bb6d0ff477167cbb5135ff0d1d2a93808d07a1b01f9924b86094bd9"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/a/a5/OWASPIL_ColMan.jpg",
+      "local": "/assets/conferences/files/7beeddeca5d6-OWASPIL_ColMan.jpg",
+      "bytes": 35440,
+      "sha256": "9a127321eb6ef1ac7c2d82d27b1b1a500a7e94aab883ae8882e3cb047d842f00"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/a/a7/AppSecIL2015_Cross-Site-Search-Attacks_HemiLeibowitz.pdf",
+      "local": "/assets/conferences/files/3a1f1d891e21-AppSecIL2015_Cross-Site-Search-Attacks_HemiLeibowitz.pdf",
+      "bytes": 1046684,
+      "sha256": "7207599a14f340635130c7991c81ae40d01a162630be04e7ebdce1f06f0d894a"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/a/aa/AppSecIL2015_Game_of_Hacks_AmitAshbel.pptx",
+      "local": "/assets/conferences/files/9ec4019a0e52-AppSecIL2015_Game_of_Hacks_AmitAshbel.pptx",
+      "bytes": 7718743,
+      "sha256": "36a54da9f33674306a237d7f729e7fbb961c63a1818ff4d4c3450d14d21cf556"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/a/ab/AppSecIL_2014_Mobile_Security_Attacks_-_A_Glimpse_From_the_Trenches_-_Yair_Amit_-_Adi_Sharabani_-_Skycure.pdf",
+      "local": "/assets/conferences/files/9be15a705c86-AppSecIL_2014_Mobile_Security_Attacks_-_A_Glimpse_From_the_Trenches_-_Yair_Amit_-_Adi_Sharabani_-_Skycure.pdf",
+      "bytes": 2483202,
+      "sha256": "6b8e7828b5df4e1038f638fe29ded67b8d614493ea790a63d420b0a4a26b6d2d"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/a/af/AppSecIL_2014_Security_Storms_are_Brewing_in_Your_JavaScript_-_Maty_Siman.pptx",
+      "local": "/assets/conferences/files/3729935a0cff-AppSecIL_2014_Security_Storms_are_Brewing_in_Your_JavaScript_-_Maty_Siman.pptx",
+      "bytes": 7565481,
+      "sha256": "60a2d32a320b3f8c897088780bae43e81d0e9f3c6b63b3aabdccb0c6485adc54"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/b/b2/AppSecIL_2014_Passwords_Rehashed_All_Over_Again_-_Avi_Douglen.pptx",
+      "local": "/assets/conferences/files/7f0821d3166c-AppSecIL_2014_Passwords_Rehashed_All_Over_Again_-_Avi_Douglen.pptx",
+      "bytes": 2015826,
+      "sha256": "288d806c9a0efee7e3e485bdd8cab4ec354d724e6ee90d65ea37c4d795556b25"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/b/b2/OWASPIL2010-CSAIsraelCloudSec-GuyAlfassi.pdf",
+      "local": "/assets/conferences/files/4e5057e9779e-OWASPIL2010-CSAIsraelCloudSec-GuyAlfassi.pdf",
+      "bytes": 467252,
+      "sha256": "ebcafea56e0cdea0925fa4542d364f8427ff47e936116167f5a3c8c188e073b8"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/b/b4/OWASPIL2011-OferMaor-OpeningWords.ppt",
+      "local": "/assets/conferences/files/9c121a008ad1-OWASPIL2011-OferMaor-OpeningWords.ppt",
+      "bytes": 4792320,
+      "sha256": "197f4a40ca782d24ab5edd4722d5f5567b574f7d9fcd77d8ac484a9409af9279"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/b/b7/AppSecIL2015_IoT-Insecurity_ErezMetula-IsraelChorzevski.pdf",
+      "local": "/assets/conferences/files/94e44ced9615-AppSecIL2015_IoT-Insecurity_ErezMetula-IsraelChorzevski.pdf",
+      "bytes": 2870553,
+      "sha256": "8d0258c50abc3b13291d39058d9138c592c7051ea0d7039ead632fcc5672beca"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/b/b9/OWASP_IL_2009_SSSL.ppt",
+      "local": "/assets/conferences/files/db381c75fe5a-OWASP_IL_2009_SSSL.ppt",
+      "bytes": 3010560,
+      "sha256": "0c19902c25c8ec57b82afb53b7cf17314ff684384f200353e0d6c8f2236814f3"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/b/ba/AppSecIL2015_Theories_of_Agile_Fails_of_Security_DanielLiber.pptx",
+      "local": "/assets/conferences/files/44fb229d84f1-AppSecIL2015_Theories_of_Agile_Fails_of_Security_DanielLiber.pptx",
+      "bytes": 2490751,
+      "sha256": "6f62154ceea583ce051ac25dde5aff9206e2c75e03bdf0586f04e6048dc3c500"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/b/ba/Magshimim.png",
+      "local": "/assets/conferences/files/c2f891418728-Magshimim.png",
+      "bytes": 4529,
+      "sha256": "1ec00b3231b144c8f53ecfe395b5bdeabbefde4d1d9d1c8d6830a8b3886dd84f"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/b/bb/OWASP_IL_Sponsor_GamaSec.jpg",
+      "local": "/assets/conferences/files/e061eae92924-OWASP_IL_Sponsor_GamaSec.jpg",
+      "bytes": 1682,
+      "sha256": "98ed890581e152a874d1afdf958b27ca464b0e84a588c4b4cf3418f09224bb44"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/b/bd/AppSecIL_2014_Infosec_Natural_Selection_%E2%80%93_What_SHOULD_Be_Evaluated_FIRST_-_Shay_Chen.pptx",
+      "local": "/assets/conferences/files/bd41f00dc038-AppSecIL_2014_Infosec_Natural_Selection__E2_80_93_What_SHOULD_Be_Evaluated_FIRST_-_Shay_Chen.pptx",
+      "bytes": 2097777,
+      "sha256": "fae47c46b2dc53060c27ec21c3faa7c340159ea350320fc24d4721c226b546a7"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/b/bd/AppSecIL_2014_Static_Analysis_Improved_Fuzzing_-_Moti_Cohen.pptx",
+      "local": "/assets/conferences/files/903d5a233760-AppSecIL_2014_Static_Analysis_Improved_Fuzzing_-_Moti_Cohen.pptx",
+      "bytes": 977861,
+      "sha256": "25f38cfc72eb5a5ddf8e1e781ffb2c9749716b443e12ab4671de1976d062b5ff"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/c/c1/ForesightIL.jpg",
+      "local": "/assets/conferences/files/9847816e3aee-ForesightIL.jpg",
+      "bytes": 3670,
+      "sha256": "39f99444940069848719057cbf58828e5fda6d1a2275709476eb78189d5a92d9"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/c/c4/OWASP-WASCAppSec2007SanJose_PKILie.ppt",
+      "local": "/assets/conferences/files/6a45a4853f65-OWASP-WASCAppSec2007SanJose_PKILie.ppt",
+      "bytes": 1376256,
+      "sha256": "fc14400c66f76a427b21e46cfd260f948feccb46d3c1e66a0113fc0fc361e52b"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/c/c8/OWAS_IL_Sponsor_Applicure.JPG",
+      "local": "/assets/conferences/files/458f4e13d667-OWAS_IL_Sponsor_Applicure.JPG",
+      "bytes": 16726,
+      "sha256": "610bf64ff7221167c20116e7dc42da76ffa95b2c24a8ceaa67aeb7f6e00f495e"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/c/cb/OWASP_IL_2007_SOA_security.ppt",
+      "local": "/assets/conferences/files/f7b0e2fdc73d-OWASP_IL_2007_SOA_security.ppt",
+      "bytes": 1174528,
+      "sha256": "d7537751c22dd66a2241edb7f8b71fec9279aa0c43748dd37f9db0f7c4a3a79d"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/c/cf/OWASPIL2011-YotamHarchol-SpaceTimeTradeoffDPI.pptx",
+      "local": "/assets/conferences/files/643f9bdc0639-OWASPIL2011-YotamHarchol-SpaceTimeTradeoffDPI.pptx",
+      "bytes": 2886913,
+      "sha256": "8521568169cce7865e6b87e472d014e24a7f5e7d8353ac58658fa5cb69d2a2d2"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/d/d4/OWASP_IL_2007_SQL_Smuggling.pdf",
+      "local": "/assets/conferences/files/a93da11f13fd-OWASP_IL_2007_SQL_Smuggling.pdf",
+      "bytes": 1231036,
+      "sha256": "7989c667606a33d44ce701cb8481c2152cba424a4cf07ffa77917535798f5aca"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/d/d6/OWASP_IL_2013_10_Erez_Metula_The_ReFrameworker_Android_runtime_manipulator.pdf",
+      "local": "/assets/conferences/files/9b84cd53d6da-OWASP_IL_2013_10_Erez_Metula_The_ReFrameworker_Android_runtime_manipulator.pdf",
+      "bytes": 1687899,
+      "sha256": "d775e570091bda6b6c00eac02c07aba65b18f509a9afc1e7d7d2a765cbc78e6f"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/d/d9/AppSecIL2015_SpyInTheSandbox_YossiOren.pptx",
+      "local": "/assets/conferences/files/fa1b222e6df2-AppSecIL2015_SpyInTheSandbox_YossiOren.pptx",
+      "bytes": 8775054,
+      "sha256": "221a9cc8684fb0e1810bb123775a093f0f098eb8c6f63180b492447a3847e43d"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/d/d9/OWASPIL2011-Douglen-Bregman-AgileSDL.ppt",
+      "local": "/assets/conferences/files/febc1c1842c3-OWASPIL2011-Douglen-Bregman-AgileSDL.ppt",
+      "bytes": 1457152,
+      "sha256": "8b582be892f6abe92febf7702a160a4c70f22ffd7d3871bca39f2d68f18721bd"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/d/dc/OWASPIL2010-RealLifeDoS-ZivGadot.ppt",
+      "local": "/assets/conferences/files/b6c4cb0795d7-OWASPIL2010-RealLifeDoS-ZivGadot.ppt",
+      "bytes": 940544,
+      "sha256": "9e359f090cf96964147705982d88ae0d20620a02429ec6117e419af9bd440342"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/d/dd/AppSecIL_Logo_2016.png",
+      "local": "/assets/conferences/files/13d4b7374604-AppSecIL_Logo_2016.png",
+      "bytes": 71987,
+      "sha256": "7d52de9034c22fcccbef2cf0f5ca54e3b860b6d77d50c5d63590961cbc909025"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/d/dd/OWASP_IL_2009_IdM.ppt",
+      "local": "/assets/conferences/files/5e2cda3ad68e-OWASP_IL_2009_IdM.ppt",
+      "bytes": 1239552,
+      "sha256": "6b6e685fdb2b02dd283ca5b27ef1f699c3f3beea8e1866c80568bb74018482dd"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/e/e0/AppSecIL_2014_The_Bank_Job_Mobile_Edition_-_Remote_Exploitation_of_Cordova_for_Android_-_David_Kaplan_-_Roee_Hay.pdf",
+      "local": "/assets/conferences/files/45cc6c4b2665-AppSecIL_2014_The_Bank_Job_Mobile_Edition_-_Remote_Exploitation_of_Cordova_for_Android_-_David_Kaplan_-_Roee_Hay.pdf",
+      "bytes": 4269263,
+      "sha256": "f951a18ae83621f28982870573dce086e657d69942e7a77b921ca6b4be9a3573"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/e/e0/OWASP_IL_Sponsor_GamaSec_Logo.jpg",
+      "local": "/assets/conferences/files/85e80c6f484f-OWASP_IL_Sponsor_GamaSec_Logo.jpg",
+      "bytes": 4670,
+      "sha256": "63d2b84b0986a366bcc7710a57e6450513a58f40958c0a1748f789cd8df107aa"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/e/e1/AppSecIL_2014_Manipulating_the_Manipulator_-_Tomer_Teller.pdf",
+      "local": "/assets/conferences/files/ea9f74668d2f-AppSecIL_2014_Manipulating_the_Manipulator_-_Tomer_Teller.pdf",
+      "bytes": 2465303,
+      "sha256": "2c78487a936e26426559135ba413ad8d8bfede7f7de8bb410355aa6733086927"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/e/e2/OWASP_IL_2013_10_Chilik_Tamir_GameOfPwns-Pwning_iOS_pentesting_with_iNalyzer.pdf",
+      "local": "/assets/conferences/files/6cf45e7480cd-OWASP_IL_2013_10_Chilik_Tamir_GameOfPwns-Pwning_iOS_pentesting_with_iNalyzer.pdf",
+      "bytes": 13702741,
+      "sha256": "8533ca6b4a7b8a714a5bc25cb32527fd9c7ce0903acc4bdf236d6d24301c8b57"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/e/e3/AppSecIL_2014_In-Secure_Mongo_And_Angular_Code_-_Israel_Chorzevski.PDF",
+      "local": "/assets/conferences/files/a5bec26112ca-AppSecIL_2014_In-Secure_Mongo_And_Angular_Code_-_Israel_Chorzevski.PDF",
+      "bytes": 1312669,
+      "sha256": "079d8b8348c98a50cad890af066000f23e92b671ee97106421480ec577e51d2b"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/e/e3/OWASP_IL_2008_Amir_Herzberg_Defending_against_Phishing_without_Client-side_Code.ppt",
+      "local": "/assets/conferences/files/58730d58b3d6-OWASP_IL_2008_Amir_Herzberg_Defending_against_Phishing_without_Client-side_Code.ppt",
+      "bytes": 1337344,
+      "sha256": "4dc39eb349a88dc25234b2e9c9d342b5ee1c53ba4e03da0cf2de347ce9d2f292"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/e/e6/SafeBreach_logo.png",
+      "local": "/assets/conferences/files/4a13bb2a02dd-SafeBreach_logo.png",
+      "bytes": 28660,
+      "sha256": "7711f5bbfb93b84f4fcf6f3c3e65c76402e88760f2b4cdb6e1ef1156a098bf6d"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/e/e7/OWASP_IL_2013_10_Adi_Sharabani_Mobile_Threats.pdf",
+      "local": "/assets/conferences/files/712c14b2cf1f-OWASP_IL_2013_10_Adi_Sharabani_Mobile_Threats.pdf",
+      "bytes": 5034449,
+      "sha256": "80bc4516542c708b94fb9da9159c6c9435bb2aef681019ad24378ecc7f4b00da"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/e/ea/OWASPIL2011-ShayChen-TSRC.pptx",
+      "local": "/assets/conferences/files/d3f3da91fdb6-OWASPIL2011-ShayChen-TSRC.pptx",
+      "bytes": 1269476,
+      "sha256": "255faa9386a609124d7390b167076fc2ad61ed4aeadb393c7f8d7350c8ad01a8"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/e/eb/OWASP_IL_2008_Shai_Chen_PT_to_Java_Client_Server_Apps.ppt",
+      "local": "/assets/conferences/files/2cf76ab1300c-OWASP_IL_2008_Shai_Chen_PT_to_Java_Client_Server_Apps.ppt",
+      "bytes": 469504,
+      "sha256": "cd104de8b634aff66375add83e356299817cebce6009d6106900c46f0e0f8c65"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/e/ec/JB-IL.png",
+      "local": "/assets/conferences/files/999c9b31662e-JB-IL.png",
+      "bytes": 6308,
+      "sha256": "579d5dcd361db4d26135bd22667186793f5fc01138400f9fce5b3dca16ad2d56"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/e/ed/Imperva_logox375.png",
+      "local": "/assets/conferences/files/fda8fcd4e52d-Imperva_logox375.png",
+      "bytes": 8694,
+      "sha256": "d246cc87ca0636ae6eccdf7d5d29c7f3cf8ec25ff9072f1fd91ecd1c04e6c344"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/e/ef/AppSecIL_2014_ErezMetula_AppSecLabs_Dynamic_Analysis_of_Android_Apps.pdf",
+      "local": "/assets/conferences/files/24d69f00beb9-AppSecIL_2014_ErezMetula_AppSecLabs_Dynamic_Analysis_of_Android_Apps.pdf",
+      "bytes": 2089214,
+      "sha256": "3ae996cf277ef0824b69d590ee71bfa5ccd417ded590e296aa9d66fe1c1478a6"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/f/f0/OWASPIL2010-PCIAppSec-ShayZalalichin.pdf",
+      "local": "/assets/conferences/files/82c905c1df15-OWASPIL2010-PCIAppSec-ShayZalalichin.pdf",
+      "bytes": 3732860,
+      "sha256": "3757410312053a9f614c7a72b42686e1fd1560abe21053545ffe08037c423bd2"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/f/f1/Akamai_LogoIL_Gold.png",
+      "local": "/assets/conferences/files/fbdc5cac5302-Akamai_LogoIL_Gold.png",
+      "bytes": 13019,
+      "sha256": "5af2051f2124005c7a658528bcbb1ba3622c5c12dea39125d8a3897949680c68"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/f/f1/OWASP_IL_2009_ReDoS.ppt",
+      "local": "/assets/conferences/files/d98e90ee597e-OWASP_IL_2009_ReDoS.ppt",
+      "bytes": 1231360,
+      "sha256": "4130f004cdcdd448a5ed306945266e21a520c92451932dde93e9ea71f9de47dc"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/f/f1/OWASP_IL_Sponsors_IDC_New.JPG",
+      "local": "/assets/conferences/files/4ba44eebf2b7-OWASP_IL_Sponsors_IDC_New.JPG",
+      "bytes": 6128,
+      "sha256": "dbecb28cb98787890b69ce719f0e59d938d8b8333d20cb0993424de26555edae"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/f/f2/OWASP_IL_2013_10_Chechik_Davidi_Utilizing_Popular_Websites_for_Malicious_Purposes_Using_RDI.pdf",
+      "local": "/assets/conferences/files/ef1cb37d8a97-OWASP_IL_2013_10_Chechik_Davidi_Utilizing_Popular_Websites_for_Malicious_Purposes_Using_RDI.pdf",
+      "bytes": 917460,
+      "sha256": "c1d310428845df6cb42902e18f7d56a944c2b3ebe6b86c279ca79aa3f2d87d24"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/f/f3/OWASPIL2010-OpeningWords-OferMaor.ppt",
+      "local": "/assets/conferences/files/da952b718dd6-OWASPIL2010-OpeningWords-OferMaor.ppt",
+      "bytes": 4628992,
+      "sha256": "38b5683712c2bc3958e5641bd8688b60c608e096b0e8f289fe28909b03e14b47"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/f/f5/AppSecIL2015_0x3E9WaysToDIE_YanivBalmas.pdf",
+      "local": "/assets/conferences/files/94280a859f86-AppSecIL2015_0x3E9WaysToDIE_YanivBalmas.pdf",
+      "bytes": 2058704,
+      "sha256": "a2674ffcf7fe87fc94f7e96172711de1978d290cb6b2e89dc34cbebd3f4f444e"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/f/f9/AppSecIL2016_CripplingHTTPSwithUnholyPAC_AmitKlein.pdf",
+      "local": "/assets/conferences/files/42170c052733-AppSecIL2016_CripplingHTTPSwithUnholyPAC_AmitKlein.pdf",
+      "bytes": 1922840,
+      "sha256": "a5f4019da0984ba2e88055f4f5cec6480eb625168c2cc92ff4c84a9bf7f90826"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/f/f9/OWASP_IL_2009_XSS_detection.ppt",
+      "local": "/assets/conferences/files/b939f3961000-OWASP_IL_2009_XSS_detection.ppt",
+      "bytes": 1231360,
+      "sha256": "daf657531934d5bd66928058768750de3f47a169d4aff9a5168ea8bed72241ad"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/f/fa/AppSecIL2016_DarkSideSearchEngineOptimizations_OrKatz.pdf",
+      "local": "/assets/conferences/files/d2c9806d3ec2-AppSecIL2016_DarkSideSearchEngineOptimizations_OrKatz.pdf",
+      "bytes": 5169589,
+      "sha256": "7e4a03d545790873e07659125874192fd9371b276f30046d3a1e7a55e3ebf14d"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/f/fa/AppSecIL2016_NodeJS-Security_LiranTal.pdf",
+      "local": "/assets/conferences/files/e0570d8c83ac-AppSecIL2016_NodeJS-Security_LiranTal.pdf",
+      "bytes": 3075586,
+      "sha256": "4b7e769fd1ad7c1433813ce1e34480971d86a58762b309b52a9b1e12752c5564"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/f/fb/AppSecIL2016_JavaHurdling_TalMelamed.pdf",
+      "local": "/assets/conferences/files/3c4677a2f615-AppSecIL2016_JavaHurdling_TalMelamed.pdf",
+      "bytes": 3853918,
+      "sha256": "c48ee4b711025369e6a43489422967cb7b01b78246afc83e6228ada69738f62c"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/f/fb/AppSecLabsIL_New.jpg",
+      "local": "/assets/conferences/files/9c27216a484e-AppSecLabsIL_New.jpg",
+      "bytes": 15316,
+      "sha256": "0f238c24f237d319f56e8a54b1d47a3976c09b6c8c94ea425980cb5da960919e"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/thumb/0/03/Komodo-small.jpg/160px-Komodo-small.jpg",
+      "local": "/assets/conferences/files/d4ca601f3195-160px-Komodo-small.jpg",
+      "bytes": 3504,
+      "sha256": "f3fa25af46a073590006739732395c3762ebdb7930fade564abb03537999d2c7"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/thumb/3/34/EY-IL.jpg/220px-EY-IL.jpg",
+      "local": "/assets/conferences/files/d9703f09bada-220px-EY-IL.jpg",
+      "bytes": 4586,
+      "sha256": "4469ea9083ab6e3502138fd45f716e0140ab78b3f32cbaf62764381bb6e4383f"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/thumb/3/34/EY-IL.jpg/240px-EY-IL.jpg",
+      "local": "/assets/conferences/files/32b94a48c916-240px-EY-IL.jpg",
+      "bytes": 5014,
+      "sha256": "5360f71189422a0f5f4f99f110be0370aa6704492feb62e755fe905d67957d73"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/thumb/3/36/Manageware.png/180px-Manageware.png",
+      "local": "/assets/conferences/files/3114e1e8ccc5-180px-Manageware.png",
+      "bytes": 7806,
+      "sha256": "c3fbf17d83d128eae38b74d0d96e1c1c6c8ad8117877777f5f850d18eed9e773"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/thumb/3/37/BGU_IL.png/180px-BGU_IL.png",
+      "local": "/assets/conferences/files/1340f5309c13-180px-BGU_IL.png",
+      "bytes": 11335,
+      "sha256": "d134ba0c9954133281dee3c0900c3dee29e70381acf6f0bc8b1404dcce8e850d"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/thumb/4/4a/Gvahim.png/110px-Gvahim.png",
+      "local": "/assets/conferences/files/e366bba4139b-110px-Gvahim.png",
+      "bytes": 8697,
+      "sha256": "9b79d3f050dec620db21b6e01bb81083cedabffd24b3614b0e8f0b3c8648e91c"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/thumb/5/54/OWASP_IL_Sponsors_Checkpoint.jpg/300px-OWASP_IL_Sponsors_Checkpoint.jpg",
+      "local": "/assets/conferences/files/718cf441f860-300px-OWASP_IL_Sponsors_Checkpoint.jpg",
+      "bytes": 7586,
+      "sha256": "b648ead8c4c9e105fcfe6976689fc86e8943aa1b76a5ab075275e6749f62a7a2"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/thumb/6/63/See-Security_College.jpg/180px-See-Security_College.jpg",
+      "local": "/assets/conferences/files/0f15050411c0-180px-See-Security_College.jpg",
+      "bytes": 17809,
+      "sha256": "ca5db09559192a7a60ca761d01f648b1ed1c0411cf509e5a0e3e5d68227ab01b"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/thumb/6/6e/ESL_IL_logo.png/240px-ESL_IL_logo.png",
+      "local": "/assets/conferences/files/c289ebf05c83-240px-ESL_IL_logo.png",
+      "bytes": 5259,
+      "sha256": "fec87e2fdbbb7fc6a063cea26d3015a1b77a63863ddf414c25f5fb47cf8f13d4"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/thumb/7/77/OWASP_IL_Sponsor_Hacktics.jpg/160px-OWASP_IL_Sponsor_Hacktics.jpg",
+      "local": "/assets/conferences/files/b2c30a1d0c86-160px-OWASP_IL_Sponsor_Hacktics.jpg",
+      "bytes": 4886,
+      "sha256": "0ae0b209017e276b448c0b38169524e42e85b736589d07666064ff3a05ca0c80"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/thumb/7/78/OWASP_IL_Sponsors_Radware.jpg/160px-OWASP_IL_Sponsors_Radware.jpg",
+      "local": "/assets/conferences/files/31dcbd48131a-160px-OWASP_IL_Sponsors_Radware.jpg",
+      "bytes": 2397,
+      "sha256": "1f257d1e1da012a9cee40354c1aadc1ce63c63acb45db2e8b4d837dddc9cece3"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/thumb/8/81/Ipsec_logo.png/110px-Ipsec_logo.png",
+      "local": "/assets/conferences/files/892b2ec56791-110px-Ipsec_logo.png",
+      "bytes": 2919,
+      "sha256": "e712f5a32278d4b174950231a8a04eca4406f5d153778a3ef36ddd3c09449d5a"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/thumb/9/93/Akamai_logoIL.gif/300px-Akamai_logoIL.gif.png",
+      "local": "/assets/conferences/files/37ec33dce8fa-300px-Akamai_logoIL.gif.png",
+      "bytes": 7682,
+      "sha256": "f8f86838d0216a2d7e07ad072218831ad3fa8ae976362d2587f2596f5353443a"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/thumb/9/9f/F6S.jpg/80px-F6S.jpg",
+      "local": "/assets/conferences/files/9383d4b5766b-80px-F6S.jpg",
+      "bytes": 2217,
+      "sha256": "35de2f53562fb7c7c6e9a35571043ff9462b0d14a6cb919a97d53711c1e69685"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/thumb/a/a2/Checkmarx.jpg/280px-Checkmarx.jpg",
+      "local": "/assets/conferences/files/56b7e160e6f6-280px-Checkmarx.jpg",
+      "bytes": 3314,
+      "sha256": "96f8effad2ef28cab2a7aaf6e33763f415282f862b00bd0021f7b2252fdbc6c4"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/thumb/b/ba/Magshimim.png/130px-Magshimim.png",
+      "local": "/assets/conferences/files/6b9eaefd6e31-130px-Magshimim.png",
+      "bytes": 5266,
+      "sha256": "34ae27a143b401b106561ef71d7edee51cada26a19fec25211c841cf32ffac64"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/thumb/c/c1/Black_Duck_Logo.jpg/180px-Black_Duck_Logo.jpg",
+      "local": "/assets/conferences/files/51d0c5780b73-180px-Black_Duck_Logo.jpg",
+      "bytes": 21032,
+      "sha256": "92c7c4087f072ce7b970a3ff4b5247fb16889c864c19e09ba6ed01db48b16ac9"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/thumb/c/cf/Komodo.png/180px-Komodo.png",
+      "local": "/assets/conferences/files/7ecfed35752c-180px-Komodo.png",
+      "bytes": 7449,
+      "sha256": "5ec45d31198a94426eb6c35bf0dbf377355940e8b786b80f08f0426d39d35ee8"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/thumb/d/d0/Synopsys_logo.jpg/300px-Synopsys_logo.jpg",
+      "local": "/assets/conferences/files/479b1b34d1fb-300px-Synopsys_logo.jpg",
+      "bytes": 24754,
+      "sha256": "f63089480f5dc60fd77ca69b01f539a2297aa60d68795a99b2821214b44fca2e"
+    },
+    {
+      "source": "https://wiki.owasp.org/images/thumb/f/fb/Akamai_LogoIL.png/240px-Akamai_LogoIL.png",
+      "local": "/assets/conferences/files/f25a866d2244-240px-Akamai_LogoIL.png",
+      "bytes": 6434,
+      "sha256": "479da2f0e5d1b821ef2d7bbe9a1e7e998fa2c56dc1d226e5a88ae75a20d9010c"
+    }
+  ]
+}

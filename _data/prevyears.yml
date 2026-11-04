@@ -1,9 +1,9 @@
 - year: 2026
-  url: ./2026/
+  url: /2026/
 - year: 2025
-  url: ./2025/
+  url: /2025/
 - year: 2023
-  url: ./2023/
+  url: /2023/
 - year: 2020
   url: https://2020.appsecil.org/
 - year: 2019
@@ -13,22 +13,22 @@
 - year: 2017
   url: https://2017.appsecil.org/
 - year: 2016
-  url: https://wiki.owasp.org/index.php/AppSec_Israel_2016
+  url: /2016/
 - year: 2015
-  url: https://wiki.owasp.org/index.php/AppSec_Israel_2015
+  url: /2015/
 - year: 2014
-  url: https://wiki.owasp.org/index.php/AppSec_Israel_2014
+  url: /2014/
 - year: 2013
-  url: https://wiki.owasp.org/index.php/OWASP_Israel_2013
+  url: /2013/
 - year: 2012
-  url: https://wiki.owasp.org/index.php/OWASP_Israel_2012
+  url: /2012/
 - year: 2011
-  url: https://wiki.owasp.org/index.php/OWASP_Israel_2011
+  url: /2011/
 - year: 2010
-  url: https://wiki.owasp.org/index.php/OWASP_Israel_2010
+  url: /2010/
 - year: 2009
-  url: https://wiki.owasp.org/index.php/OWASP_Israel_2009
+  url: /2009/
 - year: 2008
-  url: https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_at_the_Interdisciplinary_Center_Herzliya_(IDC)
+  url: /2008/
 - year: 2007
-  url: https://wiki.owasp.org/index.php/OWASP_Israel_2007_Conference_at_the_Interdisciplinary_Center_Herzliya_(IDC)
+  url: /2007/

@@ -6,6 +6,13 @@ safe: false
 
 current_year: 2027
 
+# These fragments are included by layouts, not standalone public pages.
+exclude:
+  - 2023/includes
+  - 2025/includes
+  - 2026/includes
+  - 2027/includes
+
 plugins:
   - jekyll-redirect-from
 
