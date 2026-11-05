@@ -1,5 +1,39 @@
 /* Small chapter additions; typography, colors, hero, buttons, header and footer
    come from the original conference stylesheet (style-2026.css). */
+.meetup-transition { padding: 160px 30px 0; background: #e8f3ff; }
+.meetup-transition__inner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px 32px;
+  max-width: 990px;
+  margin: 0 auto;
+  padding: 24px;
+  background: #fff0bf;
+  border-left: 6px solid #805500;
+  color: #292000;
+}
+.meetup-transition__inner > div { flex: 1 1 420px; }
+.meetup-transition h2 { margin: 0 0 8px; font-size: 1.25rem; line-height: 1.4; }
+.meetup-transition p { margin: 0; font-size: 1rem; line-height: 1.5; }
+.meetup-transition__link {
+  display: inline-block;
+  padding: 12px 18px;
+  background: #292000;
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: underline;
+}
+.meetup-transition__link:hover, .meetup-transition__link:focus { background: #4d3b00; color: #fff; }
+.meetup-transition__link:focus-visible { outline: 3px solid #292000; outline-offset: 4px; }
+.chapter-updates-anchor { display: block; scroll-margin-top: 120px; }
+@media screen and (max-width: 767px) {
+  .meetup-transition { padding: 120px 16px 0; }
+  .meetup-transition__inner { padding: 20px; }
+  .meetup-transition__link { width: 100%; }
+}
 .chapter-pathways {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

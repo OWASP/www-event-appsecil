@@ -37,9 +37,11 @@ We run chapter meetings covering application security, research, and practical e
 <div class="page-section__inner">
 <div class="text chapter-content" markdown="1">
 
+<span id="get-chapter-updates" class="chapter-updates-anchor"></span>
+
 ## Get chapter updates
 
-**The chapter has moved away from Meetup for announcements.** The mailing list is the place to hear about future events.
+**We’re moving away from Meetup.com at the end of 2026.** Join the chapter mailing list to stay informed about future meetups and events.
 
 1. Email [israel-chapter+subscribe@owasp.org](mailto:israel-chapter+subscribe@owasp.org).
 2. Follow the instructions in the confirmation email: click “Join this Group” or reply to complete your subscription.
