@@ -1,0 +1,62 @@
+---
+layout: chapter
+title: OWASP Israel
+description: Explore the annual AppSec Israel conference and the year-round OWASP Israel chapter.
+permalink: /
+section: home
+---
+<section class="page-section page-section_name_promo">
+  <div class="page-section__inner">
+    <h1>Welcome to OWASP Israel!</h1>
+    <h3>Our annual AppSec Israel conference. Our chapter, all year round.</h3>
+    <div class="buttons-area">
+      <a href="{{ '/conference.html' | relative_url }}" class="button button_type_main">Explore the conference</a>
+      <a href="{{ '/chapter/' | relative_url }}" class="button button_type_main">Explore the chapter</a>
+    </div>
+  </div>
+</section>
+
+<section class="page-section page-section_pale">
+  <div class="page-section__inner chapter-pathways">
+    <div class="text text_type_narrow chapter-pathway">
+      <h2>AppSec Israel 2027</h2>
+      <p>Israel’s annual application security gathering brings together developers, security professionals, and everyone working to make software safer.</p>
+      {% assign year_key = site.current_year | prepend: 'year-' %}
+      {% assign cfg = site.data[year_key].config %}
+      <p><strong>{{ cfg.dates.conference }}</strong><br>{{ cfg.address }}</p>
+      <a href="{{ '/conference.html' | relative_url }}" class="button button_type_main">Explore the conference</a>
+      <p><a href="{{ '/conferences/' | relative_url }}">Browse past conferences</a></p>
+    </div>
+    <div class="text text_type_narrow chapter-pathway">
+      <h2>OWASP Israel Chapter</h2>
+      <p>Keep the conversation going with local meetups, shared knowledge, and a welcoming network of people interested in application security.</p>
+      <p><strong>Connect throughout the year</strong><br>Join the mailing list for meetup announcements.</p>
+      <a href="{{ '/chapter/' | relative_url }}" class="button button_type_main">Explore the chapter</a>
+      <p><a href="{{ '/chapter/#mailing-list' | relative_url }}">Get chapter updates</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="page-section">
+  <div class="page-section__inner">
+    <div class="text text_type_narrow">
+      <h2>Get involved with OWASP Israel</h2>
+      <p>Share your experience at a meetup, offer a venue, or help organize chapter activities. Everyone is welcome to learn, contribute, and connect.</p>
+      <div class="buttons-area">
+        <a href="{{ '/chapter/' | relative_url }}" class="button button_type_main">Speak, host, or volunteer</a>
+        <a href="{{ '/chapter/meetups/' | relative_url }}" class="button button_type_inverse">Past meetups &amp; recordings</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page-section page-section_grey">
+  <div class="page-section__inner">
+    <div class="text text_type_narrow">
+      <h2>Membership</h2>
+      <p>The Open Worldwide Application Security Project is a nonprofit foundation working to improve software security. Support its mission and connect with the worldwide OWASP network.</p>
+      <p><strong>Specify the Israel chapter when you join!</strong></p>
+      <a href="https://owasp.org/join" class="button button_type_main">Learn more</a>
+    </div>
+  </div>
+</section>

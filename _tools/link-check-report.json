@@ -1,0 +1,1955 @@
+{
+  "checked_at": "2026-11-04T08:09:18.731332+00:00",
+  "html_pages": 165,
+  "internal_references_checked": 5592,
+  "internal_issues": [],
+  "external_scope": "Conference history and 2007\u20132016 archive pages; external fragments are not checked.",
+  "external_results": [
+    {
+      "url": "http://bgu.ac.il/",
+      "result": "unverified",
+      "detail": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1082)>",
+      "pages": [
+        "/2015/sponsors/"
+      ]
+    },
+    {
+      "url": "http://careers.intuit.com/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.intuit.com/careers/",
+      "pages": [
+        "/2016/presentations/",
+        "/2016/sponsors/"
+      ]
+    },
+    {
+      "url": "http://comsec.co.il",
+      "result": "unverified",
+      "detail": "<urlopen error timed out>",
+      "pages": [
+        "/2008/",
+        "/2011/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://goo.gl/forms/hk5c4U9Ku3",
+      "status": 404,
+      "result": "broken",
+      "detail": "HTTP Error 404: Not Found",
+      "pages": [
+        "/2015/cfp/"
+      ]
+    },
+    {
+      "url": "http://in.bgu.ac.il/engn/ise/csc/Pages/default.aspx",
+      "result": "unverified",
+      "detail": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1082)>",
+      "pages": [
+        "/2016/presentations/",
+        "/2016/sponsors/"
+      ]
+    },
+    {
+      "url": "http://linderalex.blogspot.co.il/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "http://linderalex.blogspot.com/",
+      "pages": [
+        "/2013/presentations/"
+      ]
+    },
+    {
+      "url": "http://picasaweb.google.com/ofer.maor/OWASPIL2010?authkey=Gv1sRgCLv0qL_gqfe4bw",
+      "status": 404,
+      "result": "broken",
+      "detail": "HTTP Error 404: Not Found",
+      "pages": [
+        "/2010/pictures/"
+      ]
+    },
+    {
+      "url": "http://picasaweb.google.com/oshezaf/OWASPIsrael2007",
+      "status": 404,
+      "result": "broken",
+      "detail": "HTTP Error 404: Not Found",
+      "pages": [
+        "/2007/pictures/"
+      ]
+    },
+    {
+      "url": "http://portal.idc.ac.il/He/Main/about_idc/campus_tour/Pages/MapsDirections1.aspx",
+      "result": "unverified",
+      "detail": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "pages": [
+        "/2009/location-and-time/",
+        "/2010/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://portal.idc.ac.il/en/main/academics/cs/Pages/General.aspx",
+      "result": "unverified",
+      "detail": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "pages": [
+        "/2007/sponsors-contributors/"
+      ]
+    },
+    {
+      "url": "http://prezi.com/3jsjyo-0f2w8/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://prezi.com/3jsjyo-0f2w8/appseceu2014",
+      "pages": [
+        "/2014/presentations/"
+      ]
+    },
+    {
+      "url": "http://prezi.com/wipzu1bkfwnd/the-bank-job-ii-owasp-2011-final/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://prezi.com/wipzu1bkfwnd/the-bank-job-ii-owasp-2011",
+      "pages": [
+        "/2011/agenda/"
+      ]
+    },
+    {
+      "url": "http://security.stackexchange.com",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://security.stackexchange.com/",
+      "pages": [
+        "/2013/presentations/"
+      ]
+    },
+    {
+      "url": "http://security.stackexchange.com/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://security.stackexchange.com/",
+      "pages": [
+        "/2011/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://securitytools.github.io/MemoryScraper/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "http://securitytools.github.io/MemoryScraper/",
+      "pages": [
+        "/2014/presentations/"
+      ]
+    },
+    {
+      "url": "http://www-01.ibm.com/software/awdtools/appscan/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.ibm.com/software",
+      "pages": [
+        "/2008/",
+        "/2009/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.Checkmarx.com",
+      "status": 520,
+      "result": "unverified",
+      "detail": "HTTP Error 520: <none>",
+      "pages": [
+        "/2013/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.Checkmarx.com/",
+      "status": 520,
+      "result": "unverified",
+      "detail": "HTTP Error 520: <none>",
+      "pages": [
+        "/2014/sponsors/",
+        "/2015/sponsors/"
+      ]
+    },
+    {
+      "url": "http://www.akamai.com",
+      "status": 403,
+      "result": "unverified",
+      "detail": "HTTP Error 403: Forbidden",
+      "pages": [
+        "/2012/location-and-time/",
+        "/2013/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.akamai.com/",
+      "status": 403,
+      "result": "unverified",
+      "detail": "HTTP Error 403: Forbidden",
+      "pages": [
+        "/2014/sponsors/",
+        "/2015/sponsors/"
+      ]
+    },
+    {
+      "url": "http://www.apachesecurity.net",
+      "result": "unverified",
+      "detail": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "pages": [
+        "/2008/ivan-ristic/"
+      ]
+    },
+    {
+      "url": "http://www.applicure.com",
+      "status": 200,
+      "result": "ok",
+      "final_url": "http://www.applicure.com",
+      "pages": [
+        "/2007/sponsors-contributors/"
+      ]
+    },
+    {
+      "url": "http://www.appsec-labs.com",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://appsec-labs.com/",
+      "pages": [
+        "/2011/location-and-time/",
+        "/2013/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.appsec-labs.com/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://appsec-labs.com/",
+      "pages": [
+        "/2014/sponsors/",
+        "/2015/sponsors/"
+      ]
+    },
+    {
+      "url": "http://www.avnet.co.il",
+      "result": "unverified",
+      "detail": "<urlopen error timed out>",
+      "pages": [
+        "/2008/"
+      ]
+    },
+    {
+      "url": "http://www.blackducksoftware.com/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.blackduck.com:443/",
+      "pages": [
+        "/2015/sponsors/"
+      ]
+    },
+    {
+      "url": "http://www.breach.com",
+      "result": "unverified",
+      "detail": "<urlopen error timed out>",
+      "pages": [
+        "/2007/sponsors-contributors/",
+        "/2008/"
+      ]
+    },
+    {
+      "url": "http://www.breach.com/",
+      "result": "unverified",
+      "detail": "<urlopen error timed out>",
+      "pages": [
+        "/2010/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.ca.com/us/about-us/Innovation/ca-labs/people/ethan-hadar.aspx",
+      "status": 404,
+      "result": "broken",
+      "detail": "HTTP Error 404: Not Found",
+      "pages": [
+        "/2011/presentations/"
+      ]
+    },
+    {
+      "url": "http://www.checkmarx.com",
+      "status": 520,
+      "result": "unverified",
+      "detail": "HTTP Error 520: <none>",
+      "pages": [
+        "/2008/"
+      ]
+    },
+    {
+      "url": "http://www.checkpoint.com",
+      "status": 502,
+      "result": "unverified",
+      "detail": "HTTP Error 502: Bad Gateway",
+      "pages": [
+        "/2008/",
+        "/2011/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.checkpoint.com/",
+      "status": 502,
+      "result": "unverified",
+      "detail": "HTTP Error 502: Bad Gateway",
+      "pages": [
+        "/2014/sponsors/"
+      ]
+    },
+    {
+      "url": "http://www.colman.ac.il/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.colman.ac.il/",
+      "pages": [
+        "/2015/sponsors/"
+      ]
+    },
+    {
+      "url": "http://www.colman.ac.il/about/roads/Pages/default.aspx",
+      "status": 404,
+      "result": "broken",
+      "detail": "HTTP Error 404: Not Found",
+      "pages": [
+        "/2015/location-and-time/",
+        "/2016/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.comsecglobal.com/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.comsecglobal.com/",
+      "pages": [
+        "/2013/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.cyber.org.il/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://cyber.org.il/",
+      "pages": [
+        "/2015/sponsors/",
+        "/2016/presentations/",
+        "/2016/sponsors/"
+      ]
+    },
+    {
+      "url": "http://www.daloradius.com",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.daloradius.com/",
+      "pages": [
+        "/2016/presentations/"
+      ]
+    },
+    {
+      "url": "http://www.eswlab.com/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://eswlab.com/",
+      "pages": [
+        "/2015/sponsors/"
+      ]
+    },
+    {
+      "url": "http://www.ey.com",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.ey.com/en_gl",
+      "pages": [
+        "/2011/location-and-time/",
+        "/2012/location-and-time/",
+        "/2013/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.ey.com/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.ey.com/en_gl",
+      "pages": [
+        "/2014/sponsors/",
+        "/2015/sponsors/"
+      ]
+    },
+    {
+      "url": "http://www.f6s.com/",
+      "status": 405,
+      "result": "unverified",
+      "detail": "HTTP Error 405: Not Allowed",
+      "pages": [
+        "/2015/sponsors/"
+      ]
+    },
+    {
+      "url": "http://www.foresight-air.com/",
+      "result": "unverified",
+      "detail": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "pages": [
+        "/2012/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.gamasec.com",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.gamasec.com/",
+      "pages": [
+        "/2007/sponsors-contributors/",
+        "/2008/"
+      ]
+    },
+    {
+      "url": "http://www.grsee.co.il",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://grsee.com/",
+      "pages": [
+        "/2012/location-and-time/",
+        "/2013/location-and-time/",
+        "/2015/sponsors/"
+      ]
+    },
+    {
+      "url": "http://www.hacktics.com",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://hacktics.com/",
+      "pages": [
+        "/2007/sponsors-contributors/",
+        "/2008/",
+        "/2010/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.hp.com/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.hp.com/il-he/home.html",
+      "pages": [
+        "/2012/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.ibm.com/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.ibm.com/us-en",
+      "pages": [
+        "/2011/location-and-time/",
+        "/2012/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.idc.ac.il",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.runi.ac.il/",
+      "pages": [
+        "/2008/",
+        "/2009/location-and-time/",
+        "/2010/location-and-time/",
+        "/2011/location-and-time/",
+        "/2012/location-and-time/",
+        "/2013/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.idc.ac.il/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.runi.ac.il/",
+      "pages": [
+        "/2014/sponsors/"
+      ]
+    },
+    {
+      "url": "http://www.idc.co.il",
+      "result": "unverified",
+      "detail": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "pages": [
+        "/2008/"
+      ]
+    },
+    {
+      "url": "http://www.idc.co.il/?showproduct=31108&content_lang=ENG",
+      "result": "unverified",
+      "detail": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "pages": [
+        "/conferences/"
+      ]
+    },
+    {
+      "url": "http://www.ikotler.org/AllYourMobileAppsAreBelongToUs_OWASP2011IL.pdf",
+      "status": 404,
+      "result": "broken",
+      "detail": "HTTP Error 404: Not Found",
+      "pages": [
+        "/2011/agenda/"
+      ]
+    },
+    {
+      "url": "http://www.imperva.com",
+      "result": "unverified",
+      "detail": "The read operation timed out",
+      "pages": [
+        "/2008/",
+        "/2009/location-and-time/",
+        "/2011/location-and-time/",
+        "/2012/location-and-time/",
+        "/2013/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.imperva.com/",
+      "result": "unverified",
+      "detail": "The read operation timed out",
+      "pages": [
+        "/2014/sponsors/",
+        "/2015/sponsors/"
+      ]
+    },
+    {
+      "url": "http://www.ip-sec.co.il/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.ip-sec.co.il/",
+      "pages": [
+        "/2015/sponsors/"
+      ]
+    },
+    {
+      "url": "http://www.issa.org.il",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.issa.org.il/",
+      "pages": [
+        "/2008/"
+      ]
+    },
+    {
+      "url": "http://www.johnbryce.co.il",
+      "status": 301,
+      "result": "unverified",
+      "detail": "HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nMoved Permanently",
+      "pages": [
+        "/2011/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.komodosec.com/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.komodosec.com/",
+      "pages": [
+        "/2012/location-and-time/",
+        "/2013/location-and-time/",
+        "/2014/sponsors/",
+        "/2015/sponsors/",
+        "/2016/presentations/",
+        "/2016/sponsors/"
+      ]
+    },
+    {
+      "url": "http://www.liveperson.com/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.liveperson.com/",
+      "pages": [
+        "/2011/location-and-time/",
+        "/2012/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.manageware.co.il/solution/portfolio/blackduck-2/",
+      "result": "unverified",
+      "detail": "<urlopen error timed out>",
+      "pages": [
+        "/2015/sponsors/"
+      ]
+    },
+    {
+      "url": "http://www.nisf.org.il",
+      "result": "unverified",
+      "detail": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "pages": [
+        "/2007/program/",
+        "/2008/"
+      ]
+    },
+    {
+      "url": "http://www.owasp.org/index.php/Membership",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/Membership",
+      "pages": [
+        "/2007/owasp-il-sponsorship/",
+        "/2015/owasp-il-sponsorship/"
+      ]
+    },
+    {
+      "url": "http://www.pc.o.il/",
+      "result": "unverified",
+      "detail": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "pages": [
+        "/2011/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.quotium.com",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.quotium.com/",
+      "pages": [
+        "/2012/location-and-time/",
+        "/2013/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.quotium.com/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.quotium.com/",
+      "pages": [
+        "/2014/sponsors/"
+      ]
+    },
+    {
+      "url": "http://www.radware.com",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.radware.com:443/",
+      "pages": [
+        "/2012/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.radware.com/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.radware.com:443/",
+      "pages": [
+        "/2014/sponsors/"
+      ]
+    },
+    {
+      "url": "http://www.rafael.co.il/",
+      "status": 247,
+      "result": "ok",
+      "final_url": "https://www.rafael.co.il/",
+      "pages": [
+        "/2012/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.rsa.com",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.rsa.com/",
+      "pages": [
+        "/2011/location-and-time/",
+        "/2012/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.secoz.com/",
+      "result": "unverified",
+      "detail": "<urlopen error [Errno 11002] getaddrinfo failed>",
+      "pages": [
+        "/2012/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.security-art.com/",
+      "result": "unverified",
+      "detail": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "pages": [
+        "/2011/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.see-security.com/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.see-security.com/",
+      "pages": [
+        "/2015/sponsors/",
+        "/2016/presentations/",
+        "/2016/sponsors/"
+      ]
+    },
+    {
+      "url": "http://www.seekersec.com",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.hugedomains.com/domain_profile.cfm?d=seekersec.com",
+      "pages": [
+        "/2011/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.synopsys.com/software/pages/default.aspx",
+      "status": 404,
+      "result": "broken",
+      "detail": "HTTP Error 404: Not Found",
+      "pages": [
+        "/2015/sponsors/"
+      ]
+    },
+    {
+      "url": "http://www.trusteer.com",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.ibm.com/products/trusteer",
+      "pages": [
+        "/2013/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.trustwave.com",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.levelblue.com/",
+      "pages": [
+        "/2011/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.valtman.org",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://valtman.org/",
+      "pages": [
+        "/2013/presentations/"
+      ]
+    },
+    {
+      "url": "http://www.youtube.com/watch?v=ASZvPxGHZ5g&list=SPA4gj-PiNukdr7SY4XKoF4xhb0XZYw-WI&index=11",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.youtube.com/watch?v=ASZvPxGHZ5g&list=SPA4gj-PiNukdr7SY4XKoF4xhb0XZYw-WI&index=11",
+      "pages": [
+        "/2013/presentations/"
+      ]
+    },
+    {
+      "url": "http://www.youtube.com/watch?v=D5dyf13RbCU&list=SPA4gj-PiNukdr7SY4XKoF4xhb0XZYw-WI&index=9",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.youtube.com/watch?v=D5dyf13RbCU&list=SPA4gj-PiNukdr7SY4XKoF4xhb0XZYw-WI&index=9",
+      "pages": [
+        "/2013/presentations/"
+      ]
+    },
+    {
+      "url": "http://www.youtube.com/watch?v=Hl-JIxq0IrI",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.youtube.com/watch?v=Hl-JIxq0IrI",
+      "pages": [
+        "/2008/agenda/"
+      ]
+    },
+    {
+      "url": "http://www.youtube.com/watch?v=KIgMMLS8_Jc&list=SPA4gj-PiNukdr7SY4XKoF4xhb0XZYw-WI&index=3",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.youtube.com/watch?v=KIgMMLS8_Jc&list=SPA4gj-PiNukdr7SY4XKoF4xhb0XZYw-WI&index=3",
+      "pages": [
+        "/2013/presentations/"
+      ]
+    },
+    {
+      "url": "http://www.youtube.com/watch?v=O2uOOiy8yxw",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.youtube.com/watch?v=O2uOOiy8yxw",
+      "pages": [
+        "/2008/agenda/"
+      ]
+    },
+    {
+      "url": "http://www.youtube.com/watch?v=PBqqKYgU2ZM&list=SPA4gj-PiNukdr7SY4XKoF4xhb0XZYw-WI&index=2",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.youtube.com/watch?v=PBqqKYgU2ZM&list=SPA4gj-PiNukdr7SY4XKoF4xhb0XZYw-WI&index=2",
+      "pages": [
+        "/2013/presentations/"
+      ]
+    },
+    {
+      "url": "http://www.youtube.com/watch?v=QNqcC_gS6Y0&list=SPA4gj-PiNukdr7SY4XKoF4xhb0XZYw-WI&index=8",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.youtube.com/watch?v=QNqcC_gS6Y0&list=SPA4gj-PiNukdr7SY4XKoF4xhb0XZYw-WI&index=8",
+      "pages": [
+        "/2013/presentations/"
+      ]
+    },
+    {
+      "url": "http://www.youtube.com/watch?v=TAAGN7Ac8Wk",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.youtube.com/watch?v=TAAGN7Ac8Wk",
+      "pages": [
+        "/2008/agenda/"
+      ]
+    },
+    {
+      "url": "http://www.youtube.com/watch?v=WTmd7ahBXAU&list=SPA4gj-PiNukdr7SY4XKoF4xhb0XZYw-WI",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.youtube.com/watch?v=WTmd7ahBXAU&list=SPA4gj-PiNukdr7SY4XKoF4xhb0XZYw-WI",
+      "pages": [
+        "/2013/location-and-time/"
+      ]
+    },
+    {
+      "url": "http://www.youtube.com/watch?v=WTmd7ahBXAU&list=SPA4gj-PiNukdr7SY4XKoF4xhb0XZYw-WI&index=1",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.youtube.com/watch?v=WTmd7ahBXAU&list=SPA4gj-PiNukdr7SY4XKoF4xhb0XZYw-WI&index=1",
+      "pages": [
+        "/2013/presentations/"
+      ]
+    },
+    {
+      "url": "http://www.youtube.com/watch?v=gJK6G7y7AvY&list=SPA4gj-PiNukdr7SY4XKoF4xhb0XZYw-WI&index=7",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.youtube.com/watch?v=gJK6G7y7AvY&list=SPA4gj-PiNukdr7SY4XKoF4xhb0XZYw-WI&index=7",
+      "pages": [
+        "/2013/presentations/"
+      ]
+    },
+    {
+      "url": "http://www.youtube.com/watch?v=jUBC4qY0akg&list=SPA4gj-PiNukdr7SY4XKoF4xhb0XZYw-WI&index=4",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.youtube.com/watch?v=jUBC4qY0akg&list=SPA4gj-PiNukdr7SY4XKoF4xhb0XZYw-WI&index=4",
+      "pages": [
+        "/2013/presentations/"
+      ]
+    },
+    {
+      "url": "http://www.youtube.com/watch?v=mFW2ST4-b4s&list=SPA4gj-PiNukdr7SY4XKoF4xhb0XZYw-WI&index=6",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.youtube.com/watch?v=mFW2ST4-b4s&list=SPA4gj-PiNukdr7SY4XKoF4xhb0XZYw-WI&index=6",
+      "pages": [
+        "/2013/presentations/"
+      ]
+    },
+    {
+      "url": "http://www.youtube.com/watch?v=nJU98g1SdBM&list=SPA4gj-PiNukdr7SY4XKoF4xhb0XZYw-WI&index=12",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.youtube.com/watch?v=nJU98g1SdBM&list=SPA4gj-PiNukdr7SY4XKoF4xhb0XZYw-WI&index=12",
+      "pages": [
+        "/2013/presentations/"
+      ]
+    },
+    {
+      "url": "http://www.youtube.com/watch?v=rNecoaL78Sw&list=SPA4gj-PiNukdr7SY4XKoF4xhb0XZYw-WI&index=10",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.youtube.com/watch?v=rNecoaL78Sw&list=SPA4gj-PiNukdr7SY4XKoF4xhb0XZYw-WI&index=10",
+      "pages": [
+        "/2013/presentations/"
+      ]
+    },
+    {
+      "url": "http://www.youtube.com/watch?v=tAQTMdNU5dA&list=SPA4gj-PiNukdr7SY4XKoF4xhb0XZYw-WI&index=5",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.youtube.com/watch?v=tAQTMdNU5dA&list=SPA4gj-PiNukdr7SY4XKoF4xhb0XZYw-WI&index=5",
+      "pages": [
+        "/2013/presentations/"
+      ]
+    },
+    {
+      "url": "http://www.youtube.com/watch?v=vmzhWA6_Li4",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.youtube.com/watch?v=vmzhWA6_Li4",
+      "pages": [
+        "/2008/agenda/"
+      ]
+    },
+    {
+      "url": "https://2017.appsecil.org/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://2017.appsecil.org/",
+      "pages": [
+        "/conferences/"
+      ]
+    },
+    {
+      "url": "https://2018.appsecil.org/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://2018.appsecil.org/",
+      "pages": [
+        "/conferences/"
+      ]
+    },
+    {
+      "url": "https://2020.appsecil.org/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://2020.appsecil.org/",
+      "pages": [
+        "/conferences/"
+      ]
+    },
+    {
+      "url": "https://appsecil2014.eventbrite.com",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.eventbrite.com/",
+      "pages": [
+        "/2014/location-and-time/"
+      ]
+    },
+    {
+      "url": "https://appsecil2015.eventbrite.com/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.eventbrite.com/",
+      "pages": [
+        "/2015/registration/"
+      ]
+    },
+    {
+      "url": "https://appsecil2015.eventbrite.com/?ref=ebtnebregn",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.eventbrite.com/",
+      "pages": [
+        "/2015/registration/",
+        "/2015/sponsorships/"
+      ]
+    },
+    {
+      "url": "https://appsecil2015.sched.org/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://appsecil2015.sched.com/",
+      "pages": [
+        "/2015/agenda/",
+        "/2015/presentations/"
+      ]
+    },
+    {
+      "url": "https://appsecil2016.eventbrite.com/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.eventbrite.com/e/owasp-appsec-israel-2016-registration-26585075677?aff=oddtdtcreator",
+      "pages": [
+        "/2016/registration/"
+      ]
+    },
+    {
+      "url": "https://appsecil2016.sched.org/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://appsecil2016.sched.com/",
+      "pages": [
+        "/2016/agenda/",
+        "/2016/presentations/"
+      ]
+    },
+    {
+      "url": "https://appsecil2016.sched.org/event/8CKb",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://appsecil2016.sched.com/event/8CKb",
+      "pages": [
+        "/2016/ctf/"
+      ]
+    },
+    {
+      "url": "https://comsecglobal.com/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://comsecglobal.com/",
+      "pages": [
+        "/2016/presentations/",
+        "/2016/sponsors/"
+      ]
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "pages": [
+        "/2007/",
+        "/2007/owasp-il-sponsorship/",
+        "/2007/pictures/",
+        "/2007/program/",
+        "/2007/sponsors-contributors/",
+        "/2008/",
+        "/2008/adi-sharabani/",
+        "/2008/agenda/",
+        "/2008/alon-rosen/",
+        "/2008/amichai-shulman/",
+        "/2008/amir-herzberg/",
+        "/2008/david-movshovitz/",
+        "/2008/erez-metula/",
+        "/2008/ivan-ristic/",
+        "/2008/maty-siman/",
+        "/2008/ofer-maor/",
+        "/2008/ohad-ben-cohen/",
+        "/2008/ronen-bachar/",
+        "/2008/shai-chen/",
+        "/2008/the-people-behind-the-conference/",
+        "/2008/yuli-stremovsky/",
+        "/2009/",
+        "/2009/agenda/",
+        "/2009/contact/",
+        "/2009/location-and-time/",
+        "/2010/",
+        "/2010/agenda-presentations/",
+        "/2010/contact/",
+        "/2010/location-and-time/",
+        "/2010/pictures/",
+        "/2010/the-people-behind-the-conference/",
+        "/2011/",
+        "/2011/agenda/",
+        "/2011/location-and-time/",
+        "/2011/presentations/",
+        "/2011/registration/",
+        "/2011/the-people-behind-the-conference/",
+        "/2012/",
+        "/2012/agenda/",
+        "/2012/location-and-time/",
+        "/2012/the-people-behind-the-conference/",
+        "/2013/",
+        "/2013/agenda/",
+        "/2013/location-and-time/",
+        "/2013/presentations/",
+        "/2013/the-people-behind-the-conference/",
+        "/2014/",
+        "/2014/agenda/",
+        "/2014/cfp/",
+        "/2014/location-and-time/",
+        "/2014/presentations/",
+        "/2014/sponsors/",
+        "/2015/",
+        "/2015/agenda/",
+        "/2015/cfp/",
+        "/2015/location-and-time/",
+        "/2015/owasp-il-sponsorship/",
+        "/2015/presentations/",
+        "/2015/registration/",
+        "/2015/sponsors/",
+        "/2015/sponsorships/",
+        "/2016/",
+        "/2016/agenda/",
+        "/2016/ctf/",
+        "/2016/location-and-time/",
+        "/2016/presentations/",
+        "/2016/registration/",
+        "/2016/sponsors/",
+        "/2016/sponsorships-details/",
+        "/2016/sponsorships/",
+        "/2016/the-people-behind-the-conference/"
+      ]
+    },
+    {
+      "url": "https://docs.google.com/forms/d/1KhIFqyFl0rACd4hzqf2SlSB2niz8zM1clgAdRGC0vfk",
+      "status": 404,
+      "result": "broken",
+      "detail": "HTTP Error 404: Not Found",
+      "pages": [
+        "/2014/cfp/"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/drive/folders/0B0_K8tApcXxmVzBkcDNFUmt5S0U",
+      "status": 404,
+      "result": "broken",
+      "detail": "HTTP Error 404: Not Found",
+      "pages": [
+        "/2016/",
+        "/2016/presentations/"
+      ]
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+      "pages": [
+        "/2007/",
+        "/2007/owasp-il-sponsorship/",
+        "/2007/pictures/",
+        "/2007/program/",
+        "/2007/sponsors-contributors/",
+        "/2008/",
+        "/2008/adi-sharabani/",
+        "/2008/agenda/",
+        "/2008/alon-rosen/",
+        "/2008/amichai-shulman/",
+        "/2008/amir-herzberg/",
+        "/2008/david-movshovitz/",
+        "/2008/erez-metula/",
+        "/2008/ivan-ristic/",
+        "/2008/maty-siman/",
+        "/2008/ofer-maor/",
+        "/2008/ohad-ben-cohen/",
+        "/2008/ronen-bachar/",
+        "/2008/shai-chen/",
+        "/2008/the-people-behind-the-conference/",
+        "/2008/yuli-stremovsky/",
+        "/2009/",
+        "/2009/agenda/",
+        "/2009/contact/",
+        "/2009/location-and-time/",
+        "/2010/",
+        "/2010/agenda-presentations/",
+        "/2010/contact/",
+        "/2010/location-and-time/",
+        "/2010/pictures/",
+        "/2010/the-people-behind-the-conference/",
+        "/2011/",
+        "/2011/agenda/",
+        "/2011/location-and-time/",
+        "/2011/presentations/",
+        "/2011/registration/",
+        "/2011/the-people-behind-the-conference/",
+        "/2012/",
+        "/2012/agenda/",
+        "/2012/location-and-time/",
+        "/2012/the-people-behind-the-conference/",
+        "/2013/",
+        "/2013/agenda/",
+        "/2013/location-and-time/",
+        "/2013/presentations/",
+        "/2013/the-people-behind-the-conference/",
+        "/2014/",
+        "/2014/agenda/",
+        "/2014/cfp/",
+        "/2014/location-and-time/",
+        "/2014/presentations/",
+        "/2014/sponsors/",
+        "/2015/",
+        "/2015/agenda/",
+        "/2015/cfp/",
+        "/2015/location-and-time/",
+        "/2015/owasp-il-sponsorship/",
+        "/2015/presentations/",
+        "/2015/registration/",
+        "/2015/sponsors/",
+        "/2015/sponsorships/",
+        "/2016/",
+        "/2016/agenda/",
+        "/2016/ctf/",
+        "/2016/location-and-time/",
+        "/2016/presentations/",
+        "/2016/registration/",
+        "/2016/sponsors/",
+        "/2016/sponsorships-details/",
+        "/2016/sponsorships/",
+        "/2016/the-people-behind-the-conference/",
+        "/conferences/"
+      ]
+    },
+    {
+      "url": "https://idangross.smugmug.com/Colman/%D7%91%D7%99%D7%AA-%D7%94%D7%A1%D7%A4%D7%A8-%D7%9C%D7%9E%D7%93%D7%A2%D7%99/%D7%A1%D7%99%D7%99%D7%91%D7%A8/i-N9Q89L4",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://idangross.smugmug.com/Colman/%D7%91%D7%99%D7%AA-%D7%94%D7%A1%D7%A4%D7%A8-%D7%9C%D7%9E%D7%93%D7%A2%D7%99/%D7%A1%D7%99%D7%99%D7%91%D7%A8/i-N9Q89L4",
+      "pages": [
+        "/2015/"
+      ]
+    },
+    {
+      "url": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
+      "pages": [
+        "/2007/",
+        "/2007/owasp-il-sponsorship/",
+        "/2007/pictures/",
+        "/2007/program/",
+        "/2007/sponsors-contributors/",
+        "/2008/",
+        "/2008/adi-sharabani/",
+        "/2008/agenda/",
+        "/2008/alon-rosen/",
+        "/2008/amichai-shulman/",
+        "/2008/amir-herzberg/",
+        "/2008/david-movshovitz/",
+        "/2008/erez-metula/",
+        "/2008/ivan-ristic/",
+        "/2008/maty-siman/",
+        "/2008/ofer-maor/",
+        "/2008/ohad-ben-cohen/",
+        "/2008/ronen-bachar/",
+        "/2008/shai-chen/",
+        "/2008/the-people-behind-the-conference/",
+        "/2008/yuli-stremovsky/",
+        "/2009/",
+        "/2009/agenda/",
+        "/2009/contact/",
+        "/2009/location-and-time/",
+        "/2010/",
+        "/2010/agenda-presentations/",
+        "/2010/contact/",
+        "/2010/location-and-time/",
+        "/2010/pictures/",
+        "/2010/the-people-behind-the-conference/",
+        "/2011/",
+        "/2011/agenda/",
+        "/2011/location-and-time/",
+        "/2011/presentations/",
+        "/2011/registration/",
+        "/2011/the-people-behind-the-conference/",
+        "/2012/",
+        "/2012/agenda/",
+        "/2012/location-and-time/",
+        "/2012/the-people-behind-the-conference/",
+        "/2013/",
+        "/2013/agenda/",
+        "/2013/location-and-time/",
+        "/2013/presentations/",
+        "/2013/the-people-behind-the-conference/",
+        "/2014/",
+        "/2014/agenda/",
+        "/2014/cfp/",
+        "/2014/location-and-time/",
+        "/2014/presentations/",
+        "/2014/sponsors/",
+        "/2015/",
+        "/2015/agenda/",
+        "/2015/cfp/",
+        "/2015/location-and-time/",
+        "/2015/owasp-il-sponsorship/",
+        "/2015/presentations/",
+        "/2015/registration/",
+        "/2015/sponsors/",
+        "/2015/sponsorships/",
+        "/2016/",
+        "/2016/agenda/",
+        "/2016/ctf/",
+        "/2016/location-and-time/",
+        "/2016/presentations/",
+        "/2016/registration/",
+        "/2016/sponsors/",
+        "/2016/sponsorships-details/",
+        "/2016/sponsorships/",
+        "/2016/the-people-behind-the-conference/",
+        "/conferences/"
+      ]
+    },
+    {
+      "url": "https://owasp.org/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://owasp.org/",
+      "pages": [
+        "/2007/",
+        "/2007/owasp-il-sponsorship/",
+        "/2007/pictures/",
+        "/2007/program/",
+        "/2007/sponsors-contributors/",
+        "/2008/",
+        "/2008/adi-sharabani/",
+        "/2008/agenda/",
+        "/2008/alon-rosen/",
+        "/2008/amichai-shulman/",
+        "/2008/amir-herzberg/",
+        "/2008/david-movshovitz/",
+        "/2008/erez-metula/",
+        "/2008/ivan-ristic/",
+        "/2008/maty-siman/",
+        "/2008/ofer-maor/",
+        "/2008/ohad-ben-cohen/",
+        "/2008/ronen-bachar/",
+        "/2008/shai-chen/",
+        "/2008/the-people-behind-the-conference/",
+        "/2008/yuli-stremovsky/",
+        "/2009/",
+        "/2009/agenda/",
+        "/2009/contact/",
+        "/2009/location-and-time/",
+        "/2010/",
+        "/2010/agenda-presentations/",
+        "/2010/contact/",
+        "/2010/location-and-time/",
+        "/2010/pictures/",
+        "/2010/the-people-behind-the-conference/",
+        "/2011/",
+        "/2011/agenda/",
+        "/2011/location-and-time/",
+        "/2011/presentations/",
+        "/2011/registration/",
+        "/2011/the-people-behind-the-conference/",
+        "/2012/",
+        "/2012/agenda/",
+        "/2012/location-and-time/",
+        "/2012/the-people-behind-the-conference/",
+        "/2013/",
+        "/2013/agenda/",
+        "/2013/location-and-time/",
+        "/2013/presentations/",
+        "/2013/the-people-behind-the-conference/",
+        "/2014/",
+        "/2014/agenda/",
+        "/2014/cfp/",
+        "/2014/location-and-time/",
+        "/2014/presentations/",
+        "/2014/sponsors/",
+        "/2015/",
+        "/2015/agenda/",
+        "/2015/cfp/",
+        "/2015/location-and-time/",
+        "/2015/owasp-il-sponsorship/",
+        "/2015/presentations/",
+        "/2015/registration/",
+        "/2015/sponsors/",
+        "/2015/sponsorships/",
+        "/2016/",
+        "/2016/agenda/",
+        "/2016/ctf/",
+        "/2016/location-and-time/",
+        "/2016/presentations/",
+        "/2016/registration/",
+        "/2016/sponsors/",
+        "/2016/sponsorships-details/",
+        "/2016/sponsorships/",
+        "/2016/the-people-behind-the-conference/",
+        "/conferences/"
+      ]
+    },
+    {
+      "url": "https://owasp.org/join",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://owasp.glueup.com/organization/6727/memberships/",
+      "pages": [
+        "/2007/",
+        "/2007/owasp-il-sponsorship/",
+        "/2007/pictures/",
+        "/2007/program/",
+        "/2007/sponsors-contributors/",
+        "/2008/",
+        "/2008/adi-sharabani/",
+        "/2008/agenda/",
+        "/2008/alon-rosen/",
+        "/2008/amichai-shulman/",
+        "/2008/amir-herzberg/",
+        "/2008/david-movshovitz/",
+        "/2008/erez-metula/",
+        "/2008/ivan-ristic/",
+        "/2008/maty-siman/",
+        "/2008/ofer-maor/",
+        "/2008/ohad-ben-cohen/",
+        "/2008/ronen-bachar/",
+        "/2008/shai-chen/",
+        "/2008/the-people-behind-the-conference/",
+        "/2008/yuli-stremovsky/",
+        "/2009/",
+        "/2009/agenda/",
+        "/2009/contact/",
+        "/2009/location-and-time/",
+        "/2010/",
+        "/2010/agenda-presentations/",
+        "/2010/contact/",
+        "/2010/location-and-time/",
+        "/2010/pictures/",
+        "/2010/the-people-behind-the-conference/",
+        "/2011/",
+        "/2011/agenda/",
+        "/2011/location-and-time/",
+        "/2011/presentations/",
+        "/2011/registration/",
+        "/2011/the-people-behind-the-conference/",
+        "/2012/",
+        "/2012/agenda/",
+        "/2012/location-and-time/",
+        "/2012/the-people-behind-the-conference/",
+        "/2013/",
+        "/2013/agenda/",
+        "/2013/location-and-time/",
+        "/2013/presentations/",
+        "/2013/the-people-behind-the-conference/",
+        "/2014/",
+        "/2014/agenda/",
+        "/2014/cfp/",
+        "/2014/location-and-time/",
+        "/2014/presentations/",
+        "/2014/sponsors/",
+        "/2015/",
+        "/2015/agenda/",
+        "/2015/cfp/",
+        "/2015/location-and-time/",
+        "/2015/owasp-il-sponsorship/",
+        "/2015/presentations/",
+        "/2015/registration/",
+        "/2015/sponsors/",
+        "/2015/sponsorships/",
+        "/2016/",
+        "/2016/agenda/",
+        "/2016/ctf/",
+        "/2016/location-and-time/",
+        "/2016/presentations/",
+        "/2016/registration/",
+        "/2016/sponsors/",
+        "/2016/sponsorships-details/",
+        "/2016/sponsorships/",
+        "/2016/the-people-behind-the-conference/",
+        "/conferences/"
+      ]
+    },
+    {
+      "url": "https://picasaweb.google.com/111457273021170719482/OWASPIsrael2011?authkey=Gv1sRgCPWFtpWRuLSFqwE",
+      "status": 404,
+      "result": "broken",
+      "detail": "HTTP Error 404: Not Found",
+      "pages": [
+        "/2011/location-and-time/"
+      ]
+    },
+    {
+      "url": "https://telaviv.appsecglobal.org",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://telaviv.appsecglobal.org",
+      "pages": [
+        "/conferences/"
+      ]
+    },
+    {
+      "url": "https://twitter.com/hashtag/AppSecIL",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://x.com/i/jf/onboarding/web?redirect_after_login=%2Fhashtag%2FAppSecIL&mode=login",
+      "pages": [
+        "/2015/location-and-time/",
+        "/2016/location-and-time/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/AppSecEU08_Trends_in_Web_Hacking_Incidents:_What%27s_hot_for_2008",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/AppSecEU08_Trends_in_Web_Hacking_Incidents:_What%27s_hot_for_2008",
+      "pages": [
+        "/2008/agenda/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/AppSec_Israel_2014",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/AppSec_Israel_2014",
+      "pages": [
+        "/2014/",
+        "/2014/agenda/",
+        "/2014/location-and-time/",
+        "/2014/sponsors/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/AppSec_Israel_2014_CFP",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/AppSec_Israel_2014_CFP",
+      "pages": [
+        "/2014/cfp/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/AppSec_Israel_2014_Presentations",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/AppSec_Israel_2014_Presentations",
+      "pages": [
+        "/2014/presentations/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/AppSec_Israel_2015",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/AppSec_Israel_2015",
+      "pages": [
+        "/2015/",
+        "/2015/agenda/",
+        "/2015/cfp/",
+        "/2015/location-and-time/",
+        "/2015/presentations/",
+        "/2015/registration/",
+        "/2015/sponsors/",
+        "/2015/sponsorships/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/AppSec_Israel_2015_CFP",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/AppSec_Israel_2015_CFP",
+      "pages": [
+        "/2015/cfp/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/AppSec_Israel_2015_Presentations",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/AppSec_Israel_2015_Presentations",
+      "pages": [
+        "/2015/presentations/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/AppSec_Israel_2016",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/AppSec_Israel_2016",
+      "pages": [
+        "/2016/",
+        "/2016/agenda/",
+        "/2016/ctf/",
+        "/2016/location-and-time/",
+        "/2016/presentations/",
+        "/2016/registration/",
+        "/2016/sponsors/",
+        "/2016/sponsorships-details/",
+        "/2016/sponsorships/",
+        "/2016/the-people-behind-the-conference/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/AppSec_Israel_2016_CTF",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/AppSec_Israel_2016_CTF",
+      "pages": [
+        "/2016/ctf/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/AppSec_Israel_2016_Presentations",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/AppSec_Israel_2016_Presentations",
+      "pages": [
+        "/2016/presentations/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/AppSec_Israel_2016_Sponsorships",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/AppSec_Israel_2016_Sponsorships",
+      "pages": [
+        "/2016/sponsorships-details/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/Israel",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/Israel",
+      "pages": [
+        "/2007/owasp-il-sponsorship/",
+        "/2015/owasp-il-sponsorship/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/OWASP_IL_Sponsorship",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/OWASP_IL_Sponsorship",
+      "pages": [
+        "/2007/owasp-il-sponsorship/",
+        "/2015/owasp-il-sponsorship/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/OWASP_Israel_2007_Conference",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/OWASP_Israel_2007_Conference",
+      "pages": [
+        "/2007/",
+        "/2007/pictures/",
+        "/2007/program/",
+        "/2007/sponsors-contributors/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_Adi_Sharabani",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_Adi_Sharabani",
+      "pages": [
+        "/2008/adi-sharabani/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_Alon_Rosen",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_Alon_Rosen",
+      "pages": [
+        "/2008/alon-rosen/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_Amichai_Shulman",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_Amichai_Shulman",
+      "pages": [
+        "/2008/amichai-shulman/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_Amir_Herzberg",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_Amir_Herzberg",
+      "pages": [
+        "/2008/amir-herzberg/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_David_Movshovitz",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_David_Movshovitz",
+      "pages": [
+        "/2008/david-movshovitz/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_Erez_Metula",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_Erez_Metula",
+      "pages": [
+        "/2008/erez-metula/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_Ivan_Ristic",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_Ivan_Ristic",
+      "pages": [
+        "/2008/ivan-ristic/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_Maty_Siman",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_Maty_Siman",
+      "pages": [
+        "/2008/maty-siman/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_Ofer_Maor",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_Ofer_Maor",
+      "pages": [
+        "/2008/ofer-maor/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_Ohad_Ben_Cohen",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_Ohad_Ben_Cohen",
+      "pages": [
+        "/2008/ohad-ben-cohen/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_Ronen_Bachar",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_Ronen_Bachar",
+      "pages": [
+        "/2008/ronen-bachar/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_Shai_Chen",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_Shai_Chen",
+      "pages": [
+        "/2008/shai-chen/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_Yuli_Stremovsky",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_Yuli_Stremovsky",
+      "pages": [
+        "/2008/yuli-stremovsky/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_at_the_Interdisciplinary_Center_Herzliya",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_at_the_Interdisciplinary_Center_Herzliya",
+      "pages": [
+        "/2008/",
+        "/2008/agenda/",
+        "/2008/the-people-behind-the-conference/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/OWASP_Israel_2009",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/OWASP_Israel_2009",
+      "pages": [
+        "/2009/",
+        "/2009/agenda/",
+        "/2009/contact/",
+        "/2009/location-and-time/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/OWASP_Israel_2010",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/OWASP_Israel_2010",
+      "pages": [
+        "/2010/",
+        "/2010/agenda-presentations/",
+        "/2010/contact/",
+        "/2010/location-and-time/",
+        "/2010/pictures/",
+        "/2010/the-people-behind-the-conference/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/OWASP_Israel_2011",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/OWASP_Israel_2011",
+      "pages": [
+        "/2011/",
+        "/2011/agenda/",
+        "/2011/location-and-time/",
+        "/2011/registration/",
+        "/2011/the-people-behind-the-conference/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/OWASP_Israel_2011_Presentations",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/OWASP_Israel_2011_Presentations",
+      "pages": [
+        "/2011/presentations/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/OWASP_Israel_2012",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/OWASP_Israel_2012",
+      "pages": [
+        "/2012/",
+        "/2012/agenda/",
+        "/2012/location-and-time/",
+        "/2012/the-people-behind-the-conference/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/OWASP_Israel_2013",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/OWASP_Israel_2013",
+      "pages": [
+        "/2013/",
+        "/2013/agenda/",
+        "/2013/location-and-time/",
+        "/2013/the-people-behind-the-conference/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/OWASP_Israel_2013_Presentations",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/OWASP_Israel_2013_Presentations",
+      "pages": [
+        "/2013/presentations/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/Speaker_Agreement",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/Speaker_Agreement",
+      "pages": [
+        "/2014/cfp/",
+        "/2015/cfp/"
+      ]
+    },
+    {
+      "url": "https://wiki.owasp.org/index.php/User:Oshezaf",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://wiki.owasp.org/index.php/User:Oshezaf",
+      "pages": [
+        "/2008/the-people-behind-the-conference/"
+      ]
+    },
+    {
+      "url": "https://www.Checkmarx.com/",
+      "status": 520,
+      "result": "unverified",
+      "detail": "HTTP Error 520: <none>",
+      "pages": [
+        "/2016/presentations/",
+        "/2016/sponsors/"
+      ]
+    },
+    {
+      "url": "https://www.akamai.com/",
+      "status": 403,
+      "result": "unverified",
+      "detail": "HTTP Error 403: Forbidden",
+      "pages": [
+        "/2016/presentations/",
+        "/2016/sponsors/"
+      ]
+    },
+    {
+      "url": "https://www.appsec-labs.com/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://appsec-labs.com/",
+      "pages": [
+        "/2016/presentations/",
+        "/2016/sponsors/"
+      ]
+    },
+    {
+      "url": "https://www.blackhat.com/us-14/training/android-application-hacking-pentesting-mobile-apps.html",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://blackhat.com/us-14/training/android-application-hacking-pentesting-mobile-apps.html",
+      "pages": [
+        "/2014/presentations/"
+      ]
+    },
+    {
+      "url": "https://www.colman.ac.il/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.colman.ac.il/",
+      "pages": [
+        "/2016/presentations/",
+        "/2016/sponsors/"
+      ]
+    },
+    {
+      "url": "https://www.facebook.com/media/set/?set=a.10151737522773985.1073741834.225900483984&type=3",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.facebook.com/media/set/?set=a.10151737522773985.1073741834.225900483984&type=3",
+      "pages": [
+        "/2013/location-and-time/"
+      ]
+    },
+    {
+      "url": "https://www.ge.com/digital/",
+      "status": 404,
+      "result": "broken",
+      "detail": "HTTP Error 404: Not Found",
+      "pages": [
+        "/2016/presentations/",
+        "/2016/sponsors/"
+      ]
+    },
+    {
+      "url": "https://www.imperva.com/",
+      "result": "unverified",
+      "detail": "The read operation timed out",
+      "pages": [
+        "/2016/presentations/",
+        "/2016/sponsors/"
+      ]
+    },
+    {
+      "url": "https://www.liveperson.com/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.liveperson.com/",
+      "pages": [
+        "/2016/presentations/",
+        "/2016/sponsors/"
+      ]
+    },
+    {
+      "url": "https://www.magshimim.net/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://magshimim.net/",
+      "pages": [
+        "/2015/sponsors/",
+        "/2016/presentations/",
+        "/2016/sponsors/"
+      ]
+    },
+    {
+      "url": "https://www.nixu.com/en/nixubenelux",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.dnv.com:443/cyber/",
+      "pages": [
+        "/2016/presentations/",
+        "/2016/sponsors/"
+      ]
+    },
+    {
+      "url": "https://www.safebreach.com/",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.safebreach.com/",
+      "pages": [
+        "/2016/presentations/",
+        "/2016/sponsors/"
+      ]
+    },
+    {
+      "url": "https://www.synopsys.com/software/pages/default.aspx",
+      "status": 404,
+      "result": "broken",
+      "detail": "HTTP Error 404: Not Found",
+      "pages": [
+        "/2016/presentations/",
+        "/2016/sponsors/"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=DzeEH0lhc7w&list=PLA4gj-PiNuke8miyzoFmZ8GVqSLcKCgMU&index=2",
+      "status": 200,
+      "result": "ok",
+      "final_url": "https://www.youtube.com/watch?v=DzeEH0lhc7w&list=PLA4gj-PiNuke8miyzoFmZ8GVqSLcKCgMU&index=2",
+      "pages": [
+        "/2015/"
+      ]
+    }
+  ]
+}

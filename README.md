@@ -1,55 +1,119 @@
-# AppSec-Israel
+﻿# AppSec Israel
 
-Jekyll repo for hosting the website for AppSec Israel Conference.   
-Viewable live at https://appsecil.org/ . 
+Jekyll website for the AppSec Israel conference and OWASP Israel chapter.
+Live at https://appsecil.org/.
 
-### Contributing
-Feel free to contribute anything that will improve the Conference site via PR - especially design :-)   
-- If you're not familiar with Jekyll: https://jekyllrb.com/docs/home/  
-- Jekyll tips: http://cheat.jekyll.tips/
+## Contributing
 
-### 2026 photo album
+Contributions are welcome through pull requests. See the
+[Jekyll documentation](https://jekyllrb.com/docs/home/) for help working with the site.
 
-The album page is `2026/photos.md`, published at `/photos.html` (linked as
-`./photos`, following the other 2026 pages). It shows a coming-soon message
-until photos are added.
+## Local preview
 
-Copy photos into `assets/img/2026/album/` and rebuild the site. Jekyll discovers
-them automatically; no YAML entries or plugins are needed. JPG, JPEG, PNG, GIF,
-WebP and AVIF files are supported, including uppercase extensions. Non-image
-files are ignored.
-
-Photos appear in filename order (including any subfolders). Photos with known
-capture times use a `YYYY-MM-DD_HH-MM-SS_` filename prefix so they appear from
-earliest to latest. Photos without a known capture time use an `undated_`
-prefix and appear afterward. The website does not need the original files or
-read capture timestamps from image metadata.
-
-You can also use prefixes such as `001-keynote.jpg` to control order. Descriptive
-filenames provide the image alt text, with hyphens and underscores replaced by
-spaces. Images are displayed as lazy-loaded thumbnails and open at full size.
-Resize very large originals before adding them to keep the page quick to load.
-
-The album reuses the site's `ImgPopUp.js` viewer, with previous/next buttons,
-left/right arrow keys, a photo counter, and a close button (or Escape).
-
-### Local preview with Ruby 4 on Windows
-
-From a terminal in this repository, run:
+With Ruby 4 installed on Windows, run from the repository root:
 
 ```powershell
 .\preview.bat
 ```
 
-Open `http://127.0.0.1:4000/photos.html`. The preview rebuilds when files change;
-refresh the browser to see updates. Press Ctrl+C to stop it. To only build the
-site, run `.\preview.bat -Build`. To use another port, run
-`.\preview.bat -Port 4001`.
+The launcher installs missing dependencies and starts the site at
+`http://127.0.0.1:4000/`. It rebuilds when files change; refresh the browser to
+see updates. Press Ctrl+C to stop.
 
-No arguments are needed: the launcher checks dependencies, installs any missing
-ones, builds the site, and starts the server each time. It runs Ruby directly,
-so PowerShell script execution settings do not affect it. It uses
-`_tools/Gemfile.preview` to run Jekyll 3.10 and Liquid 4.0.4 with Ruby 4's shipped
-JSON and BigDecimal libraries. This avoids the incompatible older Liquid
-version selected by the full GitHub Pages bundle on Ruby 4. The production
-`Gemfile` is separate from this local preview configuration.
+```powershell
+.\preview.bat -Build       # Build without starting the server
+.\preview.bat -Port 4001   # Use another port
+```
+
+The Windows preview uses `_tools/Gemfile.preview` for Ruby 4 compatibility.
+The production build uses `Gemfile`.
+
+To check a build hosted under a project path:
+
+```sh
+bundle exec jekyll build --baseurl /www-event-appsecil
+```
+
+## Maintaining the site
+
+- `_config.yml`: current conference year and Jekyll settings.
+- `_data/year-2027/config.yml`: current conference dates and venue.
+- `2027/index.md`: current conference overview; other pages are in `2027/`.
+- `_data/site-menu.yml`: shared navigation.
+- `chapter/`: chapter information and resources.
+- `conferences/`: conference history; past conference pages live in year folders.
+
+## Importing chapter meetups
+
+Export events using the sibling `meetup-archiver` project. Its JSON format is
+documented in `../meetup-archiver/ARCHIVE_FORMAT.md`.
+
+Install dependencies once:
+
+```powershell
+python -m pip install --target .bundle/meetup-import -r _tools/meetup-requirements.txt
+```
+
+Import the latest timestamped JSON export from the sibling project's `output`
+folder, or provide an explicit path:
+
+```powershell
+python _tools/import-meetups.py
+python _tools/import-meetups.py ../meetup-archiver/output/your-archive.json
+```
+
+A new import **replaces the imported event set**, so use a complete export to
+retain all events. Edit the importer/templates rather than generated event pages.
+
+Commit the generated files together:
+
+- `chapter/meetups/`
+- `_data/meetups.json`
+- `assets/img/meetups/`
+- `_tools/meetup-import-manifest.json`
+
+Historical labels, recording links, and attendance notes are maintained in
+`_data/meetup-notes.json`.
+
+Validate importer changes and preview the archive:
+
+```powershell
+python -m unittest discover -s _tools -p test_import_meetups.py
+.\preview.bat
+```
+
+Open `http://127.0.0.1:4000/chapter/meetups/` to review the result.
+
+## Preserving the conference wiki archive
+
+The 2007-2016 year folders contain locally hosted OWASP wiki conference content,
+including linked presentation, sponsorship and CTF pages. Source API snapshots,
+revision IDs and downloaded images/documents are in `assets/conferences/`.
+`manifest.json` records source URLs, checksums and any failed downloads. Keep these
+files committed: building or viewing the site does not require the wiki.
+
+To repeat the import (existing snapshots and downloads are reused):
+
+```powershell
+python -m pip install --target .bundle/conference-import -r _tools/conference-requirements.txt
+python _tools/import-conferences.py
+.\preview.bat -Build
+```
+
+Edit the importer rather than generated year pages. Review `manifest.json` for
+unavailable assets after importing. External recordings and non-wiki websites
+remain external links. Wiki attribution and license links appear on each page.
+
+The archive renderer (`_tools/conference-pages.py`) creates an overview plus
+separate agenda, speaker, sponsor and other topic pages. Every page has conference
+navigation, a nested subsection TOC, and previous/next links. The sidebar stays
+visible on desktop and becomes a collapsible contents panel on smaller screens.
+Archive typography and layout are in `assets/css/conference-archive.css`.
+
+To check links after building, run `python _tools/check-links.py --external`.
+This checks internal links and anchors throughout the built site, plus external
+URLs from the conference history and 2007–2016 archive. Results and affected
+pages are saved in `_tools/link-check-report.md` and `.json`. Use
+`--reuse-external` to reuse previous external results while checking updated
+local pages. HTTP 404/410 responses are listed separately from blocked requests,
+TLS failures and timeouts that need manual review.

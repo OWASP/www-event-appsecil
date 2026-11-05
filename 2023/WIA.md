@@ -2,7 +2,7 @@
 ---
 
 ## Women In AppSec - Ladies-only Evening event! 
-A special Cyber Ladies-WIA Meetup, at the end of the [Training Day](Training) on {{ site.data.year-2023.config.trainingday }}.
+A special Cyber Ladies-WIA Meetup, at the end of the [Training Day](Workshops) on {{ site.data.year-2023.config.trainingday }}.
 
 Whether you're a security ninja, or just a newbie in cyber - you're welcome to join us. Take this opportunity to meet new ladies like yourself, or get some guidance from our mentors. Enrich yourself in a technical talk in addition to an inspirational one.
 

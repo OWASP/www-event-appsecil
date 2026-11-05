@@ -1,0 +1,17 @@
+{% assign older_meetup = nil %}
+{% assign newer_meetup = nil %}
+{% for event in site.data.meetups.events %}
+  {% if event.url == page.url %}
+    {% assign older_index = forloop.index0 | plus: 1 %}
+    {% assign newer_index = forloop.index0 | minus: 1 %}
+    {% assign older_meetup = site.data.meetups.events[older_index] %}
+    {% if newer_index >= 0 %}{% assign newer_meetup = site.data.meetups.events[newer_index] %}{% endif %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+{% if older_meetup or newer_meetup %}
+<nav class="meetup-pagination" aria-label="Previous and next meetups">
+  {% if older_meetup %}<a class="button button_type_main meetup-previous" rel="prev" href="{{ older_meetup.url | relative_url }}" aria-label="Previous meetup: {{ older_meetup.title | escape }}">&larr; Previous meetup</a>{% endif %}
+  {% if newer_meetup %}<a class="button button_type_main meetup-next" rel="next" href="{{ newer_meetup.url | relative_url }}" aria-label="Next meetup: {{ newer_meetup.title | escape }}">Next meetup &rarr;</a>{% endif %}
+</nav>
+{% endif %}

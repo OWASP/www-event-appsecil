@@ -1,0 +1,8 @@
+<ul class="grid team-grid chapter-leads">
+{% for leader in site.data.chapter-leads %}
+  <li class="grid__item">
+    <img src="{{ leader.image | relative_url }}" alt="{{ leader.name | escape }}" class="grid__cover team-grid__cover" loading="lazy" decoding="async">
+    <h3 class="grid__title team-grid__title"><a href="mailto:{{ leader.email | escape }}">{{ leader.name | escape }}</a></h3>
+  </li>
+{% endfor %}
+</ul>

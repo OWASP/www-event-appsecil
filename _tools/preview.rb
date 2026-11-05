@@ -45,7 +45,7 @@ end
 command = if build_only
             ['build']
           else
-            puts "Album preview: http://127.0.0.1:#{port}/photos.html (Ctrl+C to stop)"
+            puts "Album preview: http://127.0.0.1:#{port}/2026/photos.html (Ctrl+C to stop)"
             ['serve', '--host', '127.0.0.1', '--port', port, '--force_polling']
           end
 

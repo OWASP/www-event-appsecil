@@ -1,0 +1,357 @@
+{
+  "metadata": {
+    "archivedAt": "2026-10-26T20:23:54.850Z",
+    "groupUrlname": "owasp-israel",
+    "groupId": "19369129",
+    "groupName": "OWASP Israel Chapter",
+    "totalEvents": 43,
+    "pastEvents": 43,
+    "upcomingEvents": 0
+  },
+  "events": [
+    {
+      "id": "316563698",
+      "title": "AppSec IL 2026 - Oct 6 - Placeholder",
+      "date": "2026-10-06T19:00:00+03:00",
+      "url": "/chapter/meetups/316563698/",
+      "location": "Expo Tel Aviv, 101 Rokach Boulevard,, Tel Aviv, IL",
+      "attendance": 5
+    },
+    {
+      "id": "314764548",
+      "title": "OWASP Israel June 2026 Meetup",
+      "date": "2026-06-02T17:30:00+03:00",
+      "url": "/chapter/meetups/314764548/",
+      "location": "Icon Tower, Menachem Begin 13, Ramat Gan, il",
+      "attendance": 147
+    },
+    {
+      "id": "312562568",
+      "title": "OWASP Israel January 2026 Meetup hosted by Apiiro/Akamai",
+      "date": "2026-01-27T17:30:00+02:00",
+      "url": "/chapter/meetups/312562568/",
+      "location": "Akamai Israel Ltd., Totseret ha-Arets St 8, Tel Aviv-Yafo, IL",
+      "attendance": 234
+    },
+    {
+      "id": "311959046",
+      "title": "OWASP Israel Cyber Week/pre-Chanuka 2025 Meetup ",
+      "date": "2025-12-09T17:30:00+02:00",
+      "url": "/chapter/meetups/311959046/",
+      "location": "Orca Security, Tushiya St 3, Tel Aviv, il; Online event",
+      "attendance": 176
+    },
+    {
+      "id": "311662453",
+      "title": "OWASP Israel Chapter Meetup ",
+      "date": "2025-11-18T17:30:00+02:00",
+      "url": "/chapter/meetups/311662453/",
+      "location": "Akamai Israel Ltd., Totseret ha-Arets St 8, Tel Aviv-Yafo, IL",
+      "attendance": 159
+    },
+    {
+      "id": "306811626",
+      "title": "AppSec IL 2025 - June 5 2025 - Placeholder",
+      "date": "2025-06-05T09:00:00+03:00",
+      "url": "/chapter/meetups/306811626/",
+      "location": "Expo Tel Aviv, 101 Rokach Boulevard,, Tel Aviv, IL",
+      "attendance": 2
+    },
+    {
+      "id": "304629282",
+      "title": "OWASP IL Meetup - December 2024",
+      "date": "2024-12-04T18:00:00+02:00",
+      "url": "/chapter/meetups/304629282/",
+      "location": "JFrog Offices, Menachem begin 156,, Tel Aviv, IL",
+      "attendance": 291
+    },
+    {
+      "id": "302035464",
+      "title": "OWASP IL July 2024 - Special Workshop!",
+      "date": "2024-07-16T17:30:00+03:00",
+      "url": "/chapter/meetups/302035464/",
+      "location": "monday.com, Yitzhak Sadeh St 6, Tel Aviv-Yafo, il",
+      "attendance": 38
+    },
+    {
+      "id": "300284889",
+      "title": "OWASP IL Meetup - June 2024",
+      "date": "2024-06-23T18:00:00+03:00",
+      "url": "/chapter/meetups/300284889/",
+      "location": "Menachem Begin St 132, Menachem Begin St 132, Tel Aviv-Yafo, il",
+      "attendance": 193
+    },
+    {
+      "id": "300284832",
+      "title": "OWASP IL Meetup - May 2024",
+      "date": "2024-05-08T18:00:00+03:00",
+      "url": "/chapter/meetups/300284832/",
+      "location": "Hahoshlim St 8, Hahoshlim St 8, Herzliya, il",
+      "attendance": 296
+    },
+    {
+      "id": "296831820",
+      "title": "OWASP IL Meetup - February 2023",
+      "date": "2024-02-06T18:00:00+02:00",
+      "url": "/chapter/meetups/296831820/",
+      "location": "Yigal Alon St 94, building 1, Yigal Alon St 94, building 1, Tel Aviv-Yafo, il",
+      "attendance": 298
+    },
+    {
+      "id": "295711502",
+      "title": "OWASP IL Meetup August 2023 - CTF!",
+      "date": "2023-09-05T18:00:00+03:00",
+      "url": "/chapter/meetups/295711502/",
+      "location": "Cato Networks, Derech Menachem Begin 121, Tel Aviv-Jaffa, il",
+      "attendance": 110
+    },
+    {
+      "id": "293101142",
+      "title": "AppSec IL 2023",
+      "date": "2023-05-16T08:30:00+03:00",
+      "url": "/chapter/meetups/293101142/",
+      "location": "Expo Tel Aviv, 101 Rokach Boulevard,, Tel Aviv, IL",
+      "attendance": 1
+    },
+    {
+      "id": "290271835",
+      "title": "OWASP IL Meetup January 2023",
+      "date": "2023-01-10T18:00:00+02:00",
+      "url": "/chapter/meetups/290271835/",
+      "location": "JFrog, Derech Menachem Begin 156, Tel Aviv-Jaffa, il",
+      "attendance": 234
+    },
+    {
+      "id": "286758480",
+      "title": "OWASP IL Meetup July 2022",
+      "date": "2022-07-12T17:30:00+03:00",
+      "url": "/chapter/meetups/286758480/",
+      "location": "AWS Experience at Floor28, Derech Menachem Begin 121, Tel Aviv-Jaffa, il",
+      "attendance": 182
+    },
+    {
+      "id": "284071039",
+      "title": "OWASP IL Meetup March 2022",
+      "date": "2022-03-15T18:00:00+02:00",
+      "url": "/chapter/meetups/284071039/",
+      "location": "Enso Security, Yavne St 40, Tel Aviv-Yafo, il",
+      "attendance": 257
+    },
+    {
+      "id": "282521101",
+      "title": "OWASP IL Meetup Dec 2021",
+      "date": "2021-12-27T17:45:00+02:00",
+      "url": "/chapter/meetups/282521101/",
+      "location": "Apiiro, דרך מנחם בגין 121, מגדל עזריאלי שרונה, קומה 60, Tel Aviv-Yafo, il",
+      "attendance": 188
+    },
+    {
+      "id": "279311755",
+      "title": "OWASP IL Meetup Aug 2021",
+      "date": "2021-08-03T17:30:00+03:00",
+      "url": "/chapter/meetups/279311755/",
+      "location": "Sompo Digital Lab Tel Aviv, Derech Menachem Begin 121, Tel Aviv-Yafo, il",
+      "attendance": 152
+    },
+    {
+      "id": "277502454",
+      "title": "OWASP IL Meetup April 2021",
+      "date": "2021-04-25T17:30:00+03:00",
+      "url": "/chapter/meetups/277502454/",
+      "location": "Online event",
+      "attendance": 109
+    },
+    {
+      "id": "274686621",
+      "title": "OWASP Meetup December 2020",
+      "date": "2020-12-08T17:45:00+02:00",
+      "url": "/chapter/meetups/274686621/",
+      "location": "Online event",
+      "attendance": 146
+    },
+    {
+      "id": "273224114",
+      "title": "Virtual AppSec IL 2020 Conference (Track A & B)",
+      "date": "2020-10-28T09:00:00+02:00",
+      "url": "/chapter/meetups/273224114/",
+      "location": "Online event",
+      "attendance": 322
+    },
+    {
+      "id": "273501887",
+      "title": "Virtual AppSec IL 2020 Training Day (Track 1 & 2)",
+      "date": "2020-10-27T09:00:00+02:00",
+      "url": "/chapter/meetups/273501887/",
+      "location": "Online event",
+      "attendance": 214
+    },
+    {
+      "id": "271080286",
+      "title": "OWASP Chapters All Day (24hr conference)",
+      "date": "2020-06-06T15:00:00+03:00",
+      "url": "/chapter/meetups/271080286/",
+      "location": "Online event",
+      "attendance": 24
+    },
+    {
+      "id": "269501314",
+      "title": "OWASP Meetup March 2020",
+      "date": "2020-03-24T18:00:00+02:00",
+      "url": "/chapter/meetups/269501314/",
+      "location": "",
+      "attendance": 111
+    },
+    {
+      "id": "268461033",
+      "title": "OWASP Meetup Feb 2020",
+      "date": "2020-02-18T17:30:00+02:00",
+      "url": "/chapter/meetups/268461033/",
+      "location": "BridgeCrew.io Office, Sderot Sha'ul HaMelech 4, Tel Aviv-Yafo, IL",
+      "attendance": 90
+    },
+    {
+      "id": "267512448",
+      "title": "OWASP Meetup January 2020",
+      "date": "2020-01-21T17:00:00+02:00",
+      "url": "/chapter/meetups/267512448/",
+      "location": "ZOOZ Office, Hagag Ha'arbaa Towers - The North Tower, Floor 24, Tel Aviv, IL",
+      "attendance": 36
+    },
+    {
+      "id": "265456148",
+      "title": "OWASP Meetup November 2019 ",
+      "date": "2019-11-06T17:30:00+02:00",
+      "url": "/chapter/meetups/265456148/",
+      "location": "Akamai Israel Ltd., Totseret ha-Arets St 8, Tel Aviv-Yafo, IL",
+      "attendance": 168
+    },
+    {
+      "id": "262226211",
+      "title": "OWASP Meetup June 2019 ",
+      "date": "2019-06-25T17:30:00+03:00",
+      "url": "/chapter/meetups/262226211/",
+      "location": "Derech Menachem Begin 125, Derech Menachem Begin 125, Tel Aviv-Jaffa, il",
+      "attendance": 161
+    },
+    {
+      "id": "260683267",
+      "title": "Global AppSec Tel Aviv",
+      "date": "2019-05-26T09:00:00+03:00",
+      "url": "/chapter/meetups/260683267/",
+      "location": "InterContinental David Tel Aviv, an IHG Hotel, Kaufmann St 12, Tel Aviv-Yafo, il",
+      "attendance": 1
+    },
+    {
+      "id": "258268457",
+      "title": "OWASP Meetup February 2019 ",
+      "date": "2019-02-12T17:00:00+02:00",
+      "url": "/chapter/meetups/258268457/",
+      "location": "Perimeterx Office, 29 ARANIA Osvaldo st. Tel Aviv. Hagag Building. Southern Building. Floor 22, Tel Aviv, il",
+      "attendance": 143
+    },
+    {
+      "id": "255823857",
+      "title": "OWASP Meetup November 2018",
+      "date": "2018-11-20T17:30:00+02:00",
+      "url": "/chapter/meetups/255823857/",
+      "location": "Synopsis Offices, Maskit 6, entrance B , floor 4, Herzliya, il",
+      "attendance": 101
+    },
+    {
+      "id": "252555912",
+      "title": "AppSec Israel 2018",
+      "date": "2018-09-05T09:00:00+03:00",
+      "url": "/chapter/meetups/252555912/",
+      "location": "Bar Shira Auditorium, Tel Aviv University, Einstein st, Tel Aviv, il",
+      "attendance": 21
+    },
+    {
+      "id": "249361818",
+      "title": "OWASP Meetup - May 2018",
+      "date": "2018-05-08T18:00:00+03:00",
+      "url": "/chapter/meetups/249361818/",
+      "location": "Soluto, Rothschild blvd 39, Tel Aviv-Yafo, il",
+      "attendance": 185
+    },
+    {
+      "id": "246965139",
+      "title": "OWASP Israel + Defcon Israel Joint Meetup",
+      "date": "2018-01-28T18:30:00+02:00",
+      "url": "/chapter/meetups/246965139/",
+      "location": "SafeBreach, Yosef Karo 18, 4th floor, Tel Aviv, il",
+      "attendance": 63
+    },
+    {
+      "id": "241949932",
+      "title": "All Day DevOps 2017",
+      "date": "2017-10-24T15:00:00+03:00",
+      "url": "/chapter/meetups/241949932/",
+      "location": "A virtual event - no location, Nowhere, Tel Aviv-Yafo, il",
+      "attendance": 39
+    },
+    {
+      "id": "243811310",
+      "title": "AppSec Israel 2017 Conference!",
+      "date": "2017-10-18T09:00:00+03:00",
+      "url": "/chapter/meetups/243811310/",
+      "location": "",
+      "attendance": 1
+    },
+    {
+      "id": "240224137",
+      "title": "OWASP Israel June 2017 Chapter Meeting",
+      "date": "2017-06-20T17:00:00+03:00",
+      "url": "/chapter/meetups/240224137/",
+      "location": "Intuit Israel, HaHarash St 4, Building C, 2nd Floor, Hod Hasharon, il",
+      "attendance": 95
+    },
+    {
+      "id": "238112640",
+      "title": "OWASP Israel 2017 Chapter Meeting #2",
+      "date": "2017-04-03T17:00:00+03:00",
+      "url": "/chapter/meetups/238112640/",
+      "location": "Checkmarx, Amot Atrium Tower, 2 Jabotinsky St., Ramat Gan, il",
+      "attendance": 150
+    },
+    {
+      "id": "236372466",
+      "title": "OWASP Israel January 2017 Chapter Meeting",
+      "date": "2017-01-18T17:00:00+02:00",
+      "url": "/chapter/meetups/236372466/",
+      "location": "Radware, Raul Wallenberg 22, Ramat HaChayal, Tel Aviv-Yafo, il",
+      "attendance": 145
+    },
+    {
+      "id": "232558806",
+      "title": "OWASP AppSecIL 2016 (Placeholder)",
+      "date": "2016-09-19T08:00:00+03:00",
+      "url": "/chapter/meetups/232558806/",
+      "location": "The College of Management, 7 Itzhak Rabin Blvd., Rishon LeZion, il",
+      "attendance": 71
+    },
+    {
+      "id": "229662688",
+      "title": "OWASP Israel June 2016 Chapter Meeting",
+      "date": "2016-06-14T17:00:00+03:00",
+      "url": "/chapter/meetups/229662688/",
+      "location": "Amdocs Auditorium, Hapnina 8, Ra'anana, il",
+      "attendance": 103
+    },
+    {
+      "id": "229091469",
+      "title": "OWASP Israel April 2016 Chapter Meeting",
+      "date": "2016-04-12T17:00:00+03:00",
+      "url": "/chapter/meetups/229091469/",
+      "location": "HPE Software - M3 Building, Altalef 9, Yehud, il",
+      "attendance": 156
+    },
+    {
+      "id": "228211681",
+      "title": "OWASP Israel Q1 2016 Chapter Meeting",
+      "date": "2016-02-02T17:00:00+02:00",
+      "url": "/chapter/meetups/228211681/",
+      "location": "F5 Networks, Kiryat Atidim, Building #8, 30th floor, Tel Aviv-Yafo, il",
+      "attendance": 88
+    }
+  ]
+}

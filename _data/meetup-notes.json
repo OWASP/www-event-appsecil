@@ -1,0 +1,354 @@
+[
+  {
+    "date": "2025-11-18",
+    "title": "OWASP IL Meetup November 2025",
+    "display_date": "Nov 18, 2025",
+    "location": "Akamai in Tel Aviv-Yafo",
+    "recordings": "",
+    "attendance": ""
+  },
+  {
+    "date": "2024-12-04",
+    "title": "OWASP IL Meetup December 2024",
+    "display_date": "Dec 4, 2024",
+    "location": "JFrog in Tel Aviv-Yafo",
+    "recordings": "",
+    "attendance": ""
+  },
+  {
+    "date": "2024-07-16",
+    "title": "OWASP IL Special Workshop July 2024",
+    "display_date": "July 16, 2024",
+    "location": "Monday.com in Tel Aviv-Yafo",
+    "recordings": "",
+    "attendance": ""
+  },
+  {
+    "date": "2024-06-23",
+    "title": "OWASP IL Meetup June 2024",
+    "display_date": "June 23, 2024",
+    "location": "Axonius in Tel Aviv-Yafo",
+    "recordings": "",
+    "attendance": ""
+  },
+  {
+    "date": "2024-05-08",
+    "title": "OWASP IL Meetup May 2024",
+    "display_date": "May 8, 2024",
+    "location": "Playtika in Herzliya",
+    "recordings": "",
+    "attendance": ""
+  },
+  {
+    "date": "2024-02-06",
+    "title": "OWASP IL Meetup February 2024",
+    "display_date": "Feb 6, 2024",
+    "location": "Bright Security in Tel Aviv-Yafo",
+    "recordings": "",
+    "attendance": ""
+  },
+  {
+    "date": "2023-09-05",
+    "title": "OWASP IL Meetup August 2023 - CTF",
+    "display_date": "Sep 5, 2023",
+    "location": "Cato Networks in Tel Aviv-Yafo",
+    "recordings": "",
+    "attendance": ""
+  },
+  {
+    "date": "2023-05-16",
+    "title": "AppSec IL 2023",
+    "display_date": "May 16, 2023",
+    "location": "Expo in Tel Aviv-Yafo",
+    "recordings": "",
+    "attendance": ""
+  },
+  {
+    "date": "2023-01-10",
+    "title": "OWASP IL Meetup January 2023",
+    "display_date": "Jan 10, 2023",
+    "location": "JFrog in Tel Aviv-Yafo",
+    "recordings": "<a href=\"https://youtube.com/playlist?list=PLA4gj-PiNukc8m2qQtNgodFtrYd1TDPo9\">here</a>",
+    "attendance": ""
+  },
+  {
+    "date": "2022-07-12",
+    "title": "OWASP IL Meetup July 2022",
+    "display_date": "July 12, 2022",
+    "location": "AWS Floor28 in Tel Aviv-Yafo",
+    "recordings": "",
+    "attendance": ""
+  },
+  {
+    "date": "2022-03-15",
+    "title": "OWASP IL Meetup March 2022",
+    "display_date": "March 15, 2022",
+    "location": "Enso Security in Tel Aviv-Yafo",
+    "recordings": "",
+    "attendance": ""
+  },
+  {
+    "date": "2021-12-27",
+    "title": "OWASP IL Meetup Dec 2021",
+    "display_date": "Dec 27, 2021",
+    "location": "Apiiro office in Tel Aviv-Yafo",
+    "recordings": "<a href=\"https://www.youtube.com/watch?v=-PvE682PII8&amp;list=PLA4gj-PiNukdydWyr1_FxOo0ZlQYiBvQt\">here</a>",
+    "attendance": ""
+  },
+  {
+    "date": "2021-04-25",
+    "title": "OWASP IL Meetup April 2021",
+    "display_date": "April 25, 2021",
+    "location": "Online - CMD+CTRL CyberRange",
+    "recordings": "",
+    "attendance": "120 participants"
+  },
+  {
+    "date": "2020-12-08",
+    "title": "OWASP Meetup December 2020",
+    "display_date": "December 8, 2020",
+    "location": "Online",
+    "recordings": "",
+    "attendance": "167 participants"
+  },
+  {
+    "date": "2020-06-06",
+    "title": "OWASP Chapters All Day (24hr conference) - hour 21",
+    "display_date": "Jube 6, 2020",
+    "location": "OWASP online event",
+    "recordings": "<a href=\"https://www.youtube.com/watch?v=jZs89NORky4\">here</a>",
+    "attendance": ""
+  },
+  {
+    "date": "2020-03-24",
+    "title": "Online OWASP Israel March 2020",
+    "display_date": "March 24, 2020",
+    "location": "PayU online event",
+    "recordings": "",
+    "attendance": "117 participants"
+  },
+  {
+    "date": "2020-02-18",
+    "title": "Workshop for members on Docker Image security",
+    "display_date": "February 18, 2020",
+    "location": "Bridgecrew office",
+    "recordings": "",
+    "attendance": "96 participants"
+  },
+  {
+    "date": "2020-01-21",
+    "title": "OWASP Israel January 2020 - Workshop",
+    "display_date": "January 21, 2020",
+    "location": "ZOOZ office in Tel Aviv-Yafo",
+    "recordings": "",
+    "attendance": "20 participants"
+  },
+  {
+    "date": "2019-11-06",
+    "title": "OWASP Israel November 2019",
+    "display_date": "November 6, 2019",
+    "location": "Akamai Israel Ltd. in Tel Aviv-Yafo",
+    "recordings": "",
+    "attendance": "175 participants"
+  },
+  {
+    "date": "2019-06-25",
+    "title": "OWASP Israel June 2019",
+    "display_date": "June 25, 2019",
+    "location": "Imperva office in Tel Aviv-Yafo",
+    "recordings": "",
+    "attendance": "178 participants"
+  },
+  {
+    "date": "2019-02-12",
+    "title": "OWASP Israel February 201",
+    "display_date": "February 12, 2019",
+    "location": "Perimeterx Office in Tel Aviv",
+    "recordings": "",
+    "attendance": "155 participants"
+  },
+  {
+    "date": "2018-11-20",
+    "title": "OWASP Israel November 2018",
+    "display_date": "November 20, 2018",
+    "location": "Synopsis Offices in Herzliya",
+    "recordings": "",
+    "attendance": "109 participants"
+  },
+  {
+    "date": "2018-05-08",
+    "title": "OWASP Israel May 2018",
+    "display_date": "May 8, 2018",
+    "location": "Soluto in Tel Aviv-Yafo",
+    "recordings": "",
+    "attendance": "212 participants"
+  },
+  {
+    "date": "2018-01-28",
+    "title": "OWASP Israel January 2018",
+    "display_date": "January 28, 2018",
+    "location": "SafeBreach in Tel Aviv",
+    "recordings": "",
+    "attendance": "69 participants"
+  },
+  {
+    "date": "2017-06-20",
+    "title": "OWASP Israel June 2017",
+    "display_date": "June 20th, 2017",
+    "location": "Intuit Israel, HaHarash St. 4, Hod Hasharon",
+    "recordings": "",
+    "attendance": ""
+  },
+  {
+    "date": "2017-04-03",
+    "title": "OWASP Israel April 2017",
+    "display_date": "April 3rd, 2017",
+    "location": "Checkmarx's offices, in the Amot Atrium Tower, 2 Jabotinsky St., Ramat Gan",
+    "recordings": "",
+    "attendance": "75 participants"
+  },
+  {
+    "date": "2017-01-18",
+    "title": "OWASP Israel January 2017",
+    "display_date": "January 18th, 2017",
+    "location": "Radware’s Tel Aviv offices, at Raul Wallenberg 22, Ramat HaChayal",
+    "recordings": "",
+    "attendance": "120 participants"
+  },
+  {
+    "date": "2016-06-14",
+    "title": "OWASP Israel June 2016",
+    "display_date": "June 14, 2016",
+    "location": "Amdocs Auditorium in Raanana",
+    "recordings": "",
+    "attendance": ""
+  },
+  {
+    "date": "2016-04-12",
+    "title": "OWASP Israel April 2016",
+    "display_date": "April 12, 2016",
+    "location": "HP Enterprise in Yehud",
+    "recordings": "",
+    "attendance": "150 participants"
+  },
+  {
+    "date": "2016-02-02",
+    "title": "OWASP Israel February 2016",
+    "display_date": "February 2, 2016",
+    "location": "F5 Networks in Tel Aviv",
+    "recordings": "",
+    "attendance": ""
+  },
+  {
+    "date": "2015-06-16",
+    "title": "OWASP Israel June 2015",
+    "display_date": "June 16, 2015",
+    "location": "Microsoft in Herzeliya",
+    "recordings": "",
+    "attendance": "120 participants"
+  },
+  {
+    "date": "2015-03-30",
+    "title": "OWASP Israel March 2015",
+    "display_date": "March 30, 2015",
+    "location": "NCR in Raanana",
+    "recordings": "",
+    "attendance": "120 participants"
+  },
+  {
+    "date": "2014-06-16",
+    "title": "OWASP Israel June 2014",
+    "display_date": "June 16, 2014",
+    "location": "F5 Networks in Tel Aviv",
+    "recordings": "",
+    "attendance": "110 participants"
+  },
+  {
+    "date": "2014-04-23",
+    "title": "OWASP Israel April 2014",
+    "display_date": "April 23, 2014",
+    "location": "Akamai in Herzliya Pituach",
+    "recordings": "",
+    "attendance": "100 participants"
+  },
+  {
+    "date": "2014-01-14",
+    "title": "OWASP Israel January 2014",
+    "display_date": "January 14th, 2014",
+    "location": "Amdocs in Ra'anana",
+    "recordings": "",
+    "attendance": "120 participants"
+  },
+  {
+    "date": "2013-05-28",
+    "title": "OWASP Israel May 2013",
+    "display_date": "May 28th, 2013",
+    "location": "RSA",
+    "recordings": "",
+    "attendance": "80 participants"
+  },
+  {
+    "date": "2013-02-12",
+    "title": "OWASP Israel February 2013",
+    "display_date": "February 12th, 2013",
+    "location": "E&Y",
+    "recordings": "",
+    "attendance": ""
+  },
+  {
+    "date": "2010-06-22",
+    "title": "OWASP Israel Jun-2010",
+    "display_date": "Jun 22nd, 2010",
+    "location": "IBM/Watchfire in Herzliya",
+    "recordings": "",
+    "attendance": ""
+  },
+  {
+    "date": "2010-02-09",
+    "title": "OWASP Israel Feb-2010",
+    "display_date": "Feb 9th, 2010",
+    "location": "Amdocs in Ra'anana",
+    "recordings": "",
+    "attendance": "70 attendees"
+  },
+  {
+    "date": "2010-01-12",
+    "title": "title=>OWASP Israel Jan-2010",
+    "display_date": "Jan 12th, 2010",
+    "location": "Breach Security in Herzliya",
+    "recordings": "",
+    "attendance": "60 attendees"
+  },
+  {
+    "date": "2009-12-01",
+    "title": "OWASP Israel Dec-2009",
+    "display_date": "Dec 2009",
+    "location": "IBM/Watchfire in Herzliya",
+    "recordings": "",
+    "attendance": ""
+  },
+  {
+    "date": "2009-05-07",
+    "title": "OWASP Israel May 2009 meeting",
+    "display_date": "May 7th, 2009",
+    "location": "IBM in Park Azorim in Petach-Tikva",
+    "recordings": "",
+    "attendance": ""
+  },
+  {
+    "date": "2009-03-26",
+    "title": "OWASP Israel March 2009 meeting",
+    "display_date": "March 26th, 2009",
+    "location": "Tel-Aviv University",
+    "recordings": "",
+    "attendance": "60 attendees"
+  },
+  {
+    "date": "2009-01-28",
+    "title": "OWASP Israel January 2009 meeting",
+    "display_date": "January 28th, 2009",
+    "location": "Checkpoint",
+    "recordings": "",
+    "attendance": "100 participants"
+  }
+]

@@ -134,7 +134,7 @@ At the moment, we are looking for volunteers to support different activities at 
 
 Of course we are taking care of our volunteers, and there are some benefits ;)
 
-To join the Volunteers team - you can reach us out directly at [shanni.gelfand@owasp.org](shanni.gelfand@owasp.org)!
+To join the Volunteers team - you can reach us out directly at [shanni.gelfand@owasp.org](mailto:shanni.gelfand@owasp.org)!
 
 
 </div>

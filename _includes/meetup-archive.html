@@ -1,0 +1,28 @@
+{% assign archived_dates = '' | split: ',' %}
+{% for event in site.data.meetups.events %}
+  {% assign event_date = event.date | slice: 0, 10 %}
+  {% assign archived_dates = archived_dates | push: event_date %}
+{% endfor %}
+{% assign meetings = site.data.meetups.events %}
+{% for note in site.data.meetup-notes %}
+  {% unless archived_dates contains note.date %}{% assign meetings = meetings | push: note %}{% endunless %}
+{% endfor %}
+{% assign meetings = meetings | sort: 'date' | reverse %}
+<div class="table-scroll" role="region" aria-label="Past chapter meetups" tabindex="0">
+<table>
+<thead><tr><th scope="col">Name</th><th scope="col">Date</th><th scope="col">Location</th><th scope="col">Recordings</th><th scope="col">Attendance</th></tr></thead>
+<tbody>
+{% for event in meetings %}
+  {% assign event_date = event.date | slice: 0, 10 %}
+  {% assign note = site.data.meetup-notes | where: 'date', event_date | first %}
+<tr>
+  <td>{% if event.url %}<a href="{{ event.url | relative_url }}">{{ note.title | default: event.title | escape }}</a>{% else %}{{ event.title | escape }}{% endif %}</td>
+  <td>{% if note %}{{ note.display_date | escape }}{% else %}{{ event.date | date: '%B %-d, %Y' }}{% endif %}</td>
+  <td>{{ note.location | default: event.location | escape }}</td>
+  <td>{{ note.recordings }}</td>
+  <td>{% if note.attendance != nil and note.attendance != empty %}{{ note.attendance | escape }}{% elsif event.attendance != nil %}{{ event.attendance }} RSVPs{% endif %}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
