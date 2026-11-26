@@ -31,10 +31,31 @@
     return element;
   }
 
-  async function getJson(path, signal) {
-    const response = await fetch(origin + path, { signal, credentials: 'omit' });
+  async function getJson(path) {
+    const response = await fetch(origin + path, { signal: AbortSignal.timeout(8000), credentials: 'omit' });
     if (!response.ok) throw new Error('OWASP meetings request failed');
     return response.json();
+  }
+
+  async function getChapterMeetings(chapterId) {
+    const pageSize = 50;
+    const params = new URLSearchParams({ chapterId, limit: String(pageSize) });
+    const byId = new Map();
+    while (true) {
+      const { meetings } = await getJson('/api/public/meetings/list?' + params);
+      if (!Array.isArray(meetings)) throw new Error('Invalid OWASP meetings response');
+      for (const meeting of meetings) {
+        if (meeting?.chapter_id === chapterId && uuid.test(meeting.id)) byId.set(meeting.id, meeting);
+      }
+      if (meetings.length < pageSize) return Array.from(byId.values());
+
+      // The feed is ordered by start time. Repeat the boundary so ties span pages safely.
+      const from = meetings[meetings.length - 1]?.start_time;
+      if (!Number.isFinite(Date.parse(from)) || from === params.get('from')) {
+        throw new Error('OWASP meetings pagination did not advance');
+      }
+      params.set('from', from);
+    }
   }
 
   function addMeeting(parent, meeting, start) {
@@ -71,6 +92,17 @@
   }
 
   function addPastMeeting(meeting, start, historicalRows) {
+    const day = archiveSortDate.format(start);
+    const title = meeting.title.trim().toLowerCase();
+    const alreadyArchived = historicalRows.some(existing => {
+      const id = existing.dataset.meetupId;
+      if (uuid.test(id)) return id.toLowerCase() === meeting.id.toLowerCase();
+      return existing.dataset.meetupDate === day &&
+        [existing.dataset.meetupTitle, existing.cells[0].textContent]
+          .some(name => name?.trim().toLowerCase() === title);
+    });
+    if (alreadyArchived) return;
+
     const row = document.createElement('tr');
     const name = append(row, 'td', '');
     const link = append(name, 'a', meeting.title);
@@ -82,7 +114,6 @@
     append(row, 'td', '');
     append(row, 'td', '');
 
-    const day = archiveSortDate.format(start);
     const olderRow = historicalRows.find(existing => existing.dataset.meetupDate < day);
     archive.insertBefore(row, olderRow || null);
   }
@@ -92,30 +123,31 @@
     status.textContent = 'Loading upcoming meetings…';
 
     try {
-      const signal = AbortSignal.timeout(8000);
-      const { chapter } = await getJson('/api/public/chapters/by-slug/israel', signal);
+      const { chapter } = await getJson('/api/public/chapters/by-slug/israel');
       if (!uuid.test(chapter?.id)) throw new Error('Missing OWASP chapter ID');
 
-      const params = new URLSearchParams({ chapterId: chapter.id, limit: '200' });
-      const { meetings } = await getJson('/api/public/meetings/list?' + params, signal);
-      if (!Array.isArray(meetings)) throw new Error('Invalid OWASP meetings response');
-
+      const meetings = await getChapterMeetings(chapter.id);
       const now = Date.now();
       const validMeetings = meetings
-        .map(meeting => ({ meeting, start: Date.parse(meeting?.start_time) }))
+        .map(meeting => {
+          const start = Date.parse(meeting.start_time);
+          const minutes = Number(meeting.duration_minutes);
+          const end = Number.isFinite(minutes) && minutes > 0 ? start + minutes * 60000 : start;
+          return { meeting, start, end };
+        })
         .filter(({ meeting, start }) =>
-          Number.isFinite(start) && meeting.chapter_id === chapter.id && uuid.test(meeting.id) &&
+          Number.isFinite(start) &&
           meeting.id !== archivePointerId && typeof meeting.title === 'string' && meeting.title.trim()
         )
         .sort((a, b) => a.start - b.start);
 
       if (archive) {
         const historicalRows = Array.from(archive.rows);
-        const past = validMeetings.filter(({ start }) => start < now).reverse();
+        const past = validMeetings.filter(({ end }) => end < now).reverse();
         for (const { meeting, start } of past) addPastMeeting(meeting, start, historicalRows);
       }
 
-      const upcoming = validMeetings.filter(({ start }) => start >= now);
+      const upcoming = validMeetings.filter(({ end }) => end >= now);
 
       const cards = document.createDocumentFragment();
       for (const { meeting, start } of upcoming) addMeeting(cards, meeting, start);
