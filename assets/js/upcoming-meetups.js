@@ -4,6 +4,7 @@
 
   const status = section.querySelector('[data-meetup-status]');
   const list = section.querySelector('[data-meetup-list]');
+  const archive = document.querySelector('[data-meetup-archive]');
   const origin = 'https://owasp.org';
   const uuid = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
   const dateFormat = new Intl.DateTimeFormat('en-GB', {
@@ -11,6 +12,17 @@
     timeStyle: 'short',
     timeZone: 'Asia/Jerusalem',
   });
+
+  const archiveDate = new Intl.DateTimeFormat('en-GB', {
+    dateStyle: 'long',
+    timeZone: 'Asia/Jerusalem',
+  });
+  const archiveSortDate = new Intl.DateTimeFormat('sv-SE', {
+    dateStyle: 'short',
+    timeZone: 'Asia/Jerusalem',
+  });
+  // OWASP lists this archive pointer as a placeholder meeting.
+  const archivePointerId = '07570a68-c926-4fcb-9812-9ce599643b88';
 
   function append(parent, tag, text) {
     const element = document.createElement(tag);
@@ -58,6 +70,23 @@
     parent.append(card);
   }
 
+  function addPastMeeting(meeting, start, historicalRows) {
+    const row = document.createElement('tr');
+    const name = append(row, 'td', '');
+    const link = append(name, 'a', meeting.title);
+    link.href = origin + '/meetings/' + meeting.id;
+    const date = append(row, 'td', '');
+    const time = append(date, 'time', archiveDate.format(start));
+    time.dateTime = new Date(start).toISOString();
+    append(row, 'td', meeting.location || '');
+    append(row, 'td', '');
+    append(row, 'td', '');
+
+    const day = archiveSortDate.format(start);
+    const olderRow = historicalRows.find(existing => existing.dataset.meetupDate < day);
+    archive.insertBefore(row, olderRow || null);
+  }
+
   async function loadMeetings() {
     status.hidden = false;
     status.textContent = 'Loading upcoming meetings…';
@@ -72,13 +101,21 @@
       if (!Array.isArray(meetings)) throw new Error('Invalid OWASP meetings response');
 
       const now = Date.now();
-      const upcoming = meetings
+      const validMeetings = meetings
         .map(meeting => ({ meeting, start: Date.parse(meeting?.start_time) }))
         .filter(({ meeting, start }) =>
-          start >= now && meeting.chapter_id === chapter.id && uuid.test(meeting.id) &&
-          typeof meeting.title === 'string' && meeting.title.trim()
+          Number.isFinite(start) && meeting.chapter_id === chapter.id && uuid.test(meeting.id) &&
+          meeting.id !== archivePointerId && typeof meeting.title === 'string' && meeting.title.trim()
         )
         .sort((a, b) => a.start - b.start);
+
+      if (archive) {
+        const historicalRows = Array.from(archive.rows);
+        const past = validMeetings.filter(({ start }) => start < now).reverse();
+        for (const { meeting, start } of past) addPastMeeting(meeting, start, historicalRows);
+      }
+
+      const upcoming = validMeetings.filter(({ start }) => start >= now);
 
       const cards = document.createDocumentFragment();
       for (const { meeting, start } of upcoming) addMeeting(cards, meeting, start);
