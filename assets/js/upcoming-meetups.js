@@ -40,6 +40,8 @@
   async function getChapterMeetings(chapterId) {
     const pageSize = 50;
     const params = new URLSearchParams({ chapterId, limit: String(pageSize) });
+    const maxPageSize = 1000;
+    let limit = pageSize;
     const byId = new Map();
     while (true) {
       const { meetings } = await getJson('/api/public/meetings/list?' + params);
@@ -47,14 +49,24 @@
       for (const meeting of meetings) {
         if (meeting?.chapter_id === chapterId && uuid.test(meeting.id)) byId.set(meeting.id, meeting);
       }
-      if (meetings.length < pageSize) return Array.from(byId.values());
+      if (meetings.length < limit) return { meetings: Array.from(byId.values()), complete: true };
 
-      // The feed is ordered by start time. Repeat the boundary so ties span pages safely.
+      // The inclusive cursor repeats meetings at the boundary. Increase the
+      // limit when an entire page shares that timestamp so the cursor can advance.
       const from = meetings[meetings.length - 1]?.start_time;
-      if (!Number.isFinite(Date.parse(from)) || from === params.get('from')) {
-        throw new Error('OWASP meetings pagination did not advance');
+      const previous = params.get('from');
+      const boundary = Date.parse(from);
+      if (!Number.isFinite(boundary) || (previous && boundary < Date.parse(previous))) {
+        return { meetings: Array.from(byId.values()), complete: false };
       }
-      params.set('from', from);
+      if (from === previous) {
+        if (limit === maxPageSize) return { meetings: Array.from(byId.values()), complete: false };
+        limit = Math.min(limit * 2, maxPageSize);
+      } else {
+        params.set('from', from);
+        limit = pageSize;
+      }
+      params.set('limit', String(limit));
     }
   }
 
@@ -126,7 +138,7 @@
       const { chapter } = await getJson('/api/public/chapters/by-slug/israel');
       if (!uuid.test(chapter?.id)) throw new Error('Missing OWASP chapter ID');
 
-      const meetings = await getChapterMeetings(chapter.id);
+      const { meetings, complete } = await getChapterMeetings(chapter.id);
       const now = Date.now();
       const validMeetings = meetings
         .map(meeting => {
@@ -152,8 +164,12 @@
       const cards = document.createDocumentFragment();
       for (const { meeting, start } of upcoming) addMeeting(cards, meeting, start);
       list.replaceChildren(cards);
-      status.textContent = upcoming.length ? '' : 'No upcoming meetings are currently listed.';
-      status.hidden = upcoming.length > 0;
+      if (!complete) {
+        status.textContent = 'Some meetings could not be loaded. Check OWASP for the full schedule.';
+      } else {
+        status.textContent = upcoming.length ? '' : 'No upcoming meetings are currently listed.';
+        status.hidden = upcoming.length > 0;
+      }
     } catch {
       status.textContent = 'Upcoming meetings could not be loaded. Check OWASP for the current schedule.';
     }
