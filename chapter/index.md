@@ -23,9 +23,9 @@ Application security is a year-round conversation. Our chapter brings people tog
 <div class="page-section__inner">
 <div class="text chapter-content" markdown="1">
 
-## Meetups
+## Upcoming meetups
 
-We run chapter meetings covering application security, research, and practical experience. Subscribe to the mailing list for future event announcements.
+{% include upcoming-meetups.html %}
 
 [Explore past meetups and recordings]({{ '/chapter/meetups/' | relative_url }}).
 
