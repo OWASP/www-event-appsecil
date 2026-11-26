@@ -27,6 +27,9 @@
   <a class="chapter-skip" href="#main">Skip to content</a>
   {% include site-header.html %}
   <main class="main" id="main" tabindex="-1">
+    {% if page.section == 'home' or page.section == 'chapter' %}
+    {% include meetup-transition.html %}
+    {% endif %}
     {% if page.section == 'home' or page.full_width_sections %}
       {{ content }}
     {% else %}
