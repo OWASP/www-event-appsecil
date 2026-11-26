@@ -21,8 +21,11 @@
     dateStyle: 'short',
     timeZone: 'Asia/Jerusalem',
   });
+  // Temporary simulation for the fork’s GitHub Pages archive preview.
   const simulateAfterMeetup = archive &&
-    new URLSearchParams(window.location.search).get('preview') === 'after-december-meetup';
+    window.location.origin === 'https://tghosth.github.io' &&
+    /^\/www-event-appsecil\/chapter\/meetups\/?$/.test(window.location.pathname) &&
+    new URLSearchParams(window.location.search).get('preview') !== 'live';
   const simulatedTime = Date.parse('2026-12-14T15:31:00Z');
   if (simulateAfterMeetup) {
     const notice = document.createElement('p');
