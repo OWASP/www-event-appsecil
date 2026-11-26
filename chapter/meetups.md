@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: Chapter meetup archive
+title: Chapter meetups
 permalink: /chapter/meetups/
 section: chapter
 full_width_sections: true
@@ -10,7 +10,19 @@ full_width_sections: true
 {% include chapter-nav.html %}
 <div class="text chapter-content" markdown="1">
 
-# Chapter meetup archive
+# Chapter meetups
+
+</div>
+</div>
+</section>
+
+<section class="page-section chapter-band">
+<div class="page-section__inner">
+<div class="text chapter-content" markdown="1">
+
+## Upcoming meetups
+
+{% include upcoming-meetups.html %}
 
 </div>
 </div>

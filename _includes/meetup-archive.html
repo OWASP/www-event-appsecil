@@ -11,11 +11,13 @@
 <div class="table-scroll" role="region" aria-label="Past chapter meetups" tabindex="0">
 <table>
 <thead><tr><th scope="col">Name</th><th scope="col">Date</th><th scope="col">Location</th><th scope="col">Recordings</th><th scope="col">Attendance</th></tr></thead>
-<tbody>
+<tbody data-meetup-archive>
 {% for event in meetings %}
   {% assign event_date = event.date | slice: 0, 10 %}
   {% assign note = site.data.meetup-notes | where: 'date', event_date | first %}
-<tr>
+<tr data-meetup-date="{{ event_date | escape }}"
+    data-meetup-id="{{ event.owasp_id | default: note.owasp_id | default: event.id | escape }}"
+    data-meetup-title="{{ event.title | escape }}">
   <td>{% if event.url %}<a href="{{ event.url | relative_url }}">{{ note.title | default: event.title | escape }}</a>{% else %}{{ event.title | escape }}{% endif %}</td>
   <td>{% if note %}{{ note.display_date | escape }}{% else %}{{ event.date | date: '%B %-d, %Y' }}{% endif %}</td>
   <td>{{ note.location | default: event.location | escape }}</td>
