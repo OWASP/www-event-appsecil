@@ -21,6 +21,15 @@
     dateStyle: 'short',
     timeZone: 'Asia/Jerusalem',
   });
+  const simulateAfterMeetup = archive &&
+    new URLSearchParams(window.location.search).get('preview') === 'after-december-meetup';
+  const simulatedTime = Date.parse('2026-12-14T15:31:00Z');
+  if (simulateAfterMeetup) {
+    const notice = document.createElement('p');
+    notice.textContent = 'Simulation · 14 December 2026, 17:31 Israel time';
+    section.prepend(notice);
+  }
+
   // OWASP lists this archive pointer as a placeholder meeting.
   const archivePointerId = '07570a68-c926-4fcb-9812-9ce599643b88';
 
@@ -100,7 +109,7 @@
       const { meetings } = await getJson('/api/public/meetings/list?' + params, signal);
       if (!Array.isArray(meetings)) throw new Error('Invalid OWASP meetings response');
 
-      const now = Date.now();
+      const now = simulateAfterMeetup ? simulatedTime : Date.now();
       const validMeetings = meetings
         .map(meeting => ({ meeting, start: Date.parse(meeting?.start_time) }))
         .filter(({ meeting, start }) =>
