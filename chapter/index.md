@@ -21,7 +21,7 @@ Application security is a year-round conversation. Our chapter brings people tog
 
 <section class="page-section chapter-band ">
 <div class="page-section__inner">
-<div class="text chapter-content" markdown="1">
+<div class="text chapter-content meetup-content" markdown="1">
 
 ## Upcoming meetups
 

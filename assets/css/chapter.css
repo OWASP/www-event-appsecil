@@ -43,10 +43,24 @@
 .meetup-featured-link { display: block; margin: 24px 0; }
 .chapter-content .meetup-featured { display: block; width: 100%; height: auto; max-height: 380px; object-fit: contain; }
 .meetup-description { overflow-wrap: anywhere; }
-.chapter-content.meetup-detail p,
-.chapter-content.meetup-detail li {
-  text-align: justify;
+.chapter-content:is(.meetup-content, .meetup-detail),
+.chapter-content:is(.meetup-content, .meetup-detail) :is(h1, h2, h3, h4, p) {
+  text-align: left;
 }
+.meeting-details { margin: 0 0 20px; }
+.meeting-details summary {
+  color: #2055e5;
+  cursor: pointer;
+  font-weight: 600;
+}
+.meeting-details summary:hover { text-decoration: underline; }
+.meeting-details summary:focus-visible {
+  outline: 3px solid #3c3c3c;
+  outline-offset: 4px;
+}
+.meeting-details[open] summary { margin-bottom: 12px; }
+.meeting-details:not([open]) .meeting-details__hide,
+.meeting-details[open] .meeting-details__show { display: none; }
 /* Keep imported Markdown and inherited Bootstrap/conference type in proportion. */
 .chapter-content.meetup-detail { font-size: 1rem; line-height: 1.6; }
 .chapter-content.meetup-detail p,
