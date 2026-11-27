@@ -43,8 +43,9 @@ Application security is a year-round conversation. Our chapter brings people tog
 
 **We’re moving away from Meetup.com at the end of 2026.** Join the chapter mailing list to stay informed about future meetups and events.
 
-1. Email [israel-chapter+subscribe@owasp.org](mailto:israel-chapter+subscribe@owasp.org).
-2. Follow the instructions in the confirmation email: click “Join this Group” or reply to complete your subscription.
+Email [israel-chapter+subscribe@owasp.org](mailto:israel-chapter+subscribe@owasp.org).
+
+Then follow the instructions in the confirmation email: click “Join this Group” or reply to complete your subscription.
 
 You can also [join through Google Groups](https://groups.google.com/a/owasp.org/g/israel-chapter). Choose “Each email” to receive announcements.
 
