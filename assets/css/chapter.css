@@ -43,8 +43,8 @@
 .meetup-featured-link { display: block; margin: 24px 0; }
 .chapter-content .meetup-featured { display: block; width: 100%; height: auto; max-height: 380px; object-fit: contain; }
 .meetup-description { overflow-wrap: anywhere; }
-.chapter-content:is(.meetup-content, .meetup-detail),
-.chapter-content:is(.meetup-content, .meetup-detail) :is(h1, h2, h3, h4, p) {
+.chapter-content:is(.chapter-content_left, .meetup-detail),
+.chapter-content:is(.chapter-content_left, .meetup-detail) :is(h1, h2, h3, h4, p) {
   text-align: left;
 }
 .meeting-details { margin: 0 0 20px; }

@@ -8,7 +8,7 @@ full_width_sections: true
 <section class="page-section chapter-band page-section_lblue">
 <div class="page-section__inner">
 {% include chapter-nav.html %}
-<div class="text chapter-content meetup-content" markdown="1">
+<div class="text chapter-content chapter-content_left" markdown="1">
 
 # Chapter meetups
 
@@ -18,7 +18,7 @@ full_width_sections: true
 
 <section class="page-section chapter-band">
 <div class="page-section__inner">
-<div class="text chapter-content meetup-content" markdown="1">
+<div class="text chapter-content chapter-content_left" markdown="1">
 
 ## Upcoming meetups
 
@@ -30,7 +30,7 @@ full_width_sections: true
 
 <section class="page-section chapter-band">
 <div class="page-section__inner">
-<div class="text chapter-content meetup-content" markdown="1">
+<div class="text chapter-content chapter-content_left" markdown="1">
 
 ## Previous Meetings
 
