@@ -21,7 +21,7 @@ Application security is a year-round conversation. Our chapter brings people tog
 
 <section class="page-section chapter-band ">
 <div class="page-section__inner">
-<div class="text chapter-content" markdown="1">
+<div class="text chapter-content chapter-content_left" markdown="1">
 
 ## Upcoming meetups
 
@@ -35,7 +35,7 @@ Application security is a year-round conversation. Our chapter brings people tog
 
 <section class="page-section chapter-band page-section_pale" id="mailing-list">
 <div class="page-section__inner">
-<div class="text chapter-content" markdown="1">
+<div class="text chapter-content chapter-content_left" markdown="1">
 
 <span id="get-chapter-updates" class="chapter-updates-anchor"></span>
 
@@ -43,8 +43,9 @@ Application security is a year-round conversation. Our chapter brings people tog
 
 **We’re moving away from Meetup.com at the end of 2026.** Join the chapter mailing list to stay informed about future meetups and events.
 
-1. Email [israel-chapter+subscribe@owasp.org](mailto:israel-chapter+subscribe@owasp.org).
-2. Follow the instructions in the confirmation email: click “Join this Group” or reply to complete your subscription.
+Email [israel-chapter+subscribe@owasp.org](mailto:israel-chapter+subscribe@owasp.org).
+
+Then follow the instructions in the confirmation email: click “Join this Group” or reply to complete your subscription.
 
 You can also [join through Google Groups](https://groups.google.com/a/owasp.org/g/israel-chapter). Choose “Each email” to receive announcements.
 

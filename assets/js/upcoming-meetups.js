@@ -81,7 +81,10 @@
 
     if (typeof meeting.description === 'string' && meeting.description.trim()) {
       const details = document.createElement('details');
-      append(details, 'summary', 'Meeting details');
+      details.className = 'meeting-details';
+      const summary = append(details, 'summary', '');
+      append(summary, 'span', 'Show meeting details').className = 'meeting-details__show';
+      append(summary, 'span', 'Hide meeting details').className = 'meeting-details__hide';
       const template = document.createElement('template');
       template.innerHTML = meeting.description;
       // Render description text only. Never attach markup supplied by the API.
